@@ -2,6 +2,8 @@
 
 **MauiAnimation** is a library designed for .NET MAUI that aims to facilitate the use of **animations** to developers. Very simple use from **C# and XAML** code.
 
+![MauiAnimation](images/mauianimation.gif)
+
 _NOTE: This library is a port of [Xamanimation](https://github.com/jsuarezruiz/Xamanimation) to .NET MAUI._
 
 We can define animations in XAML to a visual element when loading through a Behavior, use a trigger in XAML to execute the animation or  from C# code.
