@@ -2,7 +2,7 @@
 
 **MauiAnimation** is a library designed for .NET MAUI that aims to facilitate the use of **animations** to developers. Very simple use from **C# and XAML** code.
 
-![MauiAnimation](images/mauianimation.gif)
+![MauiAnimation](images/mauianimation-promo.png)
 
 _NOTE: This library is a port of [Xamanimation](https://github.com/jsuarezruiz/Xamanimation) to .NET MAUI._
 
@@ -20,6 +20,8 @@ Available animations:
 - Shake
 - Translate
 - Turnstile
+
+![MauiAnimation](images/mauianimation.gif)
 
 ## Animations directly from XAML
 
