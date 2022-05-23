@@ -2,7 +2,7 @@
 
 **MauiAnimation** is a library designed for .NET MAUI that aims to facilitate the use of **animations** to developers. Very simple use from **C# and XAML** code.
 
-![MauiAnimation](images/mauianimation-promo.png)
+![MauiAnimation](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-promo.png)
 
 _NOTE: This library is a port of [Xamanimation](https://github.com/jsuarezruiz/Xamanimation) to .NET MAUI._
 
@@ -21,7 +21,7 @@ Available animations:
 - Translate
 - Turnstile
 
-![MauiAnimation](images/mauianimation.gif)
+![MauiAnimation](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation.gif)
 
 ## Animations directly from XAML
 
@@ -106,11 +106,11 @@ You can control the duration of the animation using the **Duration** property. I
 
 **Delay** Add a delay before play the animation.
 
-<img src="images/mauianimation-delayed.gif" Width="250" />
+<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-delayed.gif" Width="250" />
 
 **Repeat Forever** Now you can create infinite animations if you need it.
 
-<img src="images/mauianimation-repeat.gif" Width="250" />
+<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-repeat.gif" Width="250" />
 
 ### Triggers!
 
@@ -138,7 +138,7 @@ Triggers allow you to start animations declaratively in XAML based on events or 
     </Entry.Triggers>
 </Entry>
 ```
-<img src="images/mauianimation-triggers.gif" Width="250" />
+<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-triggers.gif" Width="250" />
 
 You can animate any property of type Int, Double, Color, Thickness or CornerRadius. Available options:
 * AnimateInt
@@ -175,7 +175,7 @@ A common scenario is using a scroll. A parallax effect, etc.
     </VisualElement.Behaviors>
 </BoxView>
 ```
-<img src="images/mauianimation-progress.gif" Width="250" />
+<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-progress.gif" Width="250" />
 
 Available options:
 * AnimateProgressInt

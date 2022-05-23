@@ -24,6 +24,9 @@
 		<RepositoryUrl>https://github.com/jsuarezruiz/MauiAnimation</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageTags>dotnet,dotnet-maui,maui,animation</PackageTags>
+		<PackageId>jsuarezruiz.mauianimation</PackageId>
+		<Copyright>Javier Suárez Ruiz</Copyright>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -33,6 +36,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Include="..\..\LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	  <None Include="..\..\README.md">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
