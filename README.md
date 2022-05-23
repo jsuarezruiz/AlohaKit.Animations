@@ -23,6 +23,12 @@ Available animations:
 
 ![MauiAnimation](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation.gif)
 
+## Usage
+
+**Step 1**: Include the MauiAnimation package reference in your project. 
+
+**Step 2**: Enjoy coding!.
+
 ## Animations directly from XAML
 
 One of the main advantages of the library is the possibility of using animations from **XAML**. We must use the following namespace:
@@ -106,11 +112,11 @@ You can control the duration of the animation using the **Duration** property. I
 
 **Delay** Add a delay before play the animation.
 
-<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-delayed.gif" Width="250" />
+![Delayed](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-delayed.gif)
 
 **Repeat Forever** Now you can create infinite animations if you need it.
 
-<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-repeat.gif" Width="250" />
+![Repeat Forever](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-repeat.gif)
 
 ### Triggers!
 
@@ -138,7 +144,8 @@ Triggers allow you to start animations declaratively in XAML based on events or 
     </Entry.Triggers>
 </Entry>
 ```
-<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-triggers.gif" Width="250" />
+
+![Triggers](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-triggers.gif)
 
 You can animate any property of type Int, Double, Color, Thickness or CornerRadius. Available options:
 * AnimateInt
@@ -175,7 +182,8 @@ A common scenario is using a scroll. A parallax effect, etc.
     </VisualElement.Behaviors>
 </BoxView>
 ```
-<img src="https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-progress.gif" Width="250" />
+
+![Progress Animations](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-progress.gif)
 
 Available options:
 * AnimateProgressInt
