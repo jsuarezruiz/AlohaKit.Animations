@@ -2,7 +2,7 @@
 
 **AlohaKit.Animations** is a library designed for .NET MAUI that aims to facilitate the use of **animations** to developers. Very simple use from **C# and XAML** code.
 
-![AlohaKit.Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-promo.png)
+![AlohaKit.Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/alohakit-animations-promo.png)
 
 _NOTE: This library is a port of [Xamanimation](https://github.com/jsuarezruiz/Xamanimation) to .NET MAUI._
 
@@ -21,7 +21,7 @@ Available animations:
 - Translate
 - Turnstile
 
-![AlohaKit.Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations.gif)
+![AlohaKit.Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/alohakit-animations.gif)
 
 ## Usage
 
@@ -112,11 +112,11 @@ You can control the duration of the animation using the **Duration** property. I
 
 **Delay** Add a delay before play the animation.
 
-![Delayed](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-delayed.gif)
+![Delayed](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/alohakit-animations-delayed.gif)
 
 **Repeat Forever** Now you can create infinite animations if you need it.
 
-![Repeat Forever](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-repeat.gif)
+![Repeat Forever](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/alohakit-animations-repeat.gif)
 
 ### Triggers!
 
@@ -145,7 +145,7 @@ Triggers allow you to start animations declaratively in XAML based on events or 
 </Entry>
 ```
 
-![Triggers](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-triggers.gif)
+![Triggers](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/alohakit-animations-triggers.gif)
 
 You can animate any property of type Int, Double, Color, Thickness or CornerRadius. Available options:
 * AnimateInt
@@ -183,7 +183,7 @@ A common scenario is using a scroll. A parallax effect, etc.
 </BoxView>
 ```
 
-![Progress Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-progress.gif)
+![Progress Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/alohakit-animations-progress.gif)
 
 Available options:
 * AnimateProgressInt
