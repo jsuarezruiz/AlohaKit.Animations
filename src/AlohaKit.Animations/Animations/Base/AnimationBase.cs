@@ -90,6 +90,8 @@
         {
             _animateTimerCancellationTokenSource = tokenSource;
 
+#pragma warning disable CS0618 // Type or member is obsolete
+#pragma warning disable CS0612 // Type or member is obsolete
             Device.BeginInvokeOnMainThread(async () =>
             {
                 if (!_animateTimerCancellationTokenSource.IsCancellationRequested)
@@ -99,6 +101,8 @@
                     RepeatAnimation(_animateTimerCancellationTokenSource);
                 }
             });
+#pragma warning restore CS0612 // Type or member is obsolete
+#pragma warning restore CS0618 // Type or member is obsolete
         }
     }
 }

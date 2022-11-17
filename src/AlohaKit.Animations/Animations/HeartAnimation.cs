@@ -14,10 +14,14 @@
 
             return Task.Run(() =>
             {
+#pragma warning disable CS0612 // Type or member is obsolete
+#pragma warning disable CS0618 // Type or member is obsolete
                 Device.BeginInvokeOnMainThread(() =>
                 {
                     Target.Animate("Hearth", Hearth(), 16, Convert.ToUInt32(Duration));
                 });
+#pragma warning restore CS0618 // Type or member is obsolete
+#pragma warning restore CS0612 // Type or member is obsolete
             });
         }
 
