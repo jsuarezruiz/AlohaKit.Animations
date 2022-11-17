@@ -1,8 +1,8 @@
-# MauiAnimation - Animation Library for .NET MAUI
+# AlohaKit Animations - Animation Library for .NET MAUI
 
-**MauiAnimation** is a library designed for .NET MAUI that aims to facilitate the use of **animations** to developers. Very simple use from **C# and XAML** code.
+**AlohaKit.Animations** is a library designed for .NET MAUI that aims to facilitate the use of **animations** to developers. Very simple use from **C# and XAML** code.
 
-![MauiAnimation](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-promo.png)
+![AlohaKit.Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-promo.png)
 
 _NOTE: This library is a port of [Xamanimation](https://github.com/jsuarezruiz/Xamanimation) to .NET MAUI._
 
@@ -21,11 +21,11 @@ Available animations:
 - Translate
 - Turnstile
 
-![MauiAnimation](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation.gif)
+![AlohaKit.Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations.gif)
 
 ## Usage
 
-**Step 1**: Include the MauiAnimation package reference in your project. 
+**Step 1**: Include the AlohaKit.Animations package reference in your project. 
 
 **Step 2**: Enjoy coding!.
 
@@ -33,7 +33,7 @@ Available animations:
 
 One of the main advantages of the library is the possibility of using animations from **XAML**. We must use the following namespace:
 
-    xmlns:mauianimation="clr-namespace:MauiAnimation;assembly=MauiAnimation"
+    xmlns:AlohaKit.Animations="clr-namespace:AlohaKit.Animations;assembly=AlohaKit.Animations"
 
 Let's animate a BoxView:
 
@@ -47,13 +47,13 @@ Let's animate a BoxView:
 we can define animations directly in XAML (as Application or Page Resources):
 
 ```
-<mauianimation:FadeToAnimation
+<alohakit:FadeToAnimation
     x:Key="FadeToAnimation"
     Target="{x:Reference FadeBox}"
     Duration="2000"
     Opacity="0"/>
 ```
-Using the namespace of mauianimation, we have access to the whole set of animations of the library. In all of them there are a number of common **parameters** such as:
+Using the namespace of AlohaKit.Animations, we have access to the whole set of animations of the library. In all of them there are a number of common **parameters** such as:
 
 - **Target**: Indicate the visual element to which we will apply the animation.
 - **Duration**: Duration of the animation in milliseconds.
@@ -72,7 +72,7 @@ Using the Clicked event of a button we can launch the previous animation using t
     Text="Fade">
     <Button.Triggers>
         <EventTrigger Event="Clicked">
-            <mauianimation:BeginAnimation
+            <alohakit:BeginAnimation
                 Animation="{StaticResource FadeToAnimation}" />
         </EventTrigger>
     </Button.Triggers>
@@ -81,12 +81,12 @@ Using the Clicked event of a button we can launch the previous animation using t
 We also have the concept of **Storyboard** as a set of animations that we can execute over time:
 
 ```
-<mauianimation:StoryBoard
+<alohakit:StoryBoard
     x:Key="StoryBoard"
     Target="{x:Reference StoryBoardBox}">
-    <mauianimation:ScaleToAnimation  Scale="2"/>
-    <mauianimation:ShakeAnimation />
-</mauianimation:StoryBoard>
+    <alohakit:ScaleToAnimation  Scale="2"/>
+    <alohakit:ShakeAnimation />
+</alohakit:StoryBoard>
 ```
 ### Using C# 
 
@@ -112,11 +112,11 @@ You can control the duration of the animation using the **Duration** property. I
 
 **Delay** Add a delay before play the animation.
 
-![Delayed](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-delayed.gif)
+![Delayed](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-delayed.gif)
 
 **Repeat Forever** Now you can create infinite animations if you need it.
 
-![Repeat Forever](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-repeat.gif)
+![Repeat Forever](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-repeat.gif)
 
 ### Triggers!
 
@@ -129,23 +129,23 @@ Triggers allow you to start animations declaratively in XAML based on events or 
     <Entry.Triggers>
         <Trigger TargetType="Entry" Property="IsFocused" Value="True">
             <Trigger.EnterActions>
-                <mauianimation:AnimateDouble TargetProperty="Entry.FontSize" To="24"/>
-                <mauianimation:AnimateColor TargetProperty="Entry.TextColor" To="Red"/>
-                <mauianimation:AnimateColor TargetProperty="VisualElement.BackgroundColor" To="Yellow" Delay="1000"/>
-                <mauianimation:AnimateDouble TargetProperty="VisualElement.Rotation" To="12" Duration="100"/>
+                <alohakit:AnimateDouble TargetProperty="Entry.FontSize" To="24"/>
+                <alohakit:AnimateColor TargetProperty="Entry.TextColor" To="Red"/>
+                <alohakit:AnimateColor TargetProperty="VisualElement.BackgroundColor" To="Yellow" Delay="1000"/>
+                <alohakit:AnimateDouble TargetProperty="VisualElement.Rotation" To="12" Duration="100"/>
             </Trigger.EnterActions>
             <Trigger.ExitActions>
-                <mauianimation:AnimateDouble TargetProperty="{x:Static Entry.FontSizeProperty}" To="16"/>
-                <mauianimation:AnimateColor TargetProperty="{x:Static Entry.TextColorProperty}" To="Black"/>
-                <mauianimation:AnimateColor TargetProperty="{x:Static VisualElement.BackgroundColorProperty}" To="LightGray"/>
-                <mauianimation:AnimateDouble TargetProperty="{x:Static VisualElement.RotationProperty}" To="0"/>
+                <alohakit:AnimateDouble TargetProperty="{x:Static Entry.FontSizeProperty}" To="16"/>
+                <alohakit:AnimateColor TargetProperty="{x:Static Entry.TextColorProperty}" To="Black"/>
+                <alohakit:AnimateColor TargetProperty="{x:Static VisualElement.BackgroundColorProperty}" To="LightGray"/>
+                <alohakit:AnimateDouble TargetProperty="{x:Static VisualElement.RotationProperty}" To="0"/>
             </Trigger.ExitActions>
         </Trigger>
     </Entry.Triggers>
 </Entry>
 ```
 
-![Triggers](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-triggers.gif)
+![Triggers](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-triggers.gif)
 
 You can animate any property of type Int, Double, Color, Thickness or CornerRadius. Available options:
 * AnimateInt
@@ -165,14 +165,14 @@ A common scenario is using a scroll. A parallax effect, etc.
     BackgroundColor="Red"
     CornerRadius="24, 24, 0, 0">
     <VisualElement.Behaviors>
-        <mauianimation:AnimateProgressColor
+        <alohakit:AnimateProgressColor
             TargetProperty="VisualElement.BackgroundColor"
             Progress="{Binding ScrollY, Source={x:Reference ScrollBehavior}}" 
             Minimum="0"
             Maximum="200"
             From="Black"
             To="Red"/>
-        <mauianimation:AnimateProgressCornerRadius
+        <alohakit:AnimateProgressCornerRadius
             TargetProperty="BoxView.CornerRadius"
             Progress="{Binding ScrollY, Source={x:Reference ScrollBehavior}}" 
             Minimum="0"
@@ -183,7 +183,7 @@ A common scenario is using a scroll. A parallax effect, etc.
 </BoxView>
 ```
 
-![Progress Animations](https://raw.githubusercontent.com/jsuarezruiz/MauiAnimation/main/images/mauianimation-progress.gif)
+![Progress Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/AlohaKit.Animations-progress.gif)
 
 Available options:
 * AnimateProgressInt
@@ -194,7 +194,7 @@ Available options:
 
 ## Feedback
 
-Please use [GitHub issues](https://github.com/jsuarezruiz/mauianimation/issues) for questions or comments.
+Please use [GitHub issues](https://github.com/jsuarezruiz/AlohaKit.Animations/issues) for questions or comments.
 
 ## Copyright and license
 
