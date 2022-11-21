@@ -1,5 +1,11 @@
 # AlohaKit Animations - Animation Library for .NET MAUI
 
+<div align="center">
+   <a href="https://www.nuget.org/packages/AlohaKit.Animations"><img src="https://img.shields.io/nuget/v/AlohaKit.Animations?color=blue&style=flat-square&logo=nuget"></a>
+   <a href="https://www.nuget.org/packages/AlohaKit.Animations"><img src="https://img.shields.io/nuget/dt/AlohaKit.Animations.svg?style=flat-square"></a>
+   <a href="./LICENSE"><img src="https://img.shields.io/github/license/jsuarezruiz/AlohaKit.Animations?style=flat-square"></a>
+</div>
+
 **AlohaKit.Animations** is a library designed for .NET MAUI that aims to facilitate the use of **animations** to developers. Very simple use from **C# and XAML** code.
 
 ![AlohaKit.Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/alohakit-animations-promo.png)
