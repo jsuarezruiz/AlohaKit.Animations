@@ -4,7 +4,7 @@
     using System.Threading.Tasks;
     using AlohaKit.Animations.Helpers;
 
-    public class AnimateInt : AnimationBaseTrigger<double>
+    public class AnimateInt : AnimationBaseTrigger<int>
     {
         protected override async void Invoke(VisualElement sender)
         {
@@ -16,11 +16,11 @@
             if (Delay > 0)
                 await Task.Delay(Delay);
 
-            SetDefaultFrom((double)sender.GetValue(TargetProperty));
+            SetDefaultFrom((int)sender.GetValue(TargetProperty));
 
             sender.Animate($"AnimateInt{TargetProperty.PropertyName}", new Animation((progress) =>
             {
-                sender.SetValue(TargetProperty, AnimationHelper.GetIntValue((int)From, (int)To, progress));
+                sender.SetValue(TargetProperty, AnimationHelper.GetIntValue(From, To, progress));
             }),
             length: Duration,
             easing: EasingHelper.GetEasing(Easing));

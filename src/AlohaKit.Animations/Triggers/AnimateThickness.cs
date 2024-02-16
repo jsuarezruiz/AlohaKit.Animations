@@ -16,7 +16,7 @@
             if (Delay > 0)
                 await Task.Delay(Delay);
 
-            SetDefaultFrom((double)sender.GetValue(TargetProperty));
+            SetDefaultFrom((Thickness)sender.GetValue(TargetProperty));
 
             sender.Animate($"AnimateThickness{TargetProperty.PropertyName}", new Animation((progress) =>
             {
