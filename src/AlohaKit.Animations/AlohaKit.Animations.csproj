@@ -28,6 +28,7 @@
 		<Copyright>Javier Suárez Ruiz</Copyright>
 		<PackageLicenseFile>LICENSE</PackageLicenseFile>
 		<PackageIcon>icon.png</PackageIcon>
+		<Version>1.1.0</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
