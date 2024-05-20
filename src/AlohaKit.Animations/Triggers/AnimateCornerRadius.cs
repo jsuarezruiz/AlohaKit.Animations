@@ -1,4 +1,4 @@
-﻿namespace AlohaKit.Animations.Triggers
+﻿namespace AlohaKit.Animations
 {
     using System;
     using System.Threading.Tasks;
