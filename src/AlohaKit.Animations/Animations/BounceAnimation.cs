@@ -3,7 +3,10 @@
     using System;
     using System.Threading.Tasks;
 
-
+    /// <summary>
+    /// The BounceInAnimation is a custom animation designed to create a "bounce-in" effect, typically used in UI transitions 
+    /// where an element enters the screen with an animated bounce.
+    /// </summary>
     public class BounceInAnimation : AnimationBase
     {
         protected override Task BeginAnimation()
@@ -45,6 +48,10 @@
         }
     }
 
+    /// <summary>
+    /// The BounceOutAnimation class applies a bounce-out effect to the target element,
+    /// reducing its opacity and scale over time.
+    /// </summary>
     public class BounceOutAnimation : AnimationBase
     {
         protected override Task BeginAnimation()

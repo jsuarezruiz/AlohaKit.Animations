@@ -3,6 +3,10 @@
     using System;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Represents an animation that creates a "jump" effect by translating the target element 
+    /// along the Y-axis.
+    /// </summary>
     public class JumpAnimation : AnimationBase
     {
         private const int Movement = -25;

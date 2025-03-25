@@ -3,6 +3,9 @@
     using System;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// The ColorAnimation is designed to animate a transition between colors within a user interface. 
+    /// </summary>
     public class ColorAnimation : AnimationBase
     {
         public static readonly BindableProperty ToColorProperty =

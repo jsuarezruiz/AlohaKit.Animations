@@ -3,18 +3,44 @@
     using System;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// An animation that allow an element to rotate around the Y-axis 
+    /// while transitioning its opacity.
+    /// </summary>
     public class FlipAnimation : AnimationBase
     {
+        /// <summary>
+        /// Specifies the direction for a flip animation or effect.
+        /// </summary>
         public enum FlipDirection
         {
+            /// <summary>
+            /// Indicates a flip animation or effect directed to the left.
+            /// </summary>
             Left,
+
+            /// <summary>
+            /// Indicates a flip animation or effect directed to the right.
+            /// </summary>
             Right
         }
 
+        /// <summary>
+        /// Bindable property for specifying the direction of the flip animation.
+        /// </summary>
         public static readonly BindableProperty DirectionProperty =
-          BindableProperty.Create(nameof(Direction), typeof(FlipDirection), typeof(FlipAnimation), FlipDirection.Right,
-              BindingMode.TwoWay, null);
+            BindableProperty.Create(
+                nameof(Direction),
+                typeof(FlipDirection),
+                typeof(FlipAnimation),
+                FlipDirection.Right,
+                BindingMode.TwoWay,
+                null);
 
+        /// <summary>
+        /// Gets or sets the direction of the flip animation.
+        /// The direction can be either <see cref="FlipDirection.Left"/> or <see cref="FlipDirection.Right"/>.
+        /// </summary>
         public FlipDirection Direction
         {
             get { return (FlipDirection)GetValue(DirectionProperty); }

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.Behaviors
+  commentId: N:AlohaKit.Animations.Behaviors
+  id: AlohaKit.Animations.Behaviors
+  children:
+  - AlohaKit.Animations.Behaviors.AnimateProgressInt
+  langs:
+  - csharp
+  - vb
+  name: AlohaKit.Animations.Behaviors
+  nameWithType: AlohaKit.Animations.Behaviors
+  fullName: AlohaKit.Animations.Behaviors
+  type: Namespace
+  assemblies:
+  - AlohaKit.Animations
+references:
+- uid: AlohaKit.Animations.Behaviors.AnimateProgressInt
+  commentId: T:AlohaKit.Animations.Behaviors.AnimateProgressInt
+  href: AlohaKit.Animations.Behaviors.AnimateProgressInt.html
+  name: AnimateProgressInt
+  nameWithType: AnimateProgressInt
+  fullName: AlohaKit.Animations.Behaviors.AnimateProgressInt

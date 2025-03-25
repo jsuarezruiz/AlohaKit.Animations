@@ -1,0 +1,2144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class MainActivity | AlohaKit.Animations </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class MainActivity | AlohaKit.Animations ">
+      
+      
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/jsuarezruiz/AlohaKit.Animations/new/docs/apiSpec/new?filename=AlohaKit_Animations_Sample_MainActivity.md&amp;value=---%0Auid%3A%20AlohaKit.Animations.Sample.MainActivity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="AlohaKit.Animations">
+            AlohaKit.Animations
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AlohaKit.Animations.Sample.MainActivity">
+
+
+
+  <h1 id="AlohaKit_Animations_Sample_MainActivity" data-uid="AlohaKit.Animations.Sample.MainActivity" class="text-break">
+Class MainActivity  <a class="header-action link-secondary" title="View source" href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations.Sample/Platforms/Android/MainActivity.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AlohaKit.html">AlohaKit</a>.<a class="xref" href="AlohaKit.Animations.html">Animations</a>.<a class="xref" href="AlohaKit.Animations.Sample.html">Sample</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>AlohaKit.Animations.Sample.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"></div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Activity(Theme = &quot;@style/Maui.SplashTheme&quot;, MainLauncher = true, ConfigurationChanges = ConfigChanges.Orientation|ConfigChanges.ScreenLayout|ConfigChanges.UiMode|ConfigChanges.ScreenSize|ConfigChanges.SmallestScreenSize|ConfigChanges.Density)]
+public class MainActivity : MauiAppCompatActivity, IComponentCallbacks2, IComponentCallbacks, KeyEvent.ICallback, LayoutInflater.IFactory2, LayoutInflater.IFactory, View.IOnCreateContextMenuListener, Window.ICallback, KeyEventDispatcher.IComponent, IFullyDrawnReporterOwner, IOnBackPressedDispatcherOwner, IContextAware, IActivityResultCaller, IActivityResultRegistryOwner, IOnMultiWindowModeChangedProvider, IOnNewIntentProvider, IOnPictureInPictureModeChangedProvider, IOnUserLeaveHintProvider, IOnConfigurationChangedProvider, IOnTrimMemoryProvider, IMenuHost, IHasDefaultViewModelProviderFactory, IViewModelStoreOwner, ISavedStateRegistryOwner, ILifecycleOwner, ActivityCompat.IOnRequestPermissionsResultCallback, ActivityCompat.IRequestPermissionsRequestCodeValidator, ActionBarDrawerToggle.IDelegateProvider, IAppCompatCallback, TaskStackBuilder.ISupportParentable, IJavaObject, IJavaPeerable, IDisposable</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object">Object</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context">Context</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper">ContextWrapper</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.contextthemewrapper">ContextThemeWrapper</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity">Activity</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ComponentActivity.cs">ComponentActivity</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity">MauiAppCompatActivity</a></div>
+      <div><span class="xref">MainActivity</span></div>
+    </dd>
+  </dl>
+
+  <dl class="typelist implements">
+    <dt>Implements</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.icomponentcallbacks2">IComponentCallbacks2</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.icomponentcallbacks">IComponentCallbacks</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.keyevent">KeyEvent</a>.<a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.keyevent.icallback">ICallback</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.layoutinflater">LayoutInflater</a>.<a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.layoutinflater.ifactory2">IFactory2</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.layoutinflater">LayoutInflater</a>.<a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.layoutinflater.ifactory">IFactory</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.view">View</a>.<a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.view.ioncreatecontextmenulistener">IOnCreateContextMenuListener</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.window">Window</a>.<a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.window.icallback">ICallback</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.View.KeyEventDispatcher.cs">KeyEventDispatcher</a>.<a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.View.KeyEventDispatcher.cs">IComponent</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.IFullyDrawnReporterOwner.cs">IFullyDrawnReporterOwner</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.IOnBackPressedDispatcherOwner.cs">IOnBackPressedDispatcherOwner</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ContextAware.IContextAware.cs">IContextAware</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.Result.IActivityResultCaller.cs">IActivityResultCaller</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.Result.IActivityResultRegistryOwner.cs">IActivityResultRegistryOwner</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.IOnMultiWindowModeChangedProvider.cs">IOnMultiWindowModeChangedProvider</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.IOnNewIntentProvider.cs">IOnNewIntentProvider</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.IOnPictureInPictureModeChangedProvider.cs">IOnPictureInPictureModeChangedProvider</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.IOnUserLeaveHintProvider.cs">IOnUserLeaveHintProvider</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.Content.IOnConfigurationChangedProvider.cs">IOnConfigurationChangedProvider</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.Content.IOnTrimMemoryProvider.cs">IOnTrimMemoryProvider</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.View.IMenuHost.cs">IMenuHost</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.lifecycle.lifecycle-viewmodel-android/obj/Release/net8.0-android/generated/src/AndroidX.Lifecycle.IHasDefaultViewModelProviderFactory.cs">IHasDefaultViewModelProviderFactory</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.lifecycle.lifecycle-viewmodel-android/obj/Release/net8.0-android/generated/src/AndroidX.Lifecycle.IViewModelStoreOwner.cs">IViewModelStoreOwner</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.savedstate.savedstate/obj/Release/net8.0-android/generated/src/AndroidX.SavedState.ISavedStateRegistryOwner.cs">ISavedStateRegistryOwner</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.lifecycle.lifecycle-common-jvm/obj/Release/net8.0-android/generated/src/AndroidX.Lifecycle.ILifecycleOwner.cs">ILifecycleOwner</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ActivityCompat.cs">ActivityCompat</a>.<a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ActivityCompat.cs">IOnRequestPermissionsResultCallback</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ActivityCompat.cs">ActivityCompat</a>.<a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ActivityCompat.cs">IRequestPermissionsRequestCodeValidator</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.ActionBarDrawerToggle.cs">ActionBarDrawerToggle</a>.<a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.ActionBarDrawerToggle.cs">IDelegateProvider</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.IAppCompatCallback.cs">IAppCompatCallback</a></div>
+      <div><a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.TaskStackBuilder.cs">TaskStackBuilder</a>.<a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.TaskStackBuilder.cs">ISupportParentable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/android.runtime.ijavaobject">IJavaObject</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/java.interop.ijavapeerable">IJavaPeerable</a></div>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+    </dd>
+  </dl>
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.oncreate">MauiAppCompatActivity.OnCreate(Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.dispatchtouchevent">MauiAppCompatActivity.DispatchTouchEvent(MotionEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onactivityresult">MauiAppCompatActivity.OnActivityResult(int, Result, Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onbackpressed">MauiAppCompatActivity.OnBackPressed()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onconfigurationchanged">MauiAppCompatActivity.OnConfigurationChanged(Configuration)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onnewintent">MauiAppCompatActivity.OnNewIntent(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onpostcreate">MauiAppCompatActivity.OnPostCreate(Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onpostresume">MauiAppCompatActivity.OnPostResume()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onrestart">MauiAppCompatActivity.OnRestart()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onrequestpermissionsresult">MauiAppCompatActivity.OnRequestPermissionsResult(int, string[], Permission[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.onrestoreinstancestate">MauiAppCompatActivity.OnRestoreInstanceState(Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.mauiappcompatactivity.allowfragmentrestore">MauiAppCompatActivity.AllowFragmentRestore</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnCreateSupportNavigateUpTaskStack(TaskStackBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnLocalesChanged(LocaleListCompat)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnMenuItemSelected(int, IMenuItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnNightModeChanged(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnPrepareSupportNavigateUpTaskStack(TaskStackBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnSupportActionModeFinished(ActionMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnSupportActionModeStarted(ActionMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnSupportContentChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnSupportNavigateUp()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.OnWindowStartingSupportActionMode(ActionMode.ICallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SetSupportActionBar(Toolbar)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SetSupportProgress(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SetSupportProgressBarIndeterminate(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SetSupportProgressBarIndeterminateVisibility(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SetSupportProgressBarVisibility(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.StartSupportActionMode(ActionMode.ICallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SupportNavigateUpTo(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SupportRequestWindowFeature(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SupportShouldUpRecreateTask(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.Delegate</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.DrawerToggleDelegate</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SupportActionBar</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.appcompat.appcompat/obj/Release/net8.0-android/generated/src/AndroidX.AppCompat.App.AppCompatActivity.cs">AppCompatActivity.SupportParentActivityIntent</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.OnAttachFragment(Fragment)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.OnResumeFragments()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.SetEnterSharedElementCallback(SharedElementCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.SetExitSharedElementCallback(SharedElementCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.StartActivityFromFragment(Fragment, Intent, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.StartActivityFromFragment(Fragment, Intent, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.StartIntentSenderFromFragment(Fragment, IntentSender, int, Intent, int, int, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.SupportFinishAfterTransition()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.SupportInvalidateOptionsMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.SupportPostponeEnterTransition()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.SupportStartPostponedEnterTransition()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.ValidateRequestPermissionsRequestCode(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/source/androidx.fragment/fragment/Additions/Additions.cs">FragmentActivity.Lifecycle</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.SupportFragmentManager</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.fragment.fragment/obj/Release/net8.0-android/generated/src/AndroidX.Fragment.App.FragmentActivity.cs">FragmentActivity.SupportLoaderManager</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddMenuProvider(IMenuProvider)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddMenuProvider(IMenuProvider, ILifecycleOwner)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddMenuProvider(IMenuProvider, ILifecycleOwner, Lifecycle.State)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddOnConfigurationChangedListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddOnContextAvailableListener(IOnContextAvailableListener)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddOnMultiWindowModeChangedListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddOnNewIntentListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddOnPictureInPictureModeChangedListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddOnTrimMemoryListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.AddOnUserLeaveHintListener(IRunnable)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.InitializeViewTreeOwners()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.InvalidateMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.OnRetainCustomNonConfigurationInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.OnRetainNonConfigurationInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.PeekAvailableContext()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RegisterForActivityResult(ActivityResultContract, IActivityResultCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RegisterForActivityResult(ActivityResultContract, ActivityResultRegistry, IActivityResultCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RemoveMenuProvider(IMenuProvider)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RemoveOnConfigurationChangedListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RemoveOnContextAvailableListener(IOnContextAvailableListener)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RemoveOnMultiWindowModeChangedListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RemoveOnNewIntentListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RemoveOnPictureInPictureModeChangedListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RemoveOnTrimMemoryListener(IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.RemoveOnUserLeaveHintListener(IRunnable)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.ActivityResultRegistry</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.DefaultViewModelCreationExtras</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.DefaultViewModelProviderFactory</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.FullyDrawnReporter</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.LastCustomNonConfigurationInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.OnBackPressedDispatcher</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.SavedStateRegistry</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.ViewModelStore</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.activity.activity/obj/Release/net8.0-android/generated/src/AndroidX.Activity.ComponentActivity.cs">ComponentActivity.ContextAvailable</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ComponentActivity.cs">ComponentActivity.GetExtraData(Class)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ComponentActivity.cs">ComponentActivity.PutExtraData(ComponentActivity.ExtraData)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ComponentActivity.cs">ComponentActivity.ShouldDumpInternalState(string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://github.com/xamarin/AndroidX/blob/c9fd36fa1c6406db167efcc30a832745df442db3/generated/androidx.core.core/obj/Release/net8.0-android/generated/src/AndroidX.Core.App.ComponentActivity.cs">ComponentActivity.SuperDispatchKeyEvent(KeyEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.fullscreenmoderequestenter">Activity.FullscreenModeRequestEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.fullscreenmoderequestexit">Activity.FullscreenModeRequestExit</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.overridetransitionclose">Activity.OverrideTransitionClose</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.overridetransitionopen">Activity.OverrideTransitionOpen</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.findviewbyid#android-app-activity-findviewbyid-1(system-int32)">Activity.FindViewById&lt;T&gt;(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requireviewbyid#android-app-activity-requireviewbyid-1(system-int32)">Activity.RequireViewById&lt;T&gt;(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityforresult#android-app-activity-startactivityforresult(system-type-system-int32)">Activity.StartActivityForResult(Type, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.runonuithread#android-app-activity-runonuithread(system-action)">Activity.RunOnUiThread(Action)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.addcontentview">Activity.AddContentView(View, ViewGroup.LayoutParams)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.clearoverrideactivitytransition">Activity.ClearOverrideActivityTransition(OverrideTransition)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.closecontextmenu">Activity.CloseContextMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.closeoptionsmenu">Activity.CloseOptionsMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.creatependingresult">Activity.CreatePendingResult(int, Intent, PendingIntentFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.dismissdialog">Activity.DismissDialog(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.dismisskeyboardshortcutshelper">Activity.DismissKeyboardShortcutsHelper()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.dispatchgenericmotionevent">Activity.DispatchGenericMotionEvent(MotionEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.dispatchkeyevent">Activity.DispatchKeyEvent(KeyEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.dispatchkeyshortcutevent">Activity.DispatchKeyShortcutEvent(KeyEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.dispatchpopulateaccessibilityevent">Activity.DispatchPopulateAccessibilityEvent(AccessibilityEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.dispatchtrackballevent">Activity.DispatchTrackballEvent(MotionEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.dump">Activity.Dump(string, FileDescriptor, PrintWriter, string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.enterpictureinpicturemode#android-app-activity-enterpictureinpicturemode">Activity.EnterPictureInPictureMode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.enterpictureinpicturemode#android-app-activity-enterpictureinpicturemode(android-app-pictureinpictureparams)">Activity.EnterPictureInPictureMode(PictureInPictureParams)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.findviewbyid#android-app-activity-findviewbyid(system-int32)">Activity.FindViewById(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.finish">Activity.Finish()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.finishactivity">Activity.FinishActivity(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.finishactivityfromchild">Activity.FinishActivityFromChild(Activity, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.finishaffinity">Activity.FinishAffinity()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.finishaftertransition">Activity.FinishAfterTransition()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.finishandremovetask">Activity.FinishAndRemoveTask()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.finishfromchild">Activity.FinishFromChild(Activity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.getpreferences">Activity.GetPreferences(FileCreationMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.invalidateoptionsmenu">Activity.InvalidateOptionsMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.managedquery">Activity.ManagedQuery(Uri, string[], string, string[], string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.movetasktoback">Activity.MoveTaskToBack(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.navigateupto">Activity.NavigateUpTo(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.navigateuptofromchild">Activity.NavigateUpToFromChild(Activity, Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onactionmodefinished">Activity.OnActionModeFinished(ActionMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onactionmodestarted">Activity.OnActionModeStarted(ActionMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onactivityreenter">Activity.OnActivityReenter(int, Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onactivityresult#android-app-activity-onactivityresult(system-int32-android-app-result-android-content-intent-android-app-componentcaller)">Activity.OnActivityResult(int, Result, Intent, ComponentCaller)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onattachedtowindow">Activity.OnAttachedToWindow()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onattachfragment">Activity.OnAttachFragment(Fragment)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onchildtitlechanged#android-app-activity-onchildtitlechanged(android-app-activity-java-lang-icharsequence)">Activity.OnChildTitleChanged(Activity, ICharSequence)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onchildtitlechanged#android-app-activity-onchildtitlechanged(android-app-activity-system-string)">Activity.OnChildTitleChanged(Activity, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncontentchanged">Activity.OnContentChanged()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncontextitemselected">Activity.OnContextItemSelected(IMenuItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncontextmenuclosed">Activity.OnContextMenuClosed(IMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreate#android-app-activity-oncreate(android-os-bundle-android-os-persistablebundle)">Activity.OnCreate(Bundle, PersistableBundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatecontextmenu">Activity.OnCreateContextMenu(IContextMenu, View, IContextMenuContextMenuInfo)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatedescriptionformatted">Activity.OnCreateDescriptionFormatted()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatedescription">Activity.OnCreateDescription()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatedialog#android-app-activity-oncreatedialog(system-int32-android-os-bundle)">Activity.OnCreateDialog(int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatedialog#android-app-activity-oncreatedialog(system-int32)">Activity.OnCreateDialog(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatenavigateuptaskstack">Activity.OnCreateNavigateUpTaskStack(TaskStackBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreateoptionsmenu">Activity.OnCreateOptionsMenu(IMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatepanelmenu">Activity.OnCreatePanelMenu(int, IMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatepanelview">Activity.OnCreatePanelView(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreatethumbnail">Activity.OnCreateThumbnail(Bitmap, Canvas)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreateview#android-app-activity-oncreateview(android-views-view-system-string-android-content-context-android-util-iattributeset)">Activity.OnCreateView(View, string, Context, IAttributeSet)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.oncreateview#android-app-activity-oncreateview(system-string-android-content-context-android-util-iattributeset)">Activity.OnCreateView(string, Context, IAttributeSet)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ondestroy">Activity.OnDestroy()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ondetachedfromwindow">Activity.OnDetachedFromWindow()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onenteranimationcomplete">Activity.OnEnterAnimationComplete()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ongenericmotionevent">Activity.OnGenericMotionEvent(MotionEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ongetdirectactions">Activity.OnGetDirectActions(CancellationSignal, IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onkeydown">Activity.OnKeyDown(Keycode, KeyEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onkeylongpress">Activity.OnKeyLongPress(Keycode, KeyEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onkeymultiple">Activity.OnKeyMultiple(Keycode, int, KeyEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onkeyshortcut">Activity.OnKeyShortcut(Keycode, KeyEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onkeyup">Activity.OnKeyUp(Keycode, KeyEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onlocalvoiceinteractionstarted">Activity.OnLocalVoiceInteractionStarted()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onlocalvoiceinteractionstopped">Activity.OnLocalVoiceInteractionStopped()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onlowmemory">Activity.OnLowMemory()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onmenuopened">Activity.OnMenuOpened(int, IMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onmultiwindowmodechanged#android-app-activity-onmultiwindowmodechanged(system-boolean-android-content-res-configuration)">Activity.OnMultiWindowModeChanged(bool, Configuration)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onmultiwindowmodechanged#android-app-activity-onmultiwindowmodechanged(system-boolean)">Activity.OnMultiWindowModeChanged(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onnavigateup">Activity.OnNavigateUp()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onnavigateupfromchild">Activity.OnNavigateUpFromChild(Activity)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onnewintent#android-app-activity-onnewintent(android-content-intent-android-app-componentcaller)">Activity.OnNewIntent(Intent, ComponentCaller)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onoptionsitemselected">Activity.OnOptionsItemSelected(IMenuItem)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onoptionsmenuclosed">Activity.OnOptionsMenuClosed(IMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpanelclosed">Activity.OnPanelClosed(int, IMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpause">Activity.OnPause()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onperformdirectaction">Activity.OnPerformDirectAction(string, Bundle, CancellationSignal, IConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpictureinpicturemodechanged#android-app-activity-onpictureinpicturemodechanged(system-boolean-android-content-res-configuration)">Activity.OnPictureInPictureModeChanged(bool, Configuration)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpictureinpicturemodechanged#android-app-activity-onpictureinpicturemodechanged(system-boolean)">Activity.OnPictureInPictureModeChanged(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpictureinpicturerequested">Activity.OnPictureInPictureRequested()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpictureinpictureuistatechanged">Activity.OnPictureInPictureUiStateChanged(PictureInPictureUiState)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpostcreate#android-app-activity-onpostcreate(android-os-bundle-android-os-persistablebundle)">Activity.OnPostCreate(Bundle, PersistableBundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpreparedialog#android-app-activity-onpreparedialog(system-int32-android-app-dialog-android-os-bundle)">Activity.OnPrepareDialog(int, Dialog, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpreparedialog#android-app-activity-onpreparedialog(system-int32-android-app-dialog)">Activity.OnPrepareDialog(int, Dialog)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpreparenavigateuptaskstack">Activity.OnPrepareNavigateUpTaskStack(TaskStackBuilder)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onprepareoptionsmenu">Activity.OnPrepareOptionsMenu(IMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onpreparepanel">Activity.OnPreparePanel(int, View, IMenu)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onprovideassistcontent">Activity.OnProvideAssistContent(AssistContent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onprovideassistdata">Activity.OnProvideAssistData(Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onprovidekeyboardshortcuts">Activity.OnProvideKeyboardShortcuts(IList&lt;KeyboardShortcutGroup&gt;, IMenu, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onprovidereferrer">Activity.OnProvideReferrer()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onrequestpermissionsresult#android-app-activity-onrequestpermissionsresult(system-int32-system-string()-android-content-pm-permission()-system-int32)">Activity.OnRequestPermissionsResult(int, string[], Permission[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onrestoreinstancestate#android-app-activity-onrestoreinstancestate(android-os-bundle-android-os-persistablebundle)">Activity.OnRestoreInstanceState(Bundle, PersistableBundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onresume">Activity.OnResume()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onsaveinstancestate#android-app-activity-onsaveinstancestate(android-os-bundle-android-os-persistablebundle)">Activity.OnSaveInstanceState(Bundle, PersistableBundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onsaveinstancestate#android-app-activity-onsaveinstancestate(android-os-bundle)">Activity.OnSaveInstanceState(Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onsearchrequested#android-app-activity-onsearchrequested">Activity.OnSearchRequested()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onsearchrequested#android-app-activity-onsearchrequested(android-views-searchevent)">Activity.OnSearchRequested(SearchEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onstart">Activity.OnStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onstatenotsaved">Activity.OnStateNotSaved()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onstop">Activity.OnStop()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ontitlechanged#android-app-activity-ontitlechanged(java-lang-icharsequence-android-graphics-color)">Activity.OnTitleChanged(ICharSequence, Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ontitlechanged#android-app-activity-ontitlechanged(system-string-android-graphics-color)">Activity.OnTitleChanged(string, Color)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ontopresumedactivitychanged">Activity.OnTopResumedActivityChanged(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ontouchevent">Activity.OnTouchEvent(MotionEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ontrackballevent">Activity.OnTrackballEvent(MotionEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ontrimmemory">Activity.OnTrimMemory(TrimMemory)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onuserinteraction">Activity.OnUserInteraction()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onuserleavehint">Activity.OnUserLeaveHint()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onvisiblebehindcanceled">Activity.OnVisibleBehindCanceled()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onwindowattributeschanged">Activity.OnWindowAttributesChanged(WindowManagerLayoutParams)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onwindowfocuschanged">Activity.OnWindowFocusChanged(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onwindowstartingactionmode#android-app-activity-onwindowstartingactionmode(android-views-actionmode-icallback-android-views-actionmodetype)">Activity.OnWindowStartingActionMode(ActionMode.ICallback, ActionModeType)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onwindowstartingactionmode#android-app-activity-onwindowstartingactionmode(android-views-actionmode-icallback)">Activity.OnWindowStartingActionMode(ActionMode.ICallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.opencontextmenu">Activity.OpenContextMenu(View)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.openoptionsmenu">Activity.OpenOptionsMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.overrideactivitytransition#android-app-activity-overrideactivitytransition(android-app-overridetransition-system-int32-system-int32-system-int32)">Activity.OverrideActivityTransition(OverrideTransition, int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.overrideactivitytransition#android-app-activity-overrideactivitytransition(android-app-overridetransition-system-int32-system-int32)">Activity.OverrideActivityTransition(OverrideTransition, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.overridependingtransition#android-app-activity-overridependingtransition(system-int32-system-int32-system-int32)">Activity.OverridePendingTransition(int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.overridependingtransition#android-app-activity-overridependingtransition(system-int32-system-int32)">Activity.OverridePendingTransition(int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.postponeentertransition">Activity.PostponeEnterTransition()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.recreate">Activity.Recreate()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.registeractivitylifecyclecallbacks">Activity.RegisterActivityLifecycleCallbacks(Application.IActivityLifecycleCallbacks)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.registerforcontextmenu">Activity.RegisterForContextMenu(View)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.registerscreencapturecallback">Activity.RegisterScreenCaptureCallback(IExecutor, Activity.IScreenCaptureCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.releaseinstance">Activity.ReleaseInstance()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.removedialog">Activity.RemoveDialog(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.reportfullydrawn">Activity.ReportFullyDrawn()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requestdraganddroppermissions">Activity.RequestDragAndDropPermissions(DragEvent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requestfullscreenmode">Activity.RequestFullscreenMode(FullscreenModeRequest, IOutcomeReceiver)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requestpermissions#android-app-activity-requestpermissions(system-string()-system-int32-system-int32)">Activity.RequestPermissions(string[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requestpermissions#android-app-activity-requestpermissions(system-string()-system-int32)">Activity.RequestPermissions(string[], int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requestshowkeyboardshortcuts">Activity.RequestShowKeyboardShortcuts()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requestvisiblebehind">Activity.RequestVisibleBehind(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requestwindowfeature">Activity.RequestWindowFeature(WindowFeatures)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requireviewbyid#android-app-activity-requireviewbyid(system-int32)">Activity.RequireViewById(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.runonuithread#android-app-activity-runonuithread(java-lang-irunnable)">Activity.RunOnUiThread(IRunnable)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setactionbar">Activity.SetActionBar(Toolbar)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setallowcrossuidactivityswitchfrombelow">Activity.SetAllowCrossUidActivitySwitchFromBelow(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setcontentview#android-app-activity-setcontentview(android-views-view-android-views-viewgroup-layoutparams)">Activity.SetContentView(View, ViewGroup.LayoutParams)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setcontentview#android-app-activity-setcontentview(android-views-view)">Activity.SetContentView(View)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setcontentview#android-app-activity-setcontentview(system-int32)">Activity.SetContentView(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setdefaultkeymode">Activity.SetDefaultKeyMode(DefaultKey)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setentersharedelementcallback">Activity.SetEnterSharedElementCallback(SharedElementCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setexitsharedelementcallback">Activity.SetExitSharedElementCallback(SharedElementCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setfeaturedrawable">Activity.SetFeatureDrawable(WindowFeatures, Drawable)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setfeaturedrawablealpha">Activity.SetFeatureDrawableAlpha(WindowFeatures, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setfeaturedrawableresource">Activity.SetFeatureDrawableResource(WindowFeatures, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setfeaturedrawableuri">Activity.SetFeatureDrawableUri(WindowFeatures, Uri)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setfinishontouchoutside">Activity.SetFinishOnTouchOutside(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setinheritshowwhenlocked">Activity.SetInheritShowWhenLocked(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setintent">Activity.SetIntent(Intent, ComponentCaller)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setlocuscontext">Activity.SetLocusContext(LocusId, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setpersistent">Activity.SetPersistent(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setpictureinpictureparams">Activity.SetPictureInPictureParams(PictureInPictureParams)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setprogress">Activity.SetProgress(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setprogressbarindeterminate">Activity.SetProgressBarIndeterminate(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setprogressbarindeterminatevisibility">Activity.SetProgressBarIndeterminateVisibility(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setprogressbarvisibility">Activity.SetProgressBarVisibility(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setrecentsscreenshotenabled">Activity.SetRecentsScreenshotEnabled(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setresult#android-app-activity-setresult(android-app-result-android-content-intent)">Activity.SetResult(Result, Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setresult#android-app-activity-setresult(android-app-result)">Activity.SetResult(Result)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setsecondaryprogress">Activity.SetSecondaryProgress(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setshoulddockbigoverlays">Activity.SetShouldDockBigOverlays(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setshowwhenlocked">Activity.SetShowWhenLocked(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.settaskdescription">Activity.SetTaskDescription(ActivityManager.TaskDescription)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.settitle">Activity.SetTitle(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.settranslucent">Activity.SetTranslucent(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setturnscreenon">Activity.SetTurnScreenOn(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setvisible">Activity.SetVisible(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.setvrmodeenabled">Activity.SetVrModeEnabled(bool, ComponentName)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.shoulddockbigoverlays">Activity.ShouldDockBigOverlays()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.shouldshowrequestpermissionrationale#android-app-activity-shouldshowrequestpermissionrationale(system-string-system-int32)">Activity.ShouldShowRequestPermissionRationale(string, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.shouldshowrequestpermissionrationale#android-app-activity-shouldshowrequestpermissionrationale(system-string)">Activity.ShouldShowRequestPermissionRationale(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.shoulduprecreatetask">Activity.ShouldUpRecreateTask(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.showassist">Activity.ShowAssist(Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.showdialog#android-app-activity-showdialog(system-int32-android-os-bundle)">Activity.ShowDialog(int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.showdialog#android-app-activity-showdialog(system-int32)">Activity.ShowDialog(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.showlocktaskescapemessage">Activity.ShowLockTaskEscapeMessage()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactionmode#android-app-activity-startactionmode(android-views-actionmode-icallback-android-views-actionmodetype)">Activity.StartActionMode(ActionMode.ICallback, ActionModeType)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactionmode#android-app-activity-startactionmode(android-views-actionmode-icallback)">Activity.StartActionMode(ActionMode.ICallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityforresult#android-app-activity-startactivityforresult(android-content-intent-system-int32-android-os-bundle)">Activity.StartActivityForResult(Intent, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityforresult#android-app-activity-startactivityforresult(android-content-intent-system-int32)">Activity.StartActivityForResult(Intent, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityfromchild#android-app-activity-startactivityfromchild(android-app-activity-android-content-intent-system-int32-android-os-bundle)">Activity.StartActivityFromChild(Activity, Intent, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityfromchild#android-app-activity-startactivityfromchild(android-app-activity-android-content-intent-system-int32)">Activity.StartActivityFromChild(Activity, Intent, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityfromfragment#android-app-activity-startactivityfromfragment(android-app-fragment-android-content-intent-system-int32-android-os-bundle)">Activity.StartActivityFromFragment(Fragment, Intent, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityfromfragment#android-app-activity-startactivityfromfragment(android-app-fragment-android-content-intent-system-int32)">Activity.StartActivityFromFragment(Fragment, Intent, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityifneeded#android-app-activity-startactivityifneeded(android-content-intent-system-int32-android-os-bundle)">Activity.StartActivityIfNeeded(Intent, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startactivityifneeded#android-app-activity-startactivityifneeded(android-content-intent-system-int32)">Activity.StartActivityIfNeeded(Intent, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startintentsenderforresult#android-app-activity-startintentsenderforresult(android-content-intentsender-system-int32-android-content-intent-android-content-activityflags-android-content-activityflags-system-int32-android-os-bundle)">Activity.StartIntentSenderForResult(IntentSender, int, Intent, ActivityFlags, ActivityFlags, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startintentsenderforresult#android-app-activity-startintentsenderforresult(android-content-intentsender-system-int32-android-content-intent-android-content-activityflags-android-content-activityflags-system-int32)">Activity.StartIntentSenderForResult(IntentSender, int, Intent, ActivityFlags, ActivityFlags, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startintentsenderfromchild#android-app-activity-startintentsenderfromchild(android-app-activity-android-content-intentsender-system-int32-android-content-intent-android-content-activityflags-android-content-activityflags-system-int32-android-os-bundle)">Activity.StartIntentSenderFromChild(Activity, IntentSender, int, Intent, ActivityFlags, ActivityFlags, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startintentsenderfromchild#android-app-activity-startintentsenderfromchild(android-app-activity-android-content-intentsender-system-int32-android-content-intent-android-content-activityflags-android-content-activityflags-system-int32)">Activity.StartIntentSenderFromChild(Activity, IntentSender, int, Intent, ActivityFlags, ActivityFlags, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startlocalvoiceinteraction">Activity.StartLocalVoiceInteraction(Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startlocktask">Activity.StartLockTask()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startmanagingcursor">Activity.StartManagingCursor(ICursor)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startnextmatchingactivity#android-app-activity-startnextmatchingactivity(android-content-intent-android-os-bundle)">Activity.StartNextMatchingActivity(Intent, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startnextmatchingactivity#android-app-activity-startnextmatchingactivity(android-content-intent)">Activity.StartNextMatchingActivity(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startpostponedentertransition">Activity.StartPostponedEnterTransition()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.startsearch">Activity.StartSearch(string, bool, Bundle, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.stoplocalvoiceinteraction">Activity.StopLocalVoiceInteraction()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.stoplocktask">Activity.StopLockTask()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.stopmanagingcursor">Activity.StopManagingCursor(ICursor)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.takekeyevents">Activity.TakeKeyEvents(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.triggersearch">Activity.TriggerSearch(string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.unregisteractivitylifecyclecallbacks">Activity.UnregisterActivityLifecycleCallbacks(Application.IActivityLifecycleCallbacks)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.unregisterforcontextmenu">Activity.UnregisterForContextMenu(View)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.unregisterscreencapturecallback">Activity.UnregisterScreenCaptureCallback(Activity.IScreenCaptureCallback)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.focusedstateset">Activity.FocusedStateSet</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.actionbar">Activity.ActionBar</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.application">Activity.Application</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.caller">Activity.Caller</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.callingactivity">Activity.CallingActivity</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.callingpackage">Activity.CallingPackage</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.changingconfigurations">Activity.ChangingConfigurations</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.componentname">Activity.ComponentName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.contentscene">Activity.ContentScene</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.contenttransitionmanager">Activity.ContentTransitionManager</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.currentcaller">Activity.CurrentCaller</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.currentfocus">Activity.CurrentFocus</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.fragmentmanager">Activity.FragmentManager</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.haswindowfocus">Activity.HasWindowFocus</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.immersive">Activity.Immersive</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.initialcaller">Activity.InitialCaller</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.instancecount">Activity.InstanceCount</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.intent">Activity.Intent</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.isactivitytransitionrunning">Activity.IsActivityTransitionRunning</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ischangingconfigurations">Activity.IsChangingConfigurations</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.ischild">Activity.IsChild</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.isdestroyed">Activity.IsDestroyed</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.isfinishing">Activity.IsFinishing</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.isinmultiwindowmode">Activity.IsInMultiWindowMode</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.isinpictureinpicturemode">Activity.IsInPictureInPictureMode</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.islaunchedfrombubble">Activity.IsLaunchedFromBubble</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.islocalvoiceinteractionsupported">Activity.IsLocalVoiceInteractionSupported</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.istaskroot">Activity.IsTaskRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.isvoiceinteraction">Activity.IsVoiceInteraction</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.isvoiceinteractionroot">Activity.IsVoiceInteractionRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.lastnonconfigurationinstance">Activity.LastNonConfigurationInstance</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.launchedfrompackage">Activity.LaunchedFromPackage</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.launchedfromuid">Activity.LaunchedFromUid</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.layoutinflater">Activity.LayoutInflater</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.loadermanager">Activity.LoaderManager</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.localclassname">Activity.LocalClassName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.maxnumpictureinpictureactions">Activity.MaxNumPictureInPictureActions</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.mediacontroller">Activity.MediaController</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.menuinflater">Activity.MenuInflater</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.onbackinvokeddispatcher">Activity.OnBackInvokedDispatcher</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.parent">Activity.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.parentactivityintent">Activity.ParentActivityIntent</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.referrer">Activity.Referrer</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.requestedorientation">Activity.RequestedOrientation</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.searchevent">Activity.SearchEvent</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.splashscreen">Activity.SplashScreen</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.taskid">Activity.TaskId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.titleformatted">Activity.TitleFormatted</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.title">Activity.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.titlecolor">Activity.TitleColor</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.voiceinteractor">Activity.VoiceInteractor</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.volumecontrolstream">Activity.VolumeControlStream</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.window">Activity.Window</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.app.activity.windowmanager">Activity.WindowManager</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.contextthemewrapper.applyoverrideconfiguration">ContextThemeWrapper.ApplyOverrideConfiguration(Configuration)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.contextthemewrapper.onapplythemeresource">ContextThemeWrapper.OnApplyThemeResource(Resources.Theme, int, bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.views.contextthemewrapper.settheme">ContextThemeWrapper.SetTheme(Resources.Theme)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.attachbasecontext">ContextWrapper.AttachBaseContext(Context)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.bindservice">ContextWrapper.BindService(Intent, IServiceConnection, Bind)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkcallingorselfpermission">ContextWrapper.CheckCallingOrSelfPermission(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkcallingorselfuripermission">ContextWrapper.CheckCallingOrSelfUriPermission(Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkcallingpermission">ContextWrapper.CheckCallingPermission(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkcallinguripermission">ContextWrapper.CheckCallingUriPermission(Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkpermission">ContextWrapper.CheckPermission(string, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkselfpermission">ContextWrapper.CheckSelfPermission(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkuripermission#android-content-contextwrapper-checkuripermission(android-net-uri-system-int32-system-int32-android-content-activityflags)">ContextWrapper.CheckUriPermission(Uri, int, int, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.checkuripermission#android-content-contextwrapper-checkuripermission(android-net-uri-system-string-system-string-system-int32-system-int32-android-content-activityflags)">ContextWrapper.CheckUriPermission(Uri, string, string, int, int, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.clearwallpaper">ContextWrapper.ClearWallpaper()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createconfigurationcontext">ContextWrapper.CreateConfigurationContext(Configuration)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createcontextforsplit">ContextWrapper.CreateContextForSplit(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createdeviceprotectedstoragecontext">ContextWrapper.CreateDeviceProtectedStorageContext()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createdisplaycontext">ContextWrapper.CreateDisplayContext(Display)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.createpackagecontext">ContextWrapper.CreatePackageContext(string, PackageContextFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.databaselist">ContextWrapper.DatabaseList()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.deletedatabase">ContextWrapper.DeleteDatabase(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.deletefile">ContextWrapper.DeleteFile(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.deletesharedpreferences">ContextWrapper.DeleteSharedPreferences(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcecallingorselfpermission">ContextWrapper.EnforceCallingOrSelfPermission(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcecallingorselfuripermission">ContextWrapper.EnforceCallingOrSelfUriPermission(Uri, ActivityFlags, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcecallingpermission">ContextWrapper.EnforceCallingPermission(string, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcecallinguripermission">ContextWrapper.EnforceCallingUriPermission(Uri, ActivityFlags, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforcepermission">ContextWrapper.EnforcePermission(string, int, int, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforceuripermission#android-content-contextwrapper-enforceuripermission(android-net-uri-system-int32-system-int32-android-content-activityflags-system-string)">ContextWrapper.EnforceUriPermission(Uri, int, int, ActivityFlags, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.enforceuripermission#android-content-contextwrapper-enforceuripermission(android-net-uri-system-string-system-string-system-int32-system-int32-android-content-activityflags-system-string)">ContextWrapper.EnforceUriPermission(Uri, string, string, int, int, ActivityFlags, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.filelist">ContextWrapper.FileList()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getdatabasepath">ContextWrapper.GetDatabasePath(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getdir">ContextWrapper.GetDir(string, FileCreationMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getexternalcachedirs">ContextWrapper.GetExternalCacheDirs()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getexternalfilesdir">ContextWrapper.GetExternalFilesDir(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getexternalfilesdirs">ContextWrapper.GetExternalFilesDirs(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getexternalmediadirs">ContextWrapper.GetExternalMediaDirs()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getfilestreampath">ContextWrapper.GetFileStreamPath(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getobbdirs">ContextWrapper.GetObbDirs()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getsharedpreferences">ContextWrapper.GetSharedPreferences(string, FileCreationMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getsystemservice">ContextWrapper.GetSystemService(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.getsystemservicename">ContextWrapper.GetSystemServiceName(Class)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.granturipermission">ContextWrapper.GrantUriPermission(string, Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.movedatabasefrom">ContextWrapper.MoveDatabaseFrom(Context, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.movesharedpreferencesfrom">ContextWrapper.MoveSharedPreferencesFrom(Context, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.openfileinput">ContextWrapper.OpenFileInput(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.openfileoutput">ContextWrapper.OpenFileOutput(string, FileCreationMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.openorcreatedatabase#android-content-contextwrapper-openorcreatedatabase(system-string-android-content-filecreationmode-android-database-sqlite-sqlitedatabase-icursorfactory-android-database-idatabaseerrorhandler)">ContextWrapper.OpenOrCreateDatabase(string, FileCreationMode, SQLiteDatabase.ICursorFactory, IDatabaseErrorHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.openorcreatedatabase#android-content-contextwrapper-openorcreatedatabase(system-string-android-content-filecreationmode-android-database-sqlite-sqlitedatabase-icursorfactory)">ContextWrapper.OpenOrCreateDatabase(string, FileCreationMode, SQLiteDatabase.ICursorFactory)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.peekwallpaper">ContextWrapper.PeekWallpaper()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.registerreceiver#android-content-contextwrapper-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-android-content-activityflags)">ContextWrapper.RegisterReceiver(BroadcastReceiver, IntentFilter, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.registerreceiver#android-content-contextwrapper-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-system-string-android-os-handler-android-content-activityflags)">ContextWrapper.RegisterReceiver(BroadcastReceiver, IntentFilter, string, Handler, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.registerreceiver#android-content-contextwrapper-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-system-string-android-os-handler)">ContextWrapper.RegisterReceiver(BroadcastReceiver, IntentFilter, string, Handler)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.registerreceiver#android-content-contextwrapper-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter)">ContextWrapper.RegisterReceiver(BroadcastReceiver, IntentFilter)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.removestickybroadcast">ContextWrapper.RemoveStickyBroadcast(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.removestickybroadcastasuser">ContextWrapper.RemoveStickyBroadcastAsUser(Intent, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.revokeuripermission#android-content-contextwrapper-revokeuripermission(android-net-uri-android-content-activityflags)">ContextWrapper.RevokeUriPermission(Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.revokeuripermission#android-content-contextwrapper-revokeuripermission(system-string-android-net-uri-android-content-activityflags)">ContextWrapper.RevokeUriPermission(string, Uri, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendbroadcast#android-content-contextwrapper-sendbroadcast(android-content-intent-system-string)">ContextWrapper.SendBroadcast(Intent, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendbroadcast#android-content-contextwrapper-sendbroadcast(android-content-intent)">ContextWrapper.SendBroadcast(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendbroadcastasuser#android-content-contextwrapper-sendbroadcastasuser(android-content-intent-android-os-userhandle-system-string)">ContextWrapper.SendBroadcastAsUser(Intent, UserHandle, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendbroadcastasuser#android-content-contextwrapper-sendbroadcastasuser(android-content-intent-android-os-userhandle)">ContextWrapper.SendBroadcastAsUser(Intent, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendorderedbroadcast#android-content-contextwrapper-sendorderedbroadcast(android-content-intent-system-int32-system-string-system-string-android-content-broadcastreceiver-android-os-handler-system-string-android-os-bundle-android-os-bundle)">ContextWrapper.SendOrderedBroadcast(Intent, int, string, string, BroadcastReceiver, Handler, string, Bundle, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendorderedbroadcast#android-content-contextwrapper-sendorderedbroadcast(android-content-intent-system-string-android-content-broadcastreceiver-android-os-handler-android-app-result-system-string-android-os-bundle)">ContextWrapper.SendOrderedBroadcast(Intent, string, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendorderedbroadcast#android-content-contextwrapper-sendorderedbroadcast(android-content-intent-system-string)">ContextWrapper.SendOrderedBroadcast(Intent, string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendorderedbroadcastasuser">ContextWrapper.SendOrderedBroadcastAsUser(Intent, UserHandle, string, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendstickybroadcast">ContextWrapper.SendStickyBroadcast(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendstickybroadcastasuser">ContextWrapper.SendStickyBroadcastAsUser(Intent, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendstickyorderedbroadcast">ContextWrapper.SendStickyOrderedBroadcast(Intent, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.sendstickyorderedbroadcastasuser">ContextWrapper.SendStickyOrderedBroadcastAsUser(Intent, UserHandle, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.settheme">ContextWrapper.SetTheme(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.setwallpaper#android-content-contextwrapper-setwallpaper(android-graphics-bitmap)">ContextWrapper.SetWallpaper(Bitmap)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.setwallpaper#android-content-contextwrapper-setwallpaper(system-io-stream)">ContextWrapper.SetWallpaper(Stream)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startactivities#android-content-contextwrapper-startactivities(android-content-intent()-android-os-bundle)">ContextWrapper.StartActivities(Intent[], Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startactivities#android-content-contextwrapper-startactivities(android-content-intent())">ContextWrapper.StartActivities(Intent[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startactivity#android-content-contextwrapper-startactivity(android-content-intent-android-os-bundle)">ContextWrapper.StartActivity(Intent, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startactivity#android-content-contextwrapper-startactivity(android-content-intent)">ContextWrapper.StartActivity(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startforegroundservice">ContextWrapper.StartForegroundService(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startinstrumentation">ContextWrapper.StartInstrumentation(ComponentName, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startintentsender#android-content-contextwrapper-startintentsender(android-content-intentsender-android-content-intent-android-content-activityflags-android-content-activityflags-system-int32-android-os-bundle)">ContextWrapper.StartIntentSender(IntentSender, Intent, ActivityFlags, ActivityFlags, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startintentsender#android-content-contextwrapper-startintentsender(android-content-intentsender-android-content-intent-android-content-activityflags-android-content-activityflags-system-int32)">ContextWrapper.StartIntentSender(IntentSender, Intent, ActivityFlags, ActivityFlags, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.startservice">ContextWrapper.StartService(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.stopservice">ContextWrapper.StopService(Intent)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.unbindservice">ContextWrapper.UnbindService(IServiceConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.unregisterreceiver">ContextWrapper.UnregisterReceiver(BroadcastReceiver)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.applicationcontext">ContextWrapper.ApplicationContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.applicationinfo">ContextWrapper.ApplicationInfo</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.assets">ContextWrapper.Assets</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.basecontext">ContextWrapper.BaseContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.cachedir">ContextWrapper.CacheDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.classloader">ContextWrapper.ClassLoader</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.codecachedir">ContextWrapper.CodeCacheDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.contentresolver">ContextWrapper.ContentResolver</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.datadir">ContextWrapper.DataDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.externalcachedir">ContextWrapper.ExternalCacheDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.filesdir">ContextWrapper.FilesDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.isdeviceprotectedstorage">ContextWrapper.IsDeviceProtectedStorage</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.mainlooper">ContextWrapper.MainLooper</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.nobackupfilesdir">ContextWrapper.NoBackupFilesDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.obbdir">ContextWrapper.ObbDir</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.packagecodepath">ContextWrapper.PackageCodePath</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.packagemanager">ContextWrapper.PackageManager</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.packagename">ContextWrapper.PackageName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.packageresourcepath">ContextWrapper.PackageResourcePath</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.resources">ContextWrapper.Resources</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.theme">ContextWrapper.Theme</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.wallpaper">ContextWrapper.Wallpaper</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.wallpaperdesiredminimumheight">ContextWrapper.WallpaperDesiredMinimumHeight</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.contextwrapper.wallpaperdesiredminimumwidth">ContextWrapper.WallpaperDesiredMinimumWidth</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.receivervisibletoinstantapps">Context.ReceiverVisibleToInstantApps</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.accessibilityservice">Context.AccessibilityService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.accountservice">Context.AccountService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.activityservice">Context.ActivityService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.alarmservice">Context.AlarmService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.appopsservice">Context.AppOpsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.appsearchservice">Context.AppSearchService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.appwidgetservice">Context.AppwidgetService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.audioservice">Context.AudioService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.batteryservice">Context.BatteryService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindallowactivitystarts">Context.BindAllowActivityStarts</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindexternalservicelong">Context.BindExternalServiceLong</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindnotperceptible">Context.BindNotPerceptible</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindpackageisolatedprocess">Context.BindPackageIsolatedProcess</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindsharedisolatedprocess">Context.BindSharedIsolatedProcess</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.biometricservice">Context.BiometricService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.blobstoreservice">Context.BlobStoreService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bluetoothservice">Context.BluetoothService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bugreportservice">Context.BugreportService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.cameraservice">Context.CameraService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.captioningservice">Context.CaptioningService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.carrierconfigservice">Context.CarrierConfigService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.clipboardservice">Context.ClipboardService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.companiondeviceservice">Context.CompanionDeviceService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.connectivitydiagnosticsservice">Context.ConnectivityDiagnosticsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.connectivityservice">Context.ConnectivityService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.consumerirservice">Context.ConsumerIrService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.contactkeysservice">Context.ContactKeysService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.credentialservice">Context.CredentialService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.crossprofileappsservice">Context.CrossProfileAppsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.deviceiddefault">Context.DeviceIdDefault</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.deviceidinvalid">Context.DeviceIdInvalid</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.devicelockservice">Context.DeviceLockService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.devicepolicyservice">Context.DevicePolicyService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.displayhashservice">Context.DisplayHashService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.displayservice">Context.DisplayService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.domainverificationservice">Context.DomainVerificationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.downloadservice">Context.DownloadService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.dropboxservice">Context.DropboxService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.euiccservice">Context.EuiccService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.fileintegrityservice">Context.FileIntegrityService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.fingerprintservice">Context.FingerprintService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.gameservice">Context.GameService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.grammaticalinflectionservice">Context.GrammaticalInflectionService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.hardwarepropertiesservice">Context.HardwarePropertiesService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.healthconnectservice">Context.HealthconnectService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.inputmethodservice">Context.InputMethodService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.inputservice">Context.InputService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.ipsecservice">Context.IpsecService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.jobschedulerservice">Context.JobSchedulerService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.keyguardservice">Context.KeyguardService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.launcherappsservice">Context.LauncherAppsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.layoutinflaterservice">Context.LayoutInflaterService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.localeservice">Context.LocaleService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.locationservice">Context.LocationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediacommunicationservice">Context.MediaCommunicationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediametricsservice">Context.MediaMetricsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediaprojectionservice">Context.MediaProjectionService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediarouterservice">Context.MediaRouterService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mediasessionservice">Context.MediaSessionService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.midiservice">Context.MidiService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.networkstatsservice">Context.NetworkStatsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.nfcservice">Context.NfcService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.notificationservice">Context.NotificationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.nsdservice">Context.NsdService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.overlayservice">Context.OverlayService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.peopleservice">Context.PeopleService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.performancehintservice">Context.PerformanceHintService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.persistentdatablockservice">Context.PersistentDataBlockService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.powerservice">Context.PowerService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.printservice">Context.PrintService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.profilingservice">Context.ProfilingService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.receiverexported">Context.ReceiverExported</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.receivernotexported">Context.ReceiverNotExported</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.restrictionsservice">Context.RestrictionsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.roleservice">Context.RoleService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.searchservice">Context.SearchService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.securitystateservice">Context.SecurityStateService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sensorservice">Context.SensorService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.shortcutservice">Context.ShortcutService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.statusbarservice">Context.StatusBarService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.storageservice">Context.StorageService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.storagestatsservice">Context.StorageStatsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.systemhealthservice">Context.SystemHealthService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.telecomservice">Context.TelecomService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.telephonyimsservice">Context.TelephonyImsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.telephonyservice">Context.TelephonyService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.telephonysubscriptionservice">Context.TelephonySubscriptionService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.textclassificationservice">Context.TextClassificationService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.textservicesmanagerservice">Context.TextServicesManagerService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.tvinputservice">Context.TvInputService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.tvinteractiveappservice">Context.TvInteractiveAppService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.uimodeservice">Context.UiModeService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.usagestatsservice">Context.UsageStatsService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.usbservice">Context.UsbService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.userservice">Context.UserService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.vibratormanagerservice">Context.VibratorManagerService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.vibratorservice">Context.VibratorService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.virtualdeviceservice">Context.VirtualDeviceService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.vpnmanagementservice">Context.VpnManagementService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wallpaperservice">Context.WallpaperService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wifiawareservice">Context.WifiAwareService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wifip2pservice">Context.WifiP2pService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wifirttrangingservice">Context.WifiRttRangingService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.wifiservice">Context.WifiService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.windowservice">Context.WindowService</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.startactivity#android-content-context-startactivity(system-type)">Context.StartActivity(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.registerreceiver#android-content-context-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-android-content-receiverflags)">Context.RegisterReceiver(BroadcastReceiver, IntentFilter, ReceiverFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.registerreceiver#android-content-context-registerreceiver(android-content-broadcastreceiver-android-content-intentfilter-system-string-android-os-handler-android-content-receiverflags)">Context.RegisterReceiver(BroadcastReceiver, IntentFilter, string, Handler, ReceiverFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindisolatedservice#android-content-context-bindisolatedservice(android-content-intent-android-content-context-bindserviceflags-system-string-java-util-concurrent-iexecutor-android-content-iserviceconnection)">Context.BindIsolatedService(Intent, Context.BindServiceFlags, string, IExecutor, IServiceConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindisolatedservice#android-content-context-bindisolatedservice(android-content-intent-system-int32-system-string-java-util-concurrent-iexecutor-android-content-iserviceconnection)">Context.BindIsolatedService(Intent, int, string, IExecutor, IServiceConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindservice#android-content-context-bindservice(android-content-intent-android-content-context-bindserviceflags-java-util-concurrent-iexecutor-android-content-iserviceconnection)">Context.BindService(Intent, Context.BindServiceFlags, IExecutor, IServiceConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindservice#android-content-context-bindservice(android-content-intent-android-content-iserviceconnection-android-content-context-bindserviceflags)">Context.BindService(Intent, IServiceConnection, Context.BindServiceFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindservice#android-content-context-bindservice(android-content-intent-android-content-bind-java-util-concurrent-iexecutor-android-content-iserviceconnection)">Context.BindService(Intent, Bind, IExecutor, IServiceConnection)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindserviceasuser#android-content-context-bindserviceasuser(android-content-intent-android-content-iserviceconnection-android-content-context-bindserviceflags-android-os-userhandle)">Context.BindServiceAsUser(Intent, IServiceConnection, Context.BindServiceFlags, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.bindserviceasuser#android-content-context-bindserviceasuser(android-content-intent-android-content-iserviceconnection-system-int32-android-os-userhandle)">Context.BindServiceAsUser(Intent, IServiceConnection, int, UserHandle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.checkcallingorselfuripermissions">Context.CheckCallingOrSelfUriPermissions(IList&lt;Uri&gt;, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.checkcallinguripermissions">Context.CheckCallingUriPermissions(IList&lt;Uri&gt;, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.checkcontenturipermissionfull">Context.CheckContentUriPermissionFull(Uri, int, int, ActivityFlags)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.checkuripermissions">Context.CheckUriPermissions(IList&lt;Uri&gt;, int, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createattributioncontext">Context.CreateAttributionContext(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createcontext">Context.CreateContext(ContextParams)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createdevicecontext">Context.CreateDeviceContext(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createwindowcontext#android-content-context-createwindowcontext(android-views-display-system-int32-android-os-bundle)">Context.CreateWindowContext(Display, int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.createwindowcontext#android-content-context-createwindowcontext(system-int32-android-os-bundle)">Context.CreateWindowContext(int, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getcolor">Context.GetColor(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getcolorstatelist">Context.GetColorStateList(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getdrawable">Context.GetDrawable(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getstring#android-content-context-getstring(system-int32-java-lang-object())">Context.GetString(int, params Object[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getstring#android-content-context-getstring(system-int32)">Context.GetString(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.getsystemservice#android-content-context-getsystemservice(java-lang-class)">Context.GetSystemService(Class)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.gettextformatted">Context.GetTextFormatted(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.gettext">Context.GetText(int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.obtainstyledattributes#android-content-context-obtainstyledattributes(android-util-iattributeset-system-int32()-system-int32-system-int32)">Context.ObtainStyledAttributes(IAttributeSet, int[], int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.obtainstyledattributes#android-content-context-obtainstyledattributes(android-util-iattributeset-system-int32())">Context.ObtainStyledAttributes(IAttributeSet, int[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.obtainstyledattributes#android-content-context-obtainstyledattributes(system-int32-system-int32())">Context.ObtainStyledAttributes(int, int[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.obtainstyledattributes#android-content-context-obtainstyledattributes(system-int32())">Context.ObtainStyledAttributes(int[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.registercomponentcallbacks">Context.RegisterComponentCallbacks(IComponentCallbacks)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.registerdeviceidchangelistener">Context.RegisterDeviceIdChangeListener(IExecutor, IIntConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.revokeselfpermissiononkill">Context.RevokeSelfPermissionOnKill(string)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.revokeselfpermissionsonkill">Context.RevokeSelfPermissionsOnKill(ICollection&lt;string&gt;)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendbroadcast#android-content-context-sendbroadcast(android-content-intent-system-string-android-os-bundle)">Context.SendBroadcast(Intent, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendbroadcastwithmultiplepermissions">Context.SendBroadcastWithMultiplePermissions(Intent, string[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendorderedbroadcast#android-content-context-sendorderedbroadcast(android-content-intent-system-string-android-os-bundle-android-content-broadcastreceiver-android-os-handler-android-app-result-system-string-android-os-bundle)">Context.SendOrderedBroadcast(Intent, string, Bundle, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendorderedbroadcast#android-content-context-sendorderedbroadcast(android-content-intent-system-string-android-os-bundle)">Context.SendOrderedBroadcast(Intent, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendorderedbroadcast#android-content-context-sendorderedbroadcast(android-content-intent-system-string-system-string-android-content-broadcastreceiver-android-os-handler-android-app-result-system-string-android-os-bundle)">Context.SendOrderedBroadcast(Intent, string, string, BroadcastReceiver, Handler, Result, string, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.sendstickybroadcast#android-content-context-sendstickybroadcast(android-content-intent-android-os-bundle)">Context.SendStickyBroadcast(Intent, Bundle)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.unregistercomponentcallbacks">Context.UnregisterComponentCallbacks(IComponentCallbacks)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.unregisterdeviceidchangelistener">Context.UnregisterDeviceIdChangeListener(IIntConsumer)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.updateservicegroup">Context.UpdateServiceGroup(IServiceConnection, int, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.attributionsource">Context.AttributionSource</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.attributiontag">Context.AttributionTag</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.deviceid">Context.DeviceId</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.display">Context.Display</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.isrestricted">Context.IsRestricted</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.isuicontext">Context.IsUiContext</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.mainexecutor">Context.MainExecutor</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.oppackagename">Context.OpPackageName</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/android.content.context.params">Context.Params</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.dispose#java-lang-object-dispose">Object.Dispose()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.dispose#java-lang-object-dispose(system-boolean)">Object.Dispose(bool)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.getobject#java-lang-object-getobject-1(system-intptr-system-intptr-android-runtime-jnihandleownership)">Object.GetObject&lt;T&gt;(nint, nint, JniHandleOwnership)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.getobject#java-lang-object-getobject-1(system-intptr-android-runtime-jnihandleownership)">Object.GetObject&lt;T&gt;(nint, JniHandleOwnership)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.fromarray">Object.FromArray&lt;T&gt;(T[])</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.clone">Object.Clone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.equals">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.javafinalize">Object.JavaFinalize()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.gethashcode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.notify">Object.Notify()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.notifyall">Object.NotifyAll()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.tostring">Object.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.wait#java-lang-object-wait">Object.Wait()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.wait#java-lang-object-wait(system-int64-system-int32)">Object.Wait(long, int)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.wait#java-lang-object-wait(system-int64)">Object.Wait(long)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/java.lang.object.class">Object.Class</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations.Sample/Platforms/Android/MainActivity.cs/#L7" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

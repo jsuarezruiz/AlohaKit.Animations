@@ -1,0 +1,360 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.EasingType
+  commentId: T:AlohaKit.Animations.EasingType
+  id: EasingType
+  parent: AlohaKit.Animations
+  children:
+  - AlohaKit.Animations.EasingType.BounceIn
+  - AlohaKit.Animations.EasingType.BounceOut
+  - AlohaKit.Animations.EasingType.CubicIn
+  - AlohaKit.Animations.EasingType.CubicInOut
+  - AlohaKit.Animations.EasingType.CubicOut
+  - AlohaKit.Animations.EasingType.Linear
+  - AlohaKit.Animations.EasingType.SinIn
+  - AlohaKit.Animations.EasingType.SinInOut
+  - AlohaKit.Animations.EasingType.SinOut
+  - AlohaKit.Animations.EasingType.SpringIn
+  - AlohaKit.Animations.EasingType.SpringOut
+  langs:
+  - csharp
+  - vb
+  name: EasingType
+  nameWithType: EasingType
+  fullName: AlohaKit.Animations.EasingType
+  type: Enum
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: EasingType
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 6
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: >-
+    The EasingType enum provides a set of predefined easing functions used in animations. 
+
+    Each easing type determines the progression and behavior of an animation over time, allowing you to create smooth and visually appealing transitions.
+  example: []
+  syntax:
+    content: public enum EasingType
+    content.vb: Public Enum EasingType
+- uid: AlohaKit.Animations.EasingType.BounceIn
+  commentId: F:AlohaKit.Animations.EasingType.BounceIn
+  id: BounceIn
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: BounceIn
+  nameWithType: EasingType.BounceIn
+  fullName: AlohaKit.Animations.EasingType.BounceIn
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: BounceIn
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 8
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: BounceIn = 0
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.BounceOut
+  commentId: F:AlohaKit.Animations.EasingType.BounceOut
+  id: BounceOut
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: BounceOut
+  nameWithType: EasingType.BounceOut
+  fullName: AlohaKit.Animations.EasingType.BounceOut
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: BounceOut
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 9
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: BounceOut = 1
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.CubicIn
+  commentId: F:AlohaKit.Animations.EasingType.CubicIn
+  id: CubicIn
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: CubicIn
+  nameWithType: EasingType.CubicIn
+  fullName: AlohaKit.Animations.EasingType.CubicIn
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: CubicIn
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 10
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: CubicIn = 2
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.CubicInOut
+  commentId: F:AlohaKit.Animations.EasingType.CubicInOut
+  id: CubicInOut
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: CubicInOut
+  nameWithType: EasingType.CubicInOut
+  fullName: AlohaKit.Animations.EasingType.CubicInOut
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: CubicInOut
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 11
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: CubicInOut = 3
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.CubicOut
+  commentId: F:AlohaKit.Animations.EasingType.CubicOut
+  id: CubicOut
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: CubicOut
+  nameWithType: EasingType.CubicOut
+  fullName: AlohaKit.Animations.EasingType.CubicOut
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: CubicOut
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 12
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: CubicOut = 4
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.Linear
+  commentId: F:AlohaKit.Animations.EasingType.Linear
+  id: Linear
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: Linear
+  nameWithType: EasingType.Linear
+  fullName: AlohaKit.Animations.EasingType.Linear
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: Linear
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 13
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: Linear = 5
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.SinIn
+  commentId: F:AlohaKit.Animations.EasingType.SinIn
+  id: SinIn
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: SinIn
+  nameWithType: EasingType.SinIn
+  fullName: AlohaKit.Animations.EasingType.SinIn
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: SinIn
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 14
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: SinIn = 6
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.SinInOut
+  commentId: F:AlohaKit.Animations.EasingType.SinInOut
+  id: SinInOut
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: SinInOut
+  nameWithType: EasingType.SinInOut
+  fullName: AlohaKit.Animations.EasingType.SinInOut
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: SinInOut
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 15
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: SinInOut = 7
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.SinOut
+  commentId: F:AlohaKit.Animations.EasingType.SinOut
+  id: SinOut
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: SinOut
+  nameWithType: EasingType.SinOut
+  fullName: AlohaKit.Animations.EasingType.SinOut
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: SinOut
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 16
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: SinOut = 8
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.SpringIn
+  commentId: F:AlohaKit.Animations.EasingType.SpringIn
+  id: SpringIn
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: SpringIn
+  nameWithType: EasingType.SpringIn
+  fullName: AlohaKit.Animations.EasingType.SpringIn
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: SpringIn
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 17
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: SpringIn = 9
+    return:
+      type: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.EasingType.SpringOut
+  commentId: F:AlohaKit.Animations.EasingType.SpringOut
+  id: SpringOut
+  parent: AlohaKit.Animations.EasingType
+  langs:
+  - csharp
+  - vb
+  name: SpringOut
+  nameWithType: EasingType.SpringOut
+  fullName: AlohaKit.Animations.EasingType.SpringOut
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/EasingType.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: SpringOut
+    path: ../src/AlohaKit.Animations/Animations/EasingType.cs
+    startLine: 18
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: SpringOut = 10
+    return:
+      type: AlohaKit.Animations.EasingType
+references:
+- uid: AlohaKit.Animations
+  commentId: N:AlohaKit.Animations
+  href: AlohaKit.html
+  name: AlohaKit.Animations
+  nameWithType: AlohaKit.Animations
+  fullName: AlohaKit.Animations
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+- uid: AlohaKit.Animations.EasingType
+  commentId: T:AlohaKit.Animations.EasingType
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.EasingType.html
+  name: EasingType
+  nameWithType: EasingType
+  fullName: AlohaKit.Animations.EasingType

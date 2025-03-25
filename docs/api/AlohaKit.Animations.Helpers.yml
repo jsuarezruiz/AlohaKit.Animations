@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.Helpers
+  commentId: N:AlohaKit.Animations.Helpers
+  id: AlohaKit.Animations.Helpers
+  children:
+  - AlohaKit.Animations.Helpers.AnimationHelper
+  - AlohaKit.Animations.Helpers.EasingHelper
+  - AlohaKit.Animations.Helpers.VisualTreeHelper
+  langs:
+  - csharp
+  - vb
+  name: AlohaKit.Animations.Helpers
+  nameWithType: AlohaKit.Animations.Helpers
+  fullName: AlohaKit.Animations.Helpers
+  type: Namespace
+  assemblies:
+  - AlohaKit.Animations
+references:
+- uid: AlohaKit.Animations.Helpers.AnimationHelper
+  commentId: T:AlohaKit.Animations.Helpers.AnimationHelper
+  href: AlohaKit.Animations.Helpers.AnimationHelper.html
+  name: AnimationHelper
+  nameWithType: AnimationHelper
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper
+- uid: AlohaKit.Animations.Helpers.EasingHelper
+  commentId: T:AlohaKit.Animations.Helpers.EasingHelper
+  href: AlohaKit.Animations.Helpers.EasingHelper.html
+  name: EasingHelper
+  nameWithType: EasingHelper
+  fullName: AlohaKit.Animations.Helpers.EasingHelper
+- uid: AlohaKit.Animations.Helpers.VisualTreeHelper
+  commentId: T:AlohaKit.Animations.Helpers.VisualTreeHelper
+  href: AlohaKit.Animations.Helpers.VisualTreeHelper.html
+  name: VisualTreeHelper
+  nameWithType: VisualTreeHelper
+  fullName: AlohaKit.Animations.Helpers.VisualTreeHelper

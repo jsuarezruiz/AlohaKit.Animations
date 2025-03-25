@@ -1,0 +1,58 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.Sample
+  commentId: N:AlohaKit.Animations.Sample
+  id: AlohaKit.Animations.Sample
+  children:
+  - AlohaKit.Animations.Sample.App
+  - AlohaKit.Animations.Sample.AppShell
+  - AlohaKit.Animations.Sample.MainActivity
+  - AlohaKit.Animations.Sample.MainApplication
+  - AlohaKit.Animations.Sample.MauiProgram
+  - AlohaKit.Animations.Sample.Resource
+  langs:
+  - csharp
+  - vb
+  name: AlohaKit.Animations.Sample
+  nameWithType: AlohaKit.Animations.Sample
+  fullName: AlohaKit.Animations.Sample
+  type: Namespace
+  assemblies:
+  - AlohaKit.Animations.Sample
+references:
+- uid: AlohaKit.Animations.Sample.App
+  commentId: T:AlohaKit.Animations.Sample.App
+  href: AlohaKit.Animations.Sample.App.html
+  name: App
+  nameWithType: App
+  fullName: AlohaKit.Animations.Sample.App
+- uid: AlohaKit.Animations.Sample.AppShell
+  commentId: T:AlohaKit.Animations.Sample.AppShell
+  href: AlohaKit.Animations.Sample.AppShell.html
+  name: AppShell
+  nameWithType: AppShell
+  fullName: AlohaKit.Animations.Sample.AppShell
+- uid: AlohaKit.Animations.Sample.MauiProgram
+  commentId: T:AlohaKit.Animations.Sample.MauiProgram
+  href: AlohaKit.Animations.Sample.MauiProgram.html
+  name: MauiProgram
+  nameWithType: MauiProgram
+  fullName: AlohaKit.Animations.Sample.MauiProgram
+- uid: AlohaKit.Animations.Sample.MainActivity
+  commentId: T:AlohaKit.Animations.Sample.MainActivity
+  href: AlohaKit.Animations.Sample.MainActivity.html
+  name: MainActivity
+  nameWithType: MainActivity
+  fullName: AlohaKit.Animations.Sample.MainActivity
+- uid: AlohaKit.Animations.Sample.MainApplication
+  commentId: T:AlohaKit.Animations.Sample.MainApplication
+  href: AlohaKit.Animations.Sample.MainApplication.html
+  name: MainApplication
+  nameWithType: MainApplication
+  fullName: AlohaKit.Animations.Sample.MainApplication
+- uid: AlohaKit.Animations.Sample.Resource
+  commentId: T:AlohaKit.Animations.Sample.Resource
+  href: AlohaKit.Animations.Sample.Resource.html
+  name: Resource
+  nameWithType: Resource
+  fullName: AlohaKit.Animations.Sample.Resource

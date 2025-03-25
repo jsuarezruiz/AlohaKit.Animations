@@ -1,0 +1,543 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.Helpers.VisualTreeHelper
+  commentId: T:AlohaKit.Animations.Helpers.VisualTreeHelper
+  id: VisualTreeHelper
+  parent: AlohaKit.Animations.Helpers
+  children:
+  - AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren``1(Microsoft.Maui.Controls.Element)
+  - AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+  langs:
+  - csharp
+  - vb
+  name: VisualTreeHelper
+  nameWithType: VisualTreeHelper
+  fullName: AlohaKit.Animations.Helpers.VisualTreeHelper
+  type: Class
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/VisualTreeHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: VisualTreeHelper
+    path: ../src/AlohaKit.Animations/Helpers/VisualTreeHelper.cs
+    startLine: 7
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  syntax:
+    content: public static class VisualTreeHelper
+    content.vb: Public Module VisualTreeHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+  commentId: M:AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent``1(Microsoft.Maui.Controls.Element)
+  id: GetParent``1(Microsoft.Maui.Controls.Element)
+  isExtensionMethod: true
+  parent: AlohaKit.Animations.Helpers.VisualTreeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetParent<T>(Element)
+  nameWithType: VisualTreeHelper.GetParent<T>(Element)
+  fullName: AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent<T>(Microsoft.Maui.Controls.Element)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/VisualTreeHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: GetParent
+    path: ../src/AlohaKit.Animations/Helpers/VisualTreeHelper.cs
+    startLine: 9
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  syntax:
+    content: 'public static T GetParent<T>(this Element element) where T : Element'
+    parameters:
+    - id: element
+      type: Microsoft.Maui.Controls.Element
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetParent(Of T As Element)(element As Element) As T
+  overload: AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent*
+  nameWithType.vb: VisualTreeHelper.GetParent(Of T)(Element)
+  fullName.vb: AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent(Of T)(Microsoft.Maui.Controls.Element)
+  name.vb: GetParent(Of T)(Element)
+- uid: AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren``1(Microsoft.Maui.Controls.Element)
+  commentId: M:AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren``1(Microsoft.Maui.Controls.Element)
+  id: GetChildren``1(Microsoft.Maui.Controls.Element)
+  isExtensionMethod: true
+  parent: AlohaKit.Animations.Helpers.VisualTreeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetChildren<T>(Element)
+  nameWithType: VisualTreeHelper.GetChildren<T>(Element)
+  fullName: AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren<T>(Microsoft.Maui.Controls.Element)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/VisualTreeHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: GetChildren
+    path: ../src/AlohaKit.Animations/Helpers/VisualTreeHelper.cs
+    startLine: 26
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  syntax:
+    content: 'public static IEnumerable<T> GetChildren<T>(this Element element) where T : Element'
+    parameters:
+    - id: element
+      type: Microsoft.Maui.Controls.Element
+    typeParameters:
+    - id: T
+    return:
+      type: System.Collections.Generic.IEnumerable{{T}}
+    content.vb: Public Shared Function GetChildren(Of T As Element)(element As Element) As IEnumerable(Of T)
+  overload: AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren*
+  nameWithType.vb: VisualTreeHelper.GetChildren(Of T)(Element)
+  fullName.vb: AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren(Of T)(Microsoft.Maui.Controls.Element)
+  name.vb: GetChildren(Of T)(Element)
+references:
+- uid: AlohaKit.Animations.Helpers
+  commentId: N:AlohaKit.Animations.Helpers
+  href: AlohaKit.html
+  name: AlohaKit.Animations.Helpers
+  nameWithType: AlohaKit.Animations.Helpers
+  fullName: AlohaKit.Animations.Helpers
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  - name: .
+  - uid: AlohaKit.Animations.Helpers
+    name: Helpers
+    href: AlohaKit.Animations.Helpers.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  - name: .
+  - uid: AlohaKit.Animations.Helpers
+    name: Helpers
+    href: AlohaKit.Animations.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent*
+  commentId: Overload:AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent
+  href: AlohaKit.Animations.Helpers.VisualTreeHelper.html#AlohaKit_Animations_Helpers_VisualTreeHelper_GetParent__1_Microsoft_Maui_Controls_Element_
+  name: GetParent
+  nameWithType: VisualTreeHelper.GetParent
+  fullName: AlohaKit.Animations.Helpers.VisualTreeHelper.GetParent
+- uid: Microsoft.Maui.Controls.Element
+  commentId: T:Microsoft.Maui.Controls.Element
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  name: Element
+  nameWithType: Element
+  fullName: Microsoft.Maui.Controls.Element
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren*
+  commentId: Overload:AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren
+  href: AlohaKit.Animations.Helpers.VisualTreeHelper.html#AlohaKit_Animations_Helpers_VisualTreeHelper_GetChildren__1_Microsoft_Maui_Controls_Element_
+  name: GetChildren
+  nameWithType: VisualTreeHelper.GetChildren
+  fullName: AlohaKit.Animations.Helpers.VisualTreeHelper.GetChildren
+- uid: System.Collections.Generic.IEnumerable{{T}}
+  commentId: T:System.Collections.Generic.IEnumerable{``0}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.IEnumerable`1
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic.IEnumerable`1
+  commentId: T:System.Collections.Generic.IEnumerable`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  name: IEnumerable<T>
+  nameWithType: IEnumerable<T>
+  fullName: System.Collections.Generic.IEnumerable<T>
+  nameWithType.vb: IEnumerable(Of T)
+  fullName.vb: System.Collections.Generic.IEnumerable(Of T)
+  name.vb: IEnumerable(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.Collections
+    name: Collections
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections
+  - name: .
+  - uid: System.Collections.Generic
+    name: Generic
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.collections.generic

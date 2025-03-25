@@ -1,0 +1,838 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.AnimateInt
+  commentId: T:AlohaKit.Animations.AnimateInt
+  id: AnimateInt
+  parent: AlohaKit.Animations
+  children:
+  - AlohaKit.Animations.AnimateInt.Invoke(Microsoft.Maui.Controls.VisualElement)
+  langs:
+  - csharp
+  - vb
+  name: AnimateInt
+  nameWithType: AnimateInt
+  fullName: AlohaKit.Animations.AnimateInt
+  type: Class
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Triggers/AnimateInt.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: AnimateInt
+    path: ../src/AlohaKit.Animations/Triggers/AnimateInt.cs
+    startLine: 10
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: >-
+    The AnimateInt class provides functionality to animate the transition of an integer property
+
+    on a visual element using interpolation based on animation progress.
+  example: []
+  syntax:
+    content: 'public class AnimateInt : AnimationBaseTrigger<int>'
+    content.vb: Public Class AnimateInt Inherits AnimationBaseTrigger(Of Integer)
+  inheritance:
+  - System.Object
+  - Microsoft.Maui.Controls.TriggerAction
+  - Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}
+  - AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  inheritedMembers:
+  - AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.From
+  - AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.To
+  - AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Duration
+  - AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Delay
+  - AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Easing
+  - AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.TargetProperty
+  - AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.SetDefaultFrom(System.Int32)
+  - Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}.Invoke(System.Object)
+  - Microsoft.Maui.Controls.TriggerAction.AssociatedType
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: AlohaKit.Animations.AnimateInt.Invoke(Microsoft.Maui.Controls.VisualElement)
+  commentId: M:AlohaKit.Animations.AnimateInt.Invoke(Microsoft.Maui.Controls.VisualElement)
+  id: Invoke(Microsoft.Maui.Controls.VisualElement)
+  parent: AlohaKit.Animations.AnimateInt
+  langs:
+  - csharp
+  - vb
+  name: Invoke(VisualElement)
+  nameWithType: AnimateInt.Invoke(VisualElement)
+  fullName: AlohaKit.Animations.AnimateInt.Invoke(Microsoft.Maui.Controls.VisualElement)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Triggers/AnimateInt.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: Invoke
+    path: ../src/AlohaKit.Animations/Triggers/AnimateInt.cs
+    startLine: 19
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: >-
+    Invokes the integer property animation on the specified visual element.
+
+    Applies progress-based interpolation to transition the property from the initial value (From)
+
+    to the target value (To).
+  example: []
+  syntax:
+    content: protected override void Invoke(VisualElement sender)
+    parameters:
+    - id: sender
+      type: Microsoft.Maui.Controls.VisualElement
+      description: The visual element on which the animation is applied.
+    content.vb: Protected Overrides Sub Invoke(sender As VisualElement)
+  overridden: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Invoke(Microsoft.Maui.Controls.VisualElement)
+  overload: AlohaKit.Animations.AnimateInt.Invoke*
+  exceptions:
+  - type: System.NullReferenceException
+    commentId: T:System.NullReferenceException
+    description: Thrown if the TargetProperty is null.
+references:
+- uid: AlohaKit.Animations
+  commentId: N:AlohaKit.Animations
+  href: AlohaKit.html
+  name: AlohaKit.Animations
+  nameWithType: AlohaKit.Animations
+  fullName: AlohaKit.Animations
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.Maui.Controls.TriggerAction
+  commentId: T:Microsoft.Maui.Controls.TriggerAction
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction
+  name: TriggerAction
+  nameWithType: TriggerAction
+  fullName: Microsoft.Maui.Controls.TriggerAction
+- uid: Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}
+  commentId: T:Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}
+  parent: Microsoft.Maui.Controls
+  definition: Microsoft.Maui.Controls.TriggerAction`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1
+  name: TriggerAction<VisualElement>
+  nameWithType: TriggerAction<VisualElement>
+  fullName: Microsoft.Maui.Controls.TriggerAction<Microsoft.Maui.Controls.VisualElement>
+  nameWithType.vb: TriggerAction(Of VisualElement)
+  fullName.vb: Microsoft.Maui.Controls.TriggerAction(Of Microsoft.Maui.Controls.VisualElement)
+  name.vb: TriggerAction(Of VisualElement)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.TriggerAction`1
+    name: TriggerAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1
+  - name: <
+  - uid: Microsoft.Maui.Controls.VisualElement
+    name: VisualElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.visualelement
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.TriggerAction`1
+    name: TriggerAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Microsoft.Maui.Controls.VisualElement
+    name: VisualElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.visualelement
+  - name: )
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  commentId: T:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  parent: AlohaKit.Animations
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  name: AnimationBaseTrigger<int>
+  nameWithType: AnimationBaseTrigger<int>
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>
+  nameWithType.vb: AnimationBaseTrigger(Of Integer)
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer)
+  name.vb: AnimationBaseTrigger(Of Integer)
+  spec.csharp:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1
+    name: AnimationBaseTrigger
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  - name: <
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: '>'
+  spec.vb:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1
+    name: AnimationBaseTrigger
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.From
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.From
+  parent: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1.From
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_From
+  name: From
+  nameWithType: AnimationBaseTrigger<int>.From
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>.From
+  nameWithType.vb: AnimationBaseTrigger(Of Integer).From
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer).From
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.To
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.To
+  parent: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1.To
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_To
+  name: To
+  nameWithType: AnimationBaseTrigger<int>.To
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>.To
+  nameWithType.vb: AnimationBaseTrigger(Of Integer).To
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer).To
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Duration
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Duration
+  parent: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1.Duration
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Duration
+  name: Duration
+  nameWithType: AnimationBaseTrigger<int>.Duration
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>.Duration
+  nameWithType.vb: AnimationBaseTrigger(Of Integer).Duration
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer).Duration
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Delay
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Delay
+  parent: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1.Delay
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Delay
+  name: Delay
+  nameWithType: AnimationBaseTrigger<int>.Delay
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>.Delay
+  nameWithType.vb: AnimationBaseTrigger(Of Integer).Delay
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer).Delay
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Easing
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Easing
+  parent: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1.Easing
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Easing
+  name: Easing
+  nameWithType: AnimationBaseTrigger<int>.Easing
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>.Easing
+  nameWithType.vb: AnimationBaseTrigger(Of Integer).Easing
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer).Easing
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.TargetProperty
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.TargetProperty
+  parent: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1.TargetProperty
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_TargetProperty
+  name: TargetProperty
+  nameWithType: AnimationBaseTrigger<int>.TargetProperty
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>.TargetProperty
+  nameWithType.vb: AnimationBaseTrigger(Of Integer).TargetProperty
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer).TargetProperty
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.SetDefaultFrom(System.Int32)
+  commentId: M:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.SetDefaultFrom(System.Int32)
+  parent: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1.SetDefaultFrom(`0)
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_SetDefaultFrom__0_
+  name: SetDefaultFrom(int)
+  nameWithType: AnimationBaseTrigger<int>.SetDefaultFrom(int)
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>.SetDefaultFrom(int)
+  nameWithType.vb: AnimationBaseTrigger(Of Integer).SetDefaultFrom(Integer)
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer).SetDefaultFrom(Integer)
+  name.vb: SetDefaultFrom(Integer)
+  spec.csharp:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.SetDefaultFrom(System.Int32)
+    name: SetDefaultFrom
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_SetDefaultFrom__0_
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.SetDefaultFrom(System.Int32)
+    name: SetDefaultFrom
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_SetDefaultFrom__0_
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}.Invoke(System.Object)
+  commentId: M:Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}.Invoke(System.Object)
+  parent: Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}
+  definition: Microsoft.Maui.Controls.TriggerAction`1.Invoke(System.Object)
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1.invoke#microsoft-maui-controls-triggeraction-1-invoke(system-object)
+  name: Invoke(object)
+  nameWithType: TriggerAction<VisualElement>.Invoke(object)
+  fullName: Microsoft.Maui.Controls.TriggerAction<Microsoft.Maui.Controls.VisualElement>.Invoke(object)
+  nameWithType.vb: TriggerAction(Of VisualElement).Invoke(Object)
+  fullName.vb: Microsoft.Maui.Controls.TriggerAction(Of Microsoft.Maui.Controls.VisualElement).Invoke(Object)
+  name.vb: Invoke(Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}.Invoke(System.Object)
+    name: Invoke
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1.invoke#microsoft-maui-controls-triggeraction-1-invoke(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.TriggerAction{Microsoft.Maui.Controls.VisualElement}.Invoke(System.Object)
+    name: Invoke
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1.invoke#microsoft-maui-controls-triggeraction-1-invoke(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.TriggerAction.AssociatedType
+  commentId: P:Microsoft.Maui.Controls.TriggerAction.AssociatedType
+  parent: Microsoft.Maui.Controls.TriggerAction
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction.associatedtype
+  name: AssociatedType
+  nameWithType: TriggerAction.AssociatedType
+  fullName: Microsoft.Maui.Controls.TriggerAction.AssociatedType
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: Microsoft.Maui.Controls.TriggerAction`1
+  commentId: T:Microsoft.Maui.Controls.TriggerAction`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1
+  name: TriggerAction<T>
+  nameWithType: TriggerAction<T>
+  fullName: Microsoft.Maui.Controls.TriggerAction<T>
+  nameWithType.vb: TriggerAction(Of T)
+  fullName.vb: Microsoft.Maui.Controls.TriggerAction(Of T)
+  name.vb: TriggerAction(Of T)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.TriggerAction`1
+    name: TriggerAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.TriggerAction`1
+    name: TriggerAction
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1
+  commentId: T:AlohaKit.Animations.AnimationBaseTrigger`1
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  name: AnimationBaseTrigger<T>
+  nameWithType: AnimationBaseTrigger<T>
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>
+  nameWithType.vb: AnimationBaseTrigger(Of T)
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T)
+  name.vb: AnimationBaseTrigger(Of T)
+  spec.csharp:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1
+    name: AnimationBaseTrigger
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1
+    name: AnimationBaseTrigger
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1.From
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger`1.From
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_From
+  name: From
+  nameWithType: AnimationBaseTrigger<T>.From
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>.From
+  nameWithType.vb: AnimationBaseTrigger(Of T).From
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T).From
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1.To
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger`1.To
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_To
+  name: To
+  nameWithType: AnimationBaseTrigger<T>.To
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>.To
+  nameWithType.vb: AnimationBaseTrigger(Of T).To
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T).To
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1.Duration
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger`1.Duration
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Duration
+  name: Duration
+  nameWithType: AnimationBaseTrigger<T>.Duration
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>.Duration
+  nameWithType.vb: AnimationBaseTrigger(Of T).Duration
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T).Duration
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1.Delay
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger`1.Delay
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Delay
+  name: Delay
+  nameWithType: AnimationBaseTrigger<T>.Delay
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>.Delay
+  nameWithType.vb: AnimationBaseTrigger(Of T).Delay
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T).Delay
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1.Easing
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger`1.Easing
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Easing
+  name: Easing
+  nameWithType: AnimationBaseTrigger<T>.Easing
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>.Easing
+  nameWithType.vb: AnimationBaseTrigger(Of T).Easing
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T).Easing
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1.TargetProperty
+  commentId: P:AlohaKit.Animations.AnimationBaseTrigger`1.TargetProperty
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_TargetProperty
+  name: TargetProperty
+  nameWithType: AnimationBaseTrigger<T>.TargetProperty
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>.TargetProperty
+  nameWithType.vb: AnimationBaseTrigger(Of T).TargetProperty
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T).TargetProperty
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1.SetDefaultFrom(`0)
+  commentId: M:AlohaKit.Animations.AnimationBaseTrigger`1.SetDefaultFrom(`0)
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_SetDefaultFrom__0_
+  name: SetDefaultFrom(T)
+  nameWithType: AnimationBaseTrigger<T>.SetDefaultFrom(T)
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>.SetDefaultFrom(T)
+  nameWithType.vb: AnimationBaseTrigger(Of T).SetDefaultFrom(T)
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T).SetDefaultFrom(T)
+  spec.csharp:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1.SetDefaultFrom(`0)
+    name: SetDefaultFrom
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_SetDefaultFrom__0_
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1.SetDefaultFrom(`0)
+    name: SetDefaultFrom
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_SetDefaultFrom__0_
+  - name: (
+  - name: T
+  - name: )
+- uid: Microsoft.Maui.Controls.TriggerAction`1.Invoke(System.Object)
+  commentId: M:Microsoft.Maui.Controls.TriggerAction`1.Invoke(System.Object)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1.invoke#microsoft-maui-controls-triggeraction-1-invoke(system-object)
+  name: Invoke(object)
+  nameWithType: TriggerAction<T>.Invoke(object)
+  fullName: Microsoft.Maui.Controls.TriggerAction<T>.Invoke(object)
+  nameWithType.vb: TriggerAction(Of T).Invoke(Object)
+  fullName.vb: Microsoft.Maui.Controls.TriggerAction(Of T).Invoke(Object)
+  name.vb: Invoke(Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.TriggerAction`1.Invoke(System.Object)
+    name: Invoke
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1.invoke#microsoft-maui-controls-triggeraction-1-invoke(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.TriggerAction`1.Invoke(System.Object)
+    name: Invoke
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.triggeraction-1.invoke#microsoft-maui-controls-triggeraction-1-invoke(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.NullReferenceException
+  commentId: T:System.NullReferenceException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.nullreferenceexception
+  name: NullReferenceException
+  nameWithType: NullReferenceException
+  fullName: System.NullReferenceException
+- uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Invoke(Microsoft.Maui.Controls.VisualElement)
+  commentId: M:AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Invoke(Microsoft.Maui.Controls.VisualElement)
+  parent: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}
+  definition: AlohaKit.Animations.AnimationBaseTrigger`1.Invoke(Microsoft.Maui.Controls.VisualElement)
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Invoke_Microsoft_Maui_Controls_VisualElement_
+  name: Invoke(VisualElement)
+  nameWithType: AnimationBaseTrigger<int>.Invoke(VisualElement)
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<int>.Invoke(Microsoft.Maui.Controls.VisualElement)
+  nameWithType.vb: AnimationBaseTrigger(Of Integer).Invoke(VisualElement)
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of Integer).Invoke(Microsoft.Maui.Controls.VisualElement)
+  spec.csharp:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Invoke(Microsoft.Maui.Controls.VisualElement)
+    name: Invoke
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Invoke_Microsoft_Maui_Controls_VisualElement_
+  - name: (
+  - uid: Microsoft.Maui.Controls.VisualElement
+    name: VisualElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.visualelement
+  - name: )
+  spec.vb:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger{System.Int32}.Invoke(Microsoft.Maui.Controls.VisualElement)
+    name: Invoke
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Invoke_Microsoft_Maui_Controls_VisualElement_
+  - name: (
+  - uid: Microsoft.Maui.Controls.VisualElement
+    name: VisualElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.visualelement
+  - name: )
+- uid: AlohaKit.Animations.AnimateInt.Invoke*
+  commentId: Overload:AlohaKit.Animations.AnimateInt.Invoke
+  href: AlohaKit.Animations.AnimateInt.html#AlohaKit_Animations_AnimateInt_Invoke_Microsoft_Maui_Controls_VisualElement_
+  name: Invoke
+  nameWithType: AnimateInt.Invoke
+  fullName: AlohaKit.Animations.AnimateInt.Invoke
+- uid: Microsoft.Maui.Controls.VisualElement
+  commentId: T:Microsoft.Maui.Controls.VisualElement
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.visualelement
+  name: VisualElement
+  nameWithType: VisualElement
+  fullName: Microsoft.Maui.Controls.VisualElement
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1.Invoke(Microsoft.Maui.Controls.VisualElement)
+  commentId: M:AlohaKit.Animations.AnimationBaseTrigger`1.Invoke(Microsoft.Maui.Controls.VisualElement)
+  isExternal: true
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Invoke_Microsoft_Maui_Controls_VisualElement_
+  name: Invoke(VisualElement)
+  nameWithType: AnimationBaseTrigger<T>.Invoke(VisualElement)
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>.Invoke(Microsoft.Maui.Controls.VisualElement)
+  nameWithType.vb: AnimationBaseTrigger(Of T).Invoke(VisualElement)
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T).Invoke(Microsoft.Maui.Controls.VisualElement)
+  spec.csharp:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1.Invoke(Microsoft.Maui.Controls.VisualElement)
+    name: Invoke
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Invoke_Microsoft_Maui_Controls_VisualElement_
+  - name: (
+  - uid: Microsoft.Maui.Controls.VisualElement
+    name: VisualElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.visualelement
+  - name: )
+  spec.vb:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1.Invoke(Microsoft.Maui.Controls.VisualElement)
+    name: Invoke
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html#AlohaKit_Animations_AnimationBaseTrigger_1_Invoke_Microsoft_Maui_Controls_VisualElement_
+  - name: (
+  - uid: Microsoft.Maui.Controls.VisualElement
+    name: VisualElement
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.visualelement
+  - name: )
