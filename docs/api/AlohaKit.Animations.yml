@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations
+  commentId: N:AlohaKit.Animations
+  id: AlohaKit.Animations
+  children:
+  - AlohaKit.Animations.AnimateColor
+  - AlohaKit.Animations.AnimateCornerRadius
+  - AlohaKit.Animations.AnimateDouble
+  - AlohaKit.Animations.AnimateInt
+  - AlohaKit.Animations.AnimateProgressColor
+  - AlohaKit.Animations.AnimateProgressCornerRadius
+  - AlohaKit.Animations.AnimateProgressDouble
+  - AlohaKit.Animations.AnimateProgressThickness
+  - AlohaKit.Animations.AnimateThickness
+  - AlohaKit.Animations.AnimationBase
+  - AlohaKit.Animations.AnimationBaseTrigger`1
+  - AlohaKit.Animations.AnimationExtensions
+  - AlohaKit.Animations.AnimationProgressBaseBehavior
+  - AlohaKit.Animations.BeginAnimation
+  - AlohaKit.Animations.BeginAnimationBehavior
+  - AlohaKit.Animations.BounceInAnimation
+  - AlohaKit.Animations.BounceOutAnimation
+  - AlohaKit.Animations.ColorAnimation
+  - AlohaKit.Animations.ColorExtensions
+  - AlohaKit.Animations.EasingType
+  - AlohaKit.Animations.EndAnimation
+  - AlohaKit.Animations.EndAnimationBehavior
+  - AlohaKit.Animations.EntranceTransition
+  - AlohaKit.Animations.FadeInAnimation
+  - AlohaKit.Animations.FadeInAnimation.FadeDirection
+  - AlohaKit.Animations.FadeOutAnimation
+  - AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  - AlohaKit.Animations.FadeToAnimation
+  - AlohaKit.Animations.FlipAnimation
+  - AlohaKit.Animations.FlipAnimation.FlipDirection
+  - AlohaKit.Animations.HeartAnimation
+  - AlohaKit.Animations.JumpAnimation
+  - AlohaKit.Animations.RelRotateToAnimation
+  - AlohaKit.Animations.RelScaleToAnimation
+  - AlohaKit.Animations.RotateToAnimation
+  - AlohaKit.Animations.RotateXToAnimation
+  - AlohaKit.Animations.RotateYToAnimation
+  - AlohaKit.Animations.ScaleToAnimation
+  - AlohaKit.Animations.ScrollViewScrollBehavior
+  - AlohaKit.Animations.ShakeAnimation
+  - AlohaKit.Animations.StoryBoard
+  - AlohaKit.Animations.TaskExtensions
+  - AlohaKit.Animations.TranslateToAnimation
+  - AlohaKit.Animations.TurnstileInAnimation
+  - AlohaKit.Animations.TurnstileOutAnimation
+  langs:
+  - csharp
+  - vb
+  name: AlohaKit.Animations
+  nameWithType: AlohaKit.Animations
+  fullName: AlohaKit.Animations
+  type: Namespace
+  assemblies:
+  - AlohaKit.Animations
+references:
+- uid: AlohaKit.Animations.AnimationBase
+  commentId: T:AlohaKit.Animations.AnimationBase
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.AnimationBase.html
+  name: AnimationBase
+  nameWithType: AnimationBase
+  fullName: AlohaKit.Animations.AnimationBase
+- uid: AlohaKit.Animations.BounceInAnimation
+  commentId: T:AlohaKit.Animations.BounceInAnimation
+  href: AlohaKit.Animations.BounceInAnimation.html
+  name: BounceInAnimation
+  nameWithType: BounceInAnimation
+  fullName: AlohaKit.Animations.BounceInAnimation
+- uid: AlohaKit.Animations.BounceOutAnimation
+  commentId: T:AlohaKit.Animations.BounceOutAnimation
+  href: AlohaKit.Animations.BounceOutAnimation.html
+  name: BounceOutAnimation
+  nameWithType: BounceOutAnimation
+  fullName: AlohaKit.Animations.BounceOutAnimation
+- uid: AlohaKit.Animations.ColorAnimation
+  commentId: T:AlohaKit.Animations.ColorAnimation
+  href: AlohaKit.Animations.ColorAnimation.html
+  name: ColorAnimation
+  nameWithType: ColorAnimation
+  fullName: AlohaKit.Animations.ColorAnimation
+- uid: AlohaKit.Animations.EasingType
+  commentId: T:AlohaKit.Animations.EasingType
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.EasingType.html
+  name: EasingType
+  nameWithType: EasingType
+  fullName: AlohaKit.Animations.EasingType
+- uid: AlohaKit.Animations.FadeToAnimation
+  commentId: T:AlohaKit.Animations.FadeToAnimation
+  href: AlohaKit.Animations.FadeToAnimation.html
+  name: FadeToAnimation
+  nameWithType: FadeToAnimation
+  fullName: AlohaKit.Animations.FadeToAnimation
+- uid: AlohaKit.Animations.FadeInAnimation
+  commentId: T:AlohaKit.Animations.FadeInAnimation
+  href: AlohaKit.Animations.FadeInAnimation.html
+  name: FadeInAnimation
+  nameWithType: FadeInAnimation
+  fullName: AlohaKit.Animations.FadeInAnimation
+- uid: AlohaKit.Animations.FadeInAnimation.FadeDirection
+  commentId: T:AlohaKit.Animations.FadeInAnimation.FadeDirection
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.FadeInAnimation.html
+  name: FadeInAnimation.FadeDirection
+  nameWithType: FadeInAnimation.FadeDirection
+  fullName: AlohaKit.Animations.FadeInAnimation.FadeDirection
+  spec.csharp:
+  - uid: AlohaKit.Animations.FadeInAnimation
+    name: FadeInAnimation
+    href: AlohaKit.Animations.FadeInAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FadeInAnimation.FadeDirection
+    name: FadeDirection
+    href: AlohaKit.Animations.FadeInAnimation.FadeDirection.html
+  spec.vb:
+  - uid: AlohaKit.Animations.FadeInAnimation
+    name: FadeInAnimation
+    href: AlohaKit.Animations.FadeInAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FadeInAnimation.FadeDirection
+    name: FadeDirection
+    href: AlohaKit.Animations.FadeInAnimation.FadeDirection.html
+- uid: AlohaKit.Animations.FadeOutAnimation
+  commentId: T:AlohaKit.Animations.FadeOutAnimation
+  href: AlohaKit.Animations.FadeOutAnimation.html
+  name: FadeOutAnimation
+  nameWithType: FadeOutAnimation
+  fullName: AlohaKit.Animations.FadeOutAnimation
+- uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  commentId: T:AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.FadeOutAnimation.html
+  name: FadeOutAnimation.FadeDirection
+  nameWithType: FadeOutAnimation.FadeDirection
+  fullName: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  spec.csharp:
+  - uid: AlohaKit.Animations.FadeOutAnimation
+    name: FadeOutAnimation
+    href: AlohaKit.Animations.FadeOutAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+    name: FadeDirection
+    href: AlohaKit.Animations.FadeOutAnimation.FadeDirection.html
+  spec.vb:
+  - uid: AlohaKit.Animations.FadeOutAnimation
+    name: FadeOutAnimation
+    href: AlohaKit.Animations.FadeOutAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+    name: FadeDirection
+    href: AlohaKit.Animations.FadeOutAnimation.FadeDirection.html
+- uid: AlohaKit.Animations.FlipAnimation
+  commentId: T:AlohaKit.Animations.FlipAnimation
+  href: AlohaKit.Animations.FlipAnimation.html
+  name: FlipAnimation
+  nameWithType: FlipAnimation
+  fullName: AlohaKit.Animations.FlipAnimation
+- uid: AlohaKit.Animations.FlipAnimation.FlipDirection
+  commentId: T:AlohaKit.Animations.FlipAnimation.FlipDirection
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.FlipAnimation.html
+  name: FlipAnimation.FlipDirection
+  nameWithType: FlipAnimation.FlipDirection
+  fullName: AlohaKit.Animations.FlipAnimation.FlipDirection
+  spec.csharp:
+  - uid: AlohaKit.Animations.FlipAnimation
+    name: FlipAnimation
+    href: AlohaKit.Animations.FlipAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FlipAnimation.FlipDirection
+    name: FlipDirection
+    href: AlohaKit.Animations.FlipAnimation.FlipDirection.html
+  spec.vb:
+  - uid: AlohaKit.Animations.FlipAnimation
+    name: FlipAnimation
+    href: AlohaKit.Animations.FlipAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FlipAnimation.FlipDirection
+    name: FlipDirection
+    href: AlohaKit.Animations.FlipAnimation.FlipDirection.html
+- uid: AlohaKit.Animations.HeartAnimation
+  commentId: T:AlohaKit.Animations.HeartAnimation
+  href: AlohaKit.Animations.HeartAnimation.html
+  name: HeartAnimation
+  nameWithType: HeartAnimation
+  fullName: AlohaKit.Animations.HeartAnimation
+- uid: AlohaKit.Animations.JumpAnimation
+  commentId: T:AlohaKit.Animations.JumpAnimation
+  href: AlohaKit.Animations.JumpAnimation.html
+  name: JumpAnimation
+  nameWithType: JumpAnimation
+  fullName: AlohaKit.Animations.JumpAnimation
+- uid: AlohaKit.Animations.RotateToAnimation
+  commentId: T:AlohaKit.Animations.RotateToAnimation
+  href: AlohaKit.Animations.RotateToAnimation.html
+  name: RotateToAnimation
+  nameWithType: RotateToAnimation
+  fullName: AlohaKit.Animations.RotateToAnimation
+- uid: AlohaKit.Animations.RelRotateToAnimation
+  commentId: T:AlohaKit.Animations.RelRotateToAnimation
+  href: AlohaKit.Animations.RelRotateToAnimation.html
+  name: RelRotateToAnimation
+  nameWithType: RelRotateToAnimation
+  fullName: AlohaKit.Animations.RelRotateToAnimation
+- uid: AlohaKit.Animations.RotateXToAnimation
+  commentId: T:AlohaKit.Animations.RotateXToAnimation
+  href: AlohaKit.Animations.RotateXToAnimation.html
+  name: RotateXToAnimation
+  nameWithType: RotateXToAnimation
+  fullName: AlohaKit.Animations.RotateXToAnimation
+- uid: AlohaKit.Animations.RotateYToAnimation
+  commentId: T:AlohaKit.Animations.RotateYToAnimation
+  href: AlohaKit.Animations.RotateYToAnimation.html
+  name: RotateYToAnimation
+  nameWithType: RotateYToAnimation
+  fullName: AlohaKit.Animations.RotateYToAnimation
+- uid: AlohaKit.Animations.ScaleToAnimation
+  commentId: T:AlohaKit.Animations.ScaleToAnimation
+  href: AlohaKit.Animations.ScaleToAnimation.html
+  name: ScaleToAnimation
+  nameWithType: ScaleToAnimation
+  fullName: AlohaKit.Animations.ScaleToAnimation
+- uid: AlohaKit.Animations.RelScaleToAnimation
+  commentId: T:AlohaKit.Animations.RelScaleToAnimation
+  href: AlohaKit.Animations.RelScaleToAnimation.html
+  name: RelScaleToAnimation
+  nameWithType: RelScaleToAnimation
+  fullName: AlohaKit.Animations.RelScaleToAnimation
+- uid: AlohaKit.Animations.ShakeAnimation
+  commentId: T:AlohaKit.Animations.ShakeAnimation
+  href: AlohaKit.Animations.ShakeAnimation.html
+  name: ShakeAnimation
+  nameWithType: ShakeAnimation
+  fullName: AlohaKit.Animations.ShakeAnimation
+- uid: AlohaKit.Animations.StoryBoard
+  commentId: T:AlohaKit.Animations.StoryBoard
+  href: AlohaKit.Animations.StoryBoard.html
+  name: StoryBoard
+  nameWithType: StoryBoard
+  fullName: AlohaKit.Animations.StoryBoard
+- uid: AlohaKit.Animations.TranslateToAnimation
+  commentId: T:AlohaKit.Animations.TranslateToAnimation
+  href: AlohaKit.Animations.TranslateToAnimation.html
+  name: TranslateToAnimation
+  nameWithType: TranslateToAnimation
+  fullName: AlohaKit.Animations.TranslateToAnimation
+- uid: AlohaKit.Animations.TurnstileInAnimation
+  commentId: T:AlohaKit.Animations.TurnstileInAnimation
+  href: AlohaKit.Animations.TurnstileInAnimation.html
+  name: TurnstileInAnimation
+  nameWithType: TurnstileInAnimation
+  fullName: AlohaKit.Animations.TurnstileInAnimation
+- uid: AlohaKit.Animations.TurnstileOutAnimation
+  commentId: T:AlohaKit.Animations.TurnstileOutAnimation
+  href: AlohaKit.Animations.TurnstileOutAnimation.html
+  name: TurnstileOutAnimation
+  nameWithType: TurnstileOutAnimation
+  fullName: AlohaKit.Animations.TurnstileOutAnimation
+- uid: AlohaKit.Animations.AnimateProgressColor
+  commentId: T:AlohaKit.Animations.AnimateProgressColor
+  href: AlohaKit.Animations.AnimateProgressColor.html
+  name: AnimateProgressColor
+  nameWithType: AnimateProgressColor
+  fullName: AlohaKit.Animations.AnimateProgressColor
+- uid: AlohaKit.Animations.AnimateProgressCornerRadius
+  commentId: T:AlohaKit.Animations.AnimateProgressCornerRadius
+  href: AlohaKit.Animations.AnimateProgressCornerRadius.html
+  name: AnimateProgressCornerRadius
+  nameWithType: AnimateProgressCornerRadius
+  fullName: AlohaKit.Animations.AnimateProgressCornerRadius
+- uid: AlohaKit.Animations.AnimateProgressDouble
+  commentId: T:AlohaKit.Animations.AnimateProgressDouble
+  href: AlohaKit.Animations.AnimateProgressDouble.html
+  name: AnimateProgressDouble
+  nameWithType: AnimateProgressDouble
+  fullName: AlohaKit.Animations.AnimateProgressDouble
+- uid: AlohaKit.Animations.AnimateProgressThickness
+  commentId: T:AlohaKit.Animations.AnimateProgressThickness
+  href: AlohaKit.Animations.AnimateProgressThickness.html
+  name: AnimateProgressThickness
+  nameWithType: AnimateProgressThickness
+  fullName: AlohaKit.Animations.AnimateProgressThickness
+- uid: AlohaKit.Animations.AnimationProgressBaseBehavior
+  commentId: T:AlohaKit.Animations.AnimationProgressBaseBehavior
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.AnimationProgressBaseBehavior.html
+  name: AnimationProgressBaseBehavior
+  nameWithType: AnimationProgressBaseBehavior
+  fullName: AlohaKit.Animations.AnimationProgressBaseBehavior
+- uid: AlohaKit.Animations.BeginAnimationBehavior
+  commentId: T:AlohaKit.Animations.BeginAnimationBehavior
+  href: AlohaKit.Animations.BeginAnimationBehavior.html
+  name: BeginAnimationBehavior
+  nameWithType: BeginAnimationBehavior
+  fullName: AlohaKit.Animations.BeginAnimationBehavior
+- uid: AlohaKit.Animations.EndAnimationBehavior
+  commentId: T:AlohaKit.Animations.EndAnimationBehavior
+  href: AlohaKit.Animations.EndAnimationBehavior.html
+  name: EndAnimationBehavior
+  nameWithType: EndAnimationBehavior
+  fullName: AlohaKit.Animations.EndAnimationBehavior
+- uid: AlohaKit.Animations.EntranceTransition
+  commentId: T:AlohaKit.Animations.EntranceTransition
+  href: AlohaKit.Animations.EntranceTransition.html
+  name: EntranceTransition
+  nameWithType: EntranceTransition
+  fullName: AlohaKit.Animations.EntranceTransition
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior
+  commentId: T:AlohaKit.Animations.ScrollViewScrollBehavior
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html
+  name: ScrollViewScrollBehavior
+  nameWithType: ScrollViewScrollBehavior
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior
+- uid: AlohaKit.Animations.AnimationExtensions
+  commentId: T:AlohaKit.Animations.AnimationExtensions
+  href: AlohaKit.Animations.AnimationExtensions.html
+  name: AnimationExtensions
+  nameWithType: AnimationExtensions
+  fullName: AlohaKit.Animations.AnimationExtensions
+- uid: AlohaKit.Animations.ColorExtensions
+  commentId: T:AlohaKit.Animations.ColorExtensions
+  href: AlohaKit.Animations.ColorExtensions.html
+  name: ColorExtensions
+  nameWithType: ColorExtensions
+  fullName: AlohaKit.Animations.ColorExtensions
+- uid: AlohaKit.Animations.TaskExtensions
+  commentId: T:AlohaKit.Animations.TaskExtensions
+  href: AlohaKit.Animations.TaskExtensions.html
+  name: TaskExtensions
+  nameWithType: TaskExtensions
+  fullName: AlohaKit.Animations.TaskExtensions
+- uid: AlohaKit.Animations.AnimateColor
+  commentId: T:AlohaKit.Animations.AnimateColor
+  href: AlohaKit.Animations.AnimateColor.html
+  name: AnimateColor
+  nameWithType: AnimateColor
+  fullName: AlohaKit.Animations.AnimateColor
+- uid: AlohaKit.Animations.AnimateCornerRadius
+  commentId: T:AlohaKit.Animations.AnimateCornerRadius
+  href: AlohaKit.Animations.AnimateCornerRadius.html
+  name: AnimateCornerRadius
+  nameWithType: AnimateCornerRadius
+  fullName: AlohaKit.Animations.AnimateCornerRadius
+- uid: AlohaKit.Animations.AnimateDouble
+  commentId: T:AlohaKit.Animations.AnimateDouble
+  href: AlohaKit.Animations.AnimateDouble.html
+  name: AnimateDouble
+  nameWithType: AnimateDouble
+  fullName: AlohaKit.Animations.AnimateDouble
+- uid: AlohaKit.Animations.AnimateInt
+  commentId: T:AlohaKit.Animations.AnimateInt
+  href: AlohaKit.Animations.AnimateInt.html
+  name: AnimateInt
+  nameWithType: AnimateInt
+  fullName: AlohaKit.Animations.AnimateInt
+- uid: AlohaKit.Animations.AnimateThickness
+  commentId: T:AlohaKit.Animations.AnimateThickness
+  href: AlohaKit.Animations.AnimateThickness.html
+  name: AnimateThickness
+  nameWithType: AnimateThickness
+  fullName: AlohaKit.Animations.AnimateThickness
+- uid: AlohaKit.Animations.AnimationBaseTrigger`1
+  commentId: T:AlohaKit.Animations.AnimationBaseTrigger`1
+  href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  name: AnimationBaseTrigger<T>
+  nameWithType: AnimationBaseTrigger<T>
+  fullName: AlohaKit.Animations.AnimationBaseTrigger<T>
+  nameWithType.vb: AnimationBaseTrigger(Of T)
+  fullName.vb: AlohaKit.Animations.AnimationBaseTrigger(Of T)
+  name.vb: AnimationBaseTrigger(Of T)
+  spec.csharp:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1
+    name: AnimationBaseTrigger
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1
+    name: AnimationBaseTrigger
+    href: AlohaKit.Animations.AnimationBaseTrigger-1.html
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: AlohaKit.Animations.BeginAnimation
+  commentId: T:AlohaKit.Animations.BeginAnimation
+  href: AlohaKit.Animations.BeginAnimation.html
+  name: BeginAnimation
+  nameWithType: BeginAnimation
+  fullName: AlohaKit.Animations.BeginAnimation
+- uid: AlohaKit.Animations.EndAnimation
+  commentId: T:AlohaKit.Animations.EndAnimation
+  href: AlohaKit.Animations.EndAnimation.html
+  name: EndAnimation
+  nameWithType: EndAnimation
+  fullName: AlohaKit.Animations.EndAnimation
+- uid: AlohaKit.Animations
+  commentId: N:AlohaKit.Animations
+  href: AlohaKit.html
+  name: AlohaKit.Animations
+  nameWithType: AlohaKit.Animations
+  fullName: AlohaKit.Animations
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html

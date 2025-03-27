@@ -3,6 +3,10 @@
     using System;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Represents an animation that performs a "turnstile-in" effect by rotating and translating 
+    /// the target element as it enters.
+    /// </summary>
     public class TurnstileInAnimation : AnimationBase
     {
         protected override Task BeginAnimation()

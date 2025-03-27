@@ -1,0 +1,2340 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.Sample.App
+  commentId: T:AlohaKit.Animations.Sample.App
+  id: App
+  parent: AlohaKit.Animations.Sample
+  children:
+  - AlohaKit.Animations.Sample.App.#ctor
+  langs:
+  - csharp
+  - vb
+  name: App
+  nameWithType: App
+  fullName: AlohaKit.Animations.Sample.App
+  type: Class
+  source:
+    id: App
+    path: Microsoft.Maui.Controls.SourceGen\Microsoft.Maui.Controls.SourceGen.CodeBehindGenerator\App.xaml.sg.cs
+    startLine: 13
+  assemblies:
+  - AlohaKit.Animations.Sample
+  namespace: AlohaKit.Animations.Sample
+  syntax:
+    content: >-
+      [XamlFilePath("App.xaml")]
+
+      public class App : Application, INotifyPropertyChanged, IElementController, IEffectControlProvider, IToolTipElement, IContextFlyoutElement, IApplicationController, IElementConfiguration<Application>, IVisualTreeElement, IApplication, IElement
+    content.vb: >-
+      <XamlFilePath("App.xaml")>
+
+      Public Class App Inherits Application Implements INotifyPropertyChanged, IElementController, IEffectControlProvider, IToolTipElement, IContextFlyoutElement, IApplicationController, IElementConfiguration(Of Application), IVisualTreeElement, IApplication, IElement
+  inheritance:
+  - System.Object
+  - Microsoft.Maui.Controls.BindableObject
+  - Microsoft.Maui.Controls.Element
+  - Microsoft.Maui.Controls.Application
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  - Microsoft.Maui.Controls.IElementController
+  - Microsoft.Maui.Controls.IEffectControlProvider
+  - Microsoft.Maui.IToolTipElement
+  - Microsoft.Maui.IContextFlyoutElement
+  - Microsoft.Maui.Controls.IApplicationController
+  - Microsoft.Maui.Controls.IElementConfiguration{Microsoft.Maui.Controls.Application}
+  - Microsoft.Maui.IVisualTreeElement
+  - Microsoft.Maui.IApplication
+  - Microsoft.Maui.IElement
+  inheritedMembers:
+  - Microsoft.Maui.Controls.Application.MapWindowSoftInputModeAdjust(Microsoft.Maui.Handlers.ApplicationHandler,Microsoft.Maui.Controls.Application)
+  - Microsoft.Maui.Controls.Application.Quit
+  - Microsoft.Maui.Controls.Application.On``1
+  - Microsoft.Maui.Controls.Application.OnAppLinkRequestReceived(System.Uri)
+  - Microsoft.Maui.Controls.Application.OnParentSet
+  - Microsoft.Maui.Controls.Application.OnResume
+  - Microsoft.Maui.Controls.Application.OnSleep
+  - Microsoft.Maui.Controls.Application.OnStart
+  - Microsoft.Maui.Controls.Application.CleanUp
+  - Microsoft.Maui.Controls.Application.OpenWindow(Microsoft.Maui.Controls.Window)
+  - Microsoft.Maui.Controls.Application.CloseWindow(Microsoft.Maui.Controls.Window)
+  - Microsoft.Maui.Controls.Application.ActivateWindow(Microsoft.Maui.Controls.Window)
+  - Microsoft.Maui.Controls.Application.CreateWindow(Microsoft.Maui.IActivationState)
+  - Microsoft.Maui.Controls.Application.AppLinks
+  - Microsoft.Maui.Controls.Application.Current
+  - Microsoft.Maui.Controls.Application.MainPage
+  - Microsoft.Maui.Controls.Application.Resources
+  - Microsoft.Maui.Controls.Application.UserAppTheme
+  - Microsoft.Maui.Controls.Application.PlatformAppTheme
+  - Microsoft.Maui.Controls.Application.RequestedTheme
+  - Microsoft.Maui.Controls.Application.AccentColor
+  - Microsoft.Maui.Controls.Application.Windows
+  - Microsoft.Maui.Controls.Application.RequestedThemeChanged
+  - Microsoft.Maui.Controls.Application.ModalPopped
+  - Microsoft.Maui.Controls.Application.ModalPopping
+  - Microsoft.Maui.Controls.Application.ModalPushed
+  - Microsoft.Maui.Controls.Application.ModalPushing
+  - Microsoft.Maui.Controls.Application.PageAppearing
+  - Microsoft.Maui.Controls.Application.PageDisappearing
+  - Microsoft.Maui.Controls.Element.AutomationIdProperty
+  - Microsoft.Maui.Controls.Element.ClassIdProperty
+  - Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.ClearLogicalChildren
+  - Microsoft.Maui.Controls.Element.FindByName(System.String)
+  - Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+  - Microsoft.Maui.Controls.Element.OnBindingContextChanged
+  - Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+  - Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+  - Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+  - Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+  - Microsoft.Maui.Controls.Element.OnParentChanged
+  - Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+  - Microsoft.Maui.Controls.Element.OnHandlerChanged
+  - Microsoft.Maui.Controls.Element.AutomationId
+  - Microsoft.Maui.Controls.Element.ClassId
+  - Microsoft.Maui.Controls.Element.Effects
+  - Microsoft.Maui.Controls.Element.Id
+  - Microsoft.Maui.Controls.Element.StyleId
+  - Microsoft.Maui.Controls.Element.Parent
+  - Microsoft.Maui.Controls.Element.Handler
+  - Microsoft.Maui.Controls.Element.ChildAdded
+  - Microsoft.Maui.Controls.Element.ChildRemoved
+  - Microsoft.Maui.Controls.Element.DescendantAdded
+  - Microsoft.Maui.Controls.Element.DescendantRemoved
+  - Microsoft.Maui.Controls.Element.ParentChanging
+  - Microsoft.Maui.Controls.Element.ParentChanged
+  - Microsoft.Maui.Controls.Element.HandlerChanging
+  - Microsoft.Maui.Controls.Element.HandlerChanged
+  - Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  - Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  - Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  - Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  - Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  - Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  - Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  - Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  - Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  - Microsoft.Maui.Controls.BindableObject.Dispatcher
+  - Microsoft.Maui.Controls.BindableObject.BindingContext
+  - Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  - Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  - Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.Maui.Controls.Xaml.XamlFilePathAttribute
+    ctor: Microsoft.Maui.Controls.Xaml.XamlFilePathAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: App.xaml
+- uid: AlohaKit.Animations.Sample.App.#ctor
+  commentId: M:AlohaKit.Animations.Sample.App.#ctor
+  id: '#ctor'
+  parent: AlohaKit.Animations.Sample.App
+  langs:
+  - csharp
+  - vb
+  name: App()
+  nameWithType: App.App()
+  fullName: AlohaKit.Animations.Sample.App.App()
+  type: Constructor
+  source:
+    remote:
+      path: src/AlohaKit.Animations.Sample/App.xaml.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: .ctor
+    path: ../src/AlohaKit.Animations.Sample/App.xaml.cs
+    startLine: 4
+  assemblies:
+  - AlohaKit.Animations.Sample
+  namespace: AlohaKit.Animations.Sample
+  syntax:
+    content: public App()
+    content.vb: Public Sub New()
+  overload: AlohaKit.Animations.Sample.App.#ctor*
+  nameWithType.vb: App.New()
+  fullName.vb: AlohaKit.Animations.Sample.App.New()
+  name.vb: New()
+references:
+- uid: AlohaKit.Animations.Sample
+  commentId: N:AlohaKit.Animations.Sample
+  href: AlohaKit.html
+  name: AlohaKit.Animations.Sample
+  nameWithType: AlohaKit.Animations.Sample
+  fullName: AlohaKit.Animations.Sample
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  - name: .
+  - uid: AlohaKit.Animations.Sample
+    name: Sample
+    href: AlohaKit.Animations.Sample.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  - name: .
+  - uid: AlohaKit.Animations.Sample
+    name: Sample
+    href: AlohaKit.Animations.Sample.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.Maui.Controls.BindableObject
+  commentId: T:Microsoft.Maui.Controls.BindableObject
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  name: BindableObject
+  nameWithType: BindableObject
+  fullName: Microsoft.Maui.Controls.BindableObject
+- uid: Microsoft.Maui.Controls.Element
+  commentId: T:Microsoft.Maui.Controls.Element
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  name: Element
+  nameWithType: Element
+  fullName: Microsoft.Maui.Controls.Element
+- uid: Microsoft.Maui.Controls.Application
+  commentId: T:Microsoft.Maui.Controls.Application
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application
+  name: Application
+  nameWithType: Application
+  fullName: Microsoft.Maui.Controls.Application
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Microsoft.Maui.Controls.IElementController
+  commentId: T:Microsoft.Maui.Controls.IElementController
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ielementcontroller
+  name: IElementController
+  nameWithType: IElementController
+  fullName: Microsoft.Maui.Controls.IElementController
+- uid: Microsoft.Maui.Controls.IEffectControlProvider
+  commentId: T:Microsoft.Maui.Controls.IEffectControlProvider
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ieffectcontrolprovider
+  name: IEffectControlProvider
+  nameWithType: IEffectControlProvider
+  fullName: Microsoft.Maui.Controls.IEffectControlProvider
+- uid: Microsoft.Maui.IToolTipElement
+  commentId: T:Microsoft.Maui.IToolTipElement
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.itooltipelement
+  name: IToolTipElement
+  nameWithType: IToolTipElement
+  fullName: Microsoft.Maui.IToolTipElement
+- uid: Microsoft.Maui.IContextFlyoutElement
+  commentId: T:Microsoft.Maui.IContextFlyoutElement
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.icontextflyoutelement
+  name: IContextFlyoutElement
+  nameWithType: IContextFlyoutElement
+  fullName: Microsoft.Maui.IContextFlyoutElement
+- uid: Microsoft.Maui.Controls.IApplicationController
+  commentId: T:Microsoft.Maui.Controls.IApplicationController
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.iapplicationcontroller
+  name: IApplicationController
+  nameWithType: IApplicationController
+  fullName: Microsoft.Maui.Controls.IApplicationController
+- uid: Microsoft.Maui.Controls.IElementConfiguration{Microsoft.Maui.Controls.Application}
+  commentId: T:Microsoft.Maui.Controls.IElementConfiguration{Microsoft.Maui.Controls.Application}
+  parent: Microsoft.Maui.Controls
+  definition: Microsoft.Maui.Controls.IElementConfiguration`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ielementconfiguration-1
+  name: IElementConfiguration<Application>
+  nameWithType: IElementConfiguration<Application>
+  fullName: Microsoft.Maui.Controls.IElementConfiguration<Microsoft.Maui.Controls.Application>
+  nameWithType.vb: IElementConfiguration(Of Application)
+  fullName.vb: Microsoft.Maui.Controls.IElementConfiguration(Of Microsoft.Maui.Controls.Application)
+  name.vb: IElementConfiguration(Of Application)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.IElementConfiguration`1
+    name: IElementConfiguration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ielementconfiguration-1
+  - name: <
+  - uid: Microsoft.Maui.Controls.Application
+    name: Application
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.IElementConfiguration`1
+    name: IElementConfiguration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ielementconfiguration-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Application
+    name: Application
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application
+  - name: )
+- uid: Microsoft.Maui.IVisualTreeElement
+  commentId: T:Microsoft.Maui.IVisualTreeElement
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ivisualtreeelement
+  name: IVisualTreeElement
+  nameWithType: IVisualTreeElement
+  fullName: Microsoft.Maui.IVisualTreeElement
+- uid: Microsoft.Maui.IApplication
+  commentId: T:Microsoft.Maui.IApplication
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.iapplication
+  name: IApplication
+  nameWithType: IApplication
+  fullName: Microsoft.Maui.IApplication
+- uid: Microsoft.Maui.IElement
+  commentId: T:Microsoft.Maui.IElement
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielement
+  name: IElement
+  nameWithType: IElement
+  fullName: Microsoft.Maui.IElement
+- uid: Microsoft.Maui.Controls.Application.MapWindowSoftInputModeAdjust(Microsoft.Maui.Handlers.ApplicationHandler,Microsoft.Maui.Controls.Application)
+  commentId: M:Microsoft.Maui.Controls.Application.MapWindowSoftInputModeAdjust(Microsoft.Maui.Handlers.ApplicationHandler,Microsoft.Maui.Controls.Application)
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.mapwindowsoftinputmodeadjust
+  name: MapWindowSoftInputModeAdjust(ApplicationHandler, Application)
+  nameWithType: Application.MapWindowSoftInputModeAdjust(ApplicationHandler, Application)
+  fullName: Microsoft.Maui.Controls.Application.MapWindowSoftInputModeAdjust(Microsoft.Maui.Handlers.ApplicationHandler, Microsoft.Maui.Controls.Application)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.MapWindowSoftInputModeAdjust(Microsoft.Maui.Handlers.ApplicationHandler,Microsoft.Maui.Controls.Application)
+    name: MapWindowSoftInputModeAdjust
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.mapwindowsoftinputmodeadjust
+  - name: (
+  - uid: Microsoft.Maui.Handlers.ApplicationHandler
+    name: ApplicationHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.handlers.applicationhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Application
+    name: Application
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.MapWindowSoftInputModeAdjust(Microsoft.Maui.Handlers.ApplicationHandler,Microsoft.Maui.Controls.Application)
+    name: MapWindowSoftInputModeAdjust
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.mapwindowsoftinputmodeadjust
+  - name: (
+  - uid: Microsoft.Maui.Handlers.ApplicationHandler
+    name: ApplicationHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.handlers.applicationhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Application
+    name: Application
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.Quit
+  commentId: M:Microsoft.Maui.Controls.Application.Quit
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.quit
+  name: Quit()
+  nameWithType: Application.Quit()
+  fullName: Microsoft.Maui.Controls.Application.Quit()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.Quit
+    name: Quit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.quit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.Quit
+    name: Quit
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.quit
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.On``1
+  commentId: M:Microsoft.Maui.Controls.Application.On``1
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.on
+  name: On<T>()
+  nameWithType: Application.On<T>()
+  fullName: Microsoft.Maui.Controls.Application.On<T>()
+  nameWithType.vb: Application.On(Of T)()
+  fullName.vb: Microsoft.Maui.Controls.Application.On(Of T)()
+  name.vb: On(Of T)()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.On``1
+    name: On
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.on
+  - name: <
+  - name: T
+  - name: '>'
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.On``1
+    name: On
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.on
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.OnAppLinkRequestReceived(System.Uri)
+  commentId: M:Microsoft.Maui.Controls.Application.OnAppLinkRequestReceived(System.Uri)
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onapplinkrequestreceived
+  name: OnAppLinkRequestReceived(Uri)
+  nameWithType: Application.OnAppLinkRequestReceived(Uri)
+  fullName: Microsoft.Maui.Controls.Application.OnAppLinkRequestReceived(System.Uri)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.OnAppLinkRequestReceived(System.Uri)
+    name: OnAppLinkRequestReceived
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onapplinkrequestreceived
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.OnAppLinkRequestReceived(System.Uri)
+    name: OnAppLinkRequestReceived
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onapplinkrequestreceived
+  - name: (
+  - uid: System.Uri
+    name: Uri
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.uri
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.OnParentSet
+  commentId: M:Microsoft.Maui.Controls.Application.OnParentSet
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onparentset
+  name: OnParentSet()
+  nameWithType: Application.OnParentSet()
+  fullName: Microsoft.Maui.Controls.Application.OnParentSet()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.OnParentSet
+    name: OnParentSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onparentset
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.OnParentSet
+    name: OnParentSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onparentset
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.OnResume
+  commentId: M:Microsoft.Maui.Controls.Application.OnResume
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onresume
+  name: OnResume()
+  nameWithType: Application.OnResume()
+  fullName: Microsoft.Maui.Controls.Application.OnResume()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.OnResume
+    name: OnResume
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onresume
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.OnResume
+    name: OnResume
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onresume
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.OnSleep
+  commentId: M:Microsoft.Maui.Controls.Application.OnSleep
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onsleep
+  name: OnSleep()
+  nameWithType: Application.OnSleep()
+  fullName: Microsoft.Maui.Controls.Application.OnSleep()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.OnSleep
+    name: OnSleep
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onsleep
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.OnSleep
+    name: OnSleep
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onsleep
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.OnStart
+  commentId: M:Microsoft.Maui.Controls.Application.OnStart
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onstart
+  name: OnStart()
+  nameWithType: Application.OnStart()
+  fullName: Microsoft.Maui.Controls.Application.OnStart()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.OnStart
+    name: OnStart
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onstart
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.OnStart
+    name: OnStart
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.onstart
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.CleanUp
+  commentId: M:Microsoft.Maui.Controls.Application.CleanUp
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.cleanup
+  name: CleanUp()
+  nameWithType: Application.CleanUp()
+  fullName: Microsoft.Maui.Controls.Application.CleanUp()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.CleanUp
+    name: CleanUp
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.cleanup
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.CleanUp
+    name: CleanUp
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.cleanup
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.OpenWindow(Microsoft.Maui.Controls.Window)
+  commentId: M:Microsoft.Maui.Controls.Application.OpenWindow(Microsoft.Maui.Controls.Window)
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.openwindow
+  name: OpenWindow(Window)
+  nameWithType: Application.OpenWindow(Window)
+  fullName: Microsoft.Maui.Controls.Application.OpenWindow(Microsoft.Maui.Controls.Window)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.OpenWindow(Microsoft.Maui.Controls.Window)
+    name: OpenWindow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.openwindow
+  - name: (
+  - uid: Microsoft.Maui.Controls.Window
+    name: Window
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.window
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.OpenWindow(Microsoft.Maui.Controls.Window)
+    name: OpenWindow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.openwindow
+  - name: (
+  - uid: Microsoft.Maui.Controls.Window
+    name: Window
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.window
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.CloseWindow(Microsoft.Maui.Controls.Window)
+  commentId: M:Microsoft.Maui.Controls.Application.CloseWindow(Microsoft.Maui.Controls.Window)
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.closewindow
+  name: CloseWindow(Window)
+  nameWithType: Application.CloseWindow(Window)
+  fullName: Microsoft.Maui.Controls.Application.CloseWindow(Microsoft.Maui.Controls.Window)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.CloseWindow(Microsoft.Maui.Controls.Window)
+    name: CloseWindow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.closewindow
+  - name: (
+  - uid: Microsoft.Maui.Controls.Window
+    name: Window
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.window
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.CloseWindow(Microsoft.Maui.Controls.Window)
+    name: CloseWindow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.closewindow
+  - name: (
+  - uid: Microsoft.Maui.Controls.Window
+    name: Window
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.window
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.ActivateWindow(Microsoft.Maui.Controls.Window)
+  commentId: M:Microsoft.Maui.Controls.Application.ActivateWindow(Microsoft.Maui.Controls.Window)
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.activatewindow
+  name: ActivateWindow(Window)
+  nameWithType: Application.ActivateWindow(Window)
+  fullName: Microsoft.Maui.Controls.Application.ActivateWindow(Microsoft.Maui.Controls.Window)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.ActivateWindow(Microsoft.Maui.Controls.Window)
+    name: ActivateWindow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.activatewindow
+  - name: (
+  - uid: Microsoft.Maui.Controls.Window
+    name: Window
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.window
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.ActivateWindow(Microsoft.Maui.Controls.Window)
+    name: ActivateWindow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.activatewindow
+  - name: (
+  - uid: Microsoft.Maui.Controls.Window
+    name: Window
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.window
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.CreateWindow(Microsoft.Maui.IActivationState)
+  commentId: M:Microsoft.Maui.Controls.Application.CreateWindow(Microsoft.Maui.IActivationState)
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.createwindow
+  name: CreateWindow(IActivationState)
+  nameWithType: Application.CreateWindow(IActivationState)
+  fullName: Microsoft.Maui.Controls.Application.CreateWindow(Microsoft.Maui.IActivationState)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Application.CreateWindow(Microsoft.Maui.IActivationState)
+    name: CreateWindow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.createwindow
+  - name: (
+  - uid: Microsoft.Maui.IActivationState
+    name: IActivationState
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.iactivationstate
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Application.CreateWindow(Microsoft.Maui.IActivationState)
+    name: CreateWindow
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.createwindow
+  - name: (
+  - uid: Microsoft.Maui.IActivationState
+    name: IActivationState
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.iactivationstate
+  - name: )
+- uid: Microsoft.Maui.Controls.Application.AppLinks
+  commentId: P:Microsoft.Maui.Controls.Application.AppLinks
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.applinks
+  name: AppLinks
+  nameWithType: Application.AppLinks
+  fullName: Microsoft.Maui.Controls.Application.AppLinks
+- uid: Microsoft.Maui.Controls.Application.Current
+  commentId: P:Microsoft.Maui.Controls.Application.Current
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.current
+  name: Current
+  nameWithType: Application.Current
+  fullName: Microsoft.Maui.Controls.Application.Current
+- uid: Microsoft.Maui.Controls.Application.MainPage
+  commentId: P:Microsoft.Maui.Controls.Application.MainPage
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.mainpage
+  name: MainPage
+  nameWithType: Application.MainPage
+  fullName: Microsoft.Maui.Controls.Application.MainPage
+- uid: Microsoft.Maui.Controls.Application.Resources
+  commentId: P:Microsoft.Maui.Controls.Application.Resources
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.resources
+  name: Resources
+  nameWithType: Application.Resources
+  fullName: Microsoft.Maui.Controls.Application.Resources
+- uid: Microsoft.Maui.Controls.Application.UserAppTheme
+  commentId: P:Microsoft.Maui.Controls.Application.UserAppTheme
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.userapptheme
+  name: UserAppTheme
+  nameWithType: Application.UserAppTheme
+  fullName: Microsoft.Maui.Controls.Application.UserAppTheme
+- uid: Microsoft.Maui.Controls.Application.PlatformAppTheme
+  commentId: P:Microsoft.Maui.Controls.Application.PlatformAppTheme
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.platformapptheme
+  name: PlatformAppTheme
+  nameWithType: Application.PlatformAppTheme
+  fullName: Microsoft.Maui.Controls.Application.PlatformAppTheme
+- uid: Microsoft.Maui.Controls.Application.RequestedTheme
+  commentId: P:Microsoft.Maui.Controls.Application.RequestedTheme
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.requestedtheme
+  name: RequestedTheme
+  nameWithType: Application.RequestedTheme
+  fullName: Microsoft.Maui.Controls.Application.RequestedTheme
+- uid: Microsoft.Maui.Controls.Application.AccentColor
+  commentId: P:Microsoft.Maui.Controls.Application.AccentColor
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.accentcolor
+  name: AccentColor
+  nameWithType: Application.AccentColor
+  fullName: Microsoft.Maui.Controls.Application.AccentColor
+- uid: Microsoft.Maui.Controls.Application.Windows
+  commentId: P:Microsoft.Maui.Controls.Application.Windows
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.windows
+  name: Windows
+  nameWithType: Application.Windows
+  fullName: Microsoft.Maui.Controls.Application.Windows
+- uid: Microsoft.Maui.Controls.Application.RequestedThemeChanged
+  commentId: E:Microsoft.Maui.Controls.Application.RequestedThemeChanged
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.requestedthemechanged
+  name: RequestedThemeChanged
+  nameWithType: Application.RequestedThemeChanged
+  fullName: Microsoft.Maui.Controls.Application.RequestedThemeChanged
+- uid: Microsoft.Maui.Controls.Application.ModalPopped
+  commentId: E:Microsoft.Maui.Controls.Application.ModalPopped
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.modalpopped
+  name: ModalPopped
+  nameWithType: Application.ModalPopped
+  fullName: Microsoft.Maui.Controls.Application.ModalPopped
+- uid: Microsoft.Maui.Controls.Application.ModalPopping
+  commentId: E:Microsoft.Maui.Controls.Application.ModalPopping
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.modalpopping
+  name: ModalPopping
+  nameWithType: Application.ModalPopping
+  fullName: Microsoft.Maui.Controls.Application.ModalPopping
+- uid: Microsoft.Maui.Controls.Application.ModalPushed
+  commentId: E:Microsoft.Maui.Controls.Application.ModalPushed
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.modalpushed
+  name: ModalPushed
+  nameWithType: Application.ModalPushed
+  fullName: Microsoft.Maui.Controls.Application.ModalPushed
+- uid: Microsoft.Maui.Controls.Application.ModalPushing
+  commentId: E:Microsoft.Maui.Controls.Application.ModalPushing
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.modalpushing
+  name: ModalPushing
+  nameWithType: Application.ModalPushing
+  fullName: Microsoft.Maui.Controls.Application.ModalPushing
+- uid: Microsoft.Maui.Controls.Application.PageAppearing
+  commentId: E:Microsoft.Maui.Controls.Application.PageAppearing
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.pageappearing
+  name: PageAppearing
+  nameWithType: Application.PageAppearing
+  fullName: Microsoft.Maui.Controls.Application.PageAppearing
+- uid: Microsoft.Maui.Controls.Application.PageDisappearing
+  commentId: E:Microsoft.Maui.Controls.Application.PageDisappearing
+  parent: Microsoft.Maui.Controls.Application
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.application.pagedisappearing
+  name: PageDisappearing
+  nameWithType: Application.PageDisappearing
+  fullName: Microsoft.Maui.Controls.Application.PageDisappearing
+- uid: Microsoft.Maui.Controls.Element.AutomationIdProperty
+  commentId: F:Microsoft.Maui.Controls.Element.AutomationIdProperty
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.automationidproperty
+  name: AutomationIdProperty
+  nameWithType: Element.AutomationIdProperty
+  fullName: Microsoft.Maui.Controls.Element.AutomationIdProperty
+- uid: Microsoft.Maui.Controls.Element.ClassIdProperty
+  commentId: F:Microsoft.Maui.Controls.Element.ClassIdProperty
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.classidproperty
+  name: ClassIdProperty
+  nameWithType: Element.ClassIdProperty
+  fullName: Microsoft.Maui.Controls.Element.ClassIdProperty
+- uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesisinaccessibletree
+  name: MapAutomationPropertiesIsInAccessibleTree(IElementHandler, Element)
+  nameWithType: Element.MapAutomationPropertiesIsInAccessibleTree(IElementHandler, Element)
+  fullName: Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler, Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+    name: MapAutomationPropertiesIsInAccessibleTree
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesisinaccessibletree
+  - name: (
+  - uid: Microsoft.Maui.IElementHandler
+    name: IElementHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielementhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesIsInAccessibleTree(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+    name: MapAutomationPropertiesIsInAccessibleTree
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesisinaccessibletree
+  - name: (
+  - uid: Microsoft.Maui.IElementHandler
+    name: IElementHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielementhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesexcludedwithchildren
+  name: MapAutomationPropertiesExcludedWithChildren(IElementHandler, Element)
+  nameWithType: Element.MapAutomationPropertiesExcludedWithChildren(IElementHandler, Element)
+  fullName: Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler, Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+    name: MapAutomationPropertiesExcludedWithChildren
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesexcludedwithchildren
+  - name: (
+  - uid: Microsoft.Maui.IElementHandler
+    name: IElementHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielementhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.MapAutomationPropertiesExcludedWithChildren(Microsoft.Maui.IElementHandler,Microsoft.Maui.Controls.Element)
+    name: MapAutomationPropertiesExcludedWithChildren
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.mapautomationpropertiesexcludedwithchildren
+  - name: (
+  - uid: Microsoft.Maui.IElementHandler
+    name: IElementHandler
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.ielementhandler
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.insertlogicalchild
+  name: InsertLogicalChild(int, Element)
+  nameWithType: Element.InsertLogicalChild(int, Element)
+  fullName: Microsoft.Maui.Controls.Element.InsertLogicalChild(int, Microsoft.Maui.Controls.Element)
+  nameWithType.vb: Element.InsertLogicalChild(Integer, Element)
+  fullName.vb: Microsoft.Maui.Controls.Element.InsertLogicalChild(Integer, Microsoft.Maui.Controls.Element)
+  name.vb: InsertLogicalChild(Integer, Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+    name: InsertLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.insertlogicalchild
+  - name: (
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.InsertLogicalChild(System.Int32,Microsoft.Maui.Controls.Element)
+    name: InsertLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.insertlogicalchild
+  - name: (
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.addlogicalchild
+  name: AddLogicalChild(Element)
+  nameWithType: Element.AddLogicalChild(Element)
+  fullName: Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+    name: AddLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.addlogicalchild
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.AddLogicalChild(Microsoft.Maui.Controls.Element)
+    name: AddLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.addlogicalchild
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removelogicalchild
+  name: RemoveLogicalChild(Element)
+  nameWithType: Element.RemoveLogicalChild(Element)
+  fullName: Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+    name: RemoveLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removelogicalchild
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.RemoveLogicalChild(Microsoft.Maui.Controls.Element)
+    name: RemoveLogicalChild
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removelogicalchild
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.ClearLogicalChildren
+  commentId: M:Microsoft.Maui.Controls.Element.ClearLogicalChildren
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.clearlogicalchildren
+  name: ClearLogicalChildren()
+  nameWithType: Element.ClearLogicalChildren()
+  fullName: Microsoft.Maui.Controls.Element.ClearLogicalChildren()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.ClearLogicalChildren
+    name: ClearLogicalChildren
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.clearlogicalchildren
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.ClearLogicalChildren
+    name: ClearLogicalChildren
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.clearlogicalchildren
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.FindByName(System.String)
+  commentId: M:Microsoft.Maui.Controls.Element.FindByName(System.String)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.findbyname
+  name: FindByName(string)
+  nameWithType: Element.FindByName(string)
+  fullName: Microsoft.Maui.Controls.Element.FindByName(string)
+  nameWithType.vb: Element.FindByName(String)
+  fullName.vb: Microsoft.Maui.Controls.Element.FindByName(String)
+  name.vb: FindByName(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.FindByName(System.String)
+    name: FindByName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.findbyname
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.FindByName(System.String)
+    name: FindByName
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.findbyname
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removedynamicresource
+  name: RemoveDynamicResource(BindableProperty)
+  nameWithType: Element.RemoveDynamicResource(BindableProperty)
+  fullName: Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveDynamicResource
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removedynamicresource
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.RemoveDynamicResource(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveDynamicResource
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.removedynamicresource
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+  commentId: M:Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.setdynamicresource
+  name: SetDynamicResource(BindableProperty, string)
+  nameWithType: Element.SetDynamicResource(BindableProperty, string)
+  fullName: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty, string)
+  nameWithType.vb: Element.SetDynamicResource(BindableProperty, String)
+  fullName.vb: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty, String)
+  name.vb: SetDynamicResource(BindableProperty, String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+    name: SetDynamicResource
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.setdynamicresource
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.SetDynamicResource(Microsoft.Maui.Controls.BindableProperty,System.String)
+    name: SetDynamicResource
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.setdynamicresource
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnBindingContextChanged
+  commentId: M:Microsoft.Maui.Controls.Element.OnBindingContextChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onbindingcontextchanged
+  name: OnBindingContextChanged()
+  nameWithType: Element.OnBindingContextChanged()
+  fullName: Microsoft.Maui.Controls.Element.OnBindingContextChanged()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnBindingContextChanged
+    name: OnBindingContextChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onbindingcontextchanged
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnBindingContextChanged
+    name: OnBindingContextChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onbindingcontextchanged
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+  commentId: M:Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildadded
+  name: OnChildAdded(Element)
+  nameWithType: Element.OnChildAdded(Element)
+  fullName: Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+    name: OnChildAdded
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildadded
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnChildAdded(Microsoft.Maui.Controls.Element)
+    name: OnChildAdded
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildadded
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+  commentId: M:Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildremoved
+  name: OnChildRemoved(Element, int)
+  nameWithType: Element.OnChildRemoved(Element, int)
+  fullName: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element, int)
+  nameWithType.vb: Element.OnChildRemoved(Element, Integer)
+  fullName.vb: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element, Integer)
+  name.vb: OnChildRemoved(Element, Integer)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+    name: OnChildRemoved
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildremoved
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: int
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnChildRemoved(Microsoft.Maui.Controls.Element,System.Int32)
+    name: OnChildRemoved
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onchildremoved
+  - name: (
+  - uid: Microsoft.Maui.Controls.Element
+    name: Element
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element
+  - name: ','
+  - name: " "
+  - uid: System.Int32
+    name: Integer
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.int32
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+  commentId: M:Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onpropertychanged
+  name: OnPropertyChanged(string)
+  nameWithType: Element.OnPropertyChanged(string)
+  fullName: Microsoft.Maui.Controls.Element.OnPropertyChanged(string)
+  nameWithType.vb: Element.OnPropertyChanged(String)
+  fullName.vb: Microsoft.Maui.Controls.Element.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onpropertychanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onpropertychanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+  commentId: M:Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanging
+  name: OnParentChanging(ParentChangingEventArgs)
+  nameWithType: Element.OnParentChanging(ParentChangingEventArgs)
+  fullName: Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+    name: OnParentChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanging
+  - name: (
+  - uid: Microsoft.Maui.Controls.ParentChangingEventArgs
+    name: ParentChangingEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.parentchangingeventargs
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnParentChanging(Microsoft.Maui.Controls.ParentChangingEventArgs)
+    name: OnParentChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanging
+  - name: (
+  - uid: Microsoft.Maui.Controls.ParentChangingEventArgs
+    name: ParentChangingEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.parentchangingeventargs
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnParentChanged
+  commentId: M:Microsoft.Maui.Controls.Element.OnParentChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanged
+  name: OnParentChanged()
+  nameWithType: Element.OnParentChanged()
+  fullName: Microsoft.Maui.Controls.Element.OnParentChanged()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnParentChanged
+    name: OnParentChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanged
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnParentChanged
+    name: OnParentChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onparentchanged
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+  commentId: M:Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanging
+  name: OnHandlerChanging(HandlerChangingEventArgs)
+  nameWithType: Element.OnHandlerChanging(HandlerChangingEventArgs)
+  fullName: Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+    name: OnHandlerChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanging
+  - name: (
+  - uid: Microsoft.Maui.Controls.HandlerChangingEventArgs
+    name: HandlerChangingEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.handlerchangingeventargs
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnHandlerChanging(Microsoft.Maui.Controls.HandlerChangingEventArgs)
+    name: OnHandlerChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanging
+  - name: (
+  - uid: Microsoft.Maui.Controls.HandlerChangingEventArgs
+    name: HandlerChangingEventArgs
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.handlerchangingeventargs
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.OnHandlerChanged
+  commentId: M:Microsoft.Maui.Controls.Element.OnHandlerChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanged
+  name: OnHandlerChanged()
+  nameWithType: Element.OnHandlerChanged()
+  fullName: Microsoft.Maui.Controls.Element.OnHandlerChanged()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Element.OnHandlerChanged
+    name: OnHandlerChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanged
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Element.OnHandlerChanged
+    name: OnHandlerChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.onhandlerchanged
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.Element.AutomationId
+  commentId: P:Microsoft.Maui.Controls.Element.AutomationId
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.automationid
+  name: AutomationId
+  nameWithType: Element.AutomationId
+  fullName: Microsoft.Maui.Controls.Element.AutomationId
+- uid: Microsoft.Maui.Controls.Element.ClassId
+  commentId: P:Microsoft.Maui.Controls.Element.ClassId
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.classid
+  name: ClassId
+  nameWithType: Element.ClassId
+  fullName: Microsoft.Maui.Controls.Element.ClassId
+- uid: Microsoft.Maui.Controls.Element.Effects
+  commentId: P:Microsoft.Maui.Controls.Element.Effects
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.effects
+  name: Effects
+  nameWithType: Element.Effects
+  fullName: Microsoft.Maui.Controls.Element.Effects
+- uid: Microsoft.Maui.Controls.Element.Id
+  commentId: P:Microsoft.Maui.Controls.Element.Id
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.id
+  name: Id
+  nameWithType: Element.Id
+  fullName: Microsoft.Maui.Controls.Element.Id
+- uid: Microsoft.Maui.Controls.Element.StyleId
+  commentId: P:Microsoft.Maui.Controls.Element.StyleId
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.styleid
+  name: StyleId
+  nameWithType: Element.StyleId
+  fullName: Microsoft.Maui.Controls.Element.StyleId
+- uid: Microsoft.Maui.Controls.Element.Parent
+  commentId: P:Microsoft.Maui.Controls.Element.Parent
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.parent
+  name: Parent
+  nameWithType: Element.Parent
+  fullName: Microsoft.Maui.Controls.Element.Parent
+- uid: Microsoft.Maui.Controls.Element.Handler
+  commentId: P:Microsoft.Maui.Controls.Element.Handler
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.handler
+  name: Handler
+  nameWithType: Element.Handler
+  fullName: Microsoft.Maui.Controls.Element.Handler
+- uid: Microsoft.Maui.Controls.Element.ChildAdded
+  commentId: E:Microsoft.Maui.Controls.Element.ChildAdded
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.childadded
+  name: ChildAdded
+  nameWithType: Element.ChildAdded
+  fullName: Microsoft.Maui.Controls.Element.ChildAdded
+- uid: Microsoft.Maui.Controls.Element.ChildRemoved
+  commentId: E:Microsoft.Maui.Controls.Element.ChildRemoved
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.childremoved
+  name: ChildRemoved
+  nameWithType: Element.ChildRemoved
+  fullName: Microsoft.Maui.Controls.Element.ChildRemoved
+- uid: Microsoft.Maui.Controls.Element.DescendantAdded
+  commentId: E:Microsoft.Maui.Controls.Element.DescendantAdded
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.descendantadded
+  name: DescendantAdded
+  nameWithType: Element.DescendantAdded
+  fullName: Microsoft.Maui.Controls.Element.DescendantAdded
+- uid: Microsoft.Maui.Controls.Element.DescendantRemoved
+  commentId: E:Microsoft.Maui.Controls.Element.DescendantRemoved
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.descendantremoved
+  name: DescendantRemoved
+  nameWithType: Element.DescendantRemoved
+  fullName: Microsoft.Maui.Controls.Element.DescendantRemoved
+- uid: Microsoft.Maui.Controls.Element.ParentChanging
+  commentId: E:Microsoft.Maui.Controls.Element.ParentChanging
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.parentchanging
+  name: ParentChanging
+  nameWithType: Element.ParentChanging
+  fullName: Microsoft.Maui.Controls.Element.ParentChanging
+- uid: Microsoft.Maui.Controls.Element.ParentChanged
+  commentId: E:Microsoft.Maui.Controls.Element.ParentChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.parentchanged
+  name: ParentChanged
+  nameWithType: Element.ParentChanged
+  fullName: Microsoft.Maui.Controls.Element.ParentChanged
+- uid: Microsoft.Maui.Controls.Element.HandlerChanging
+  commentId: E:Microsoft.Maui.Controls.Element.HandlerChanging
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.handlerchanging
+  name: HandlerChanging
+  nameWithType: Element.HandlerChanging
+  fullName: Microsoft.Maui.Controls.Element.HandlerChanging
+- uid: Microsoft.Maui.Controls.Element.HandlerChanged
+  commentId: E:Microsoft.Maui.Controls.Element.HandlerChanged
+  parent: Microsoft.Maui.Controls.Element
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.element.handlerchanged
+  name: HandlerChanged
+  nameWithType: Element.HandlerChanged
+  fullName: Microsoft.Maui.Controls.Element.HandlerChanged
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  commentId: F:Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontextproperty
+  name: BindingContextProperty
+  nameWithType: BindableObject.BindingContextProperty
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+- uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  name: ClearValue(BindableProperty)
+  nameWithType: BindableObject.ClearValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  name: ClearValue(BindablePropertyKey)
+  nameWithType: BindableObject.ClearValue(BindablePropertyKey)
+  fullName: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  name: GetValue(BindableProperty)
+  nameWithType: BindableObject.GetValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  name: IsSet(BindableProperty)
+  nameWithType: BindableObject.IsSet(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+    name: IsSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+    name: IsSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  name: RemoveBinding(BindableProperty)
+  nameWithType: BindableObject.RemoveBinding(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  name: SetBinding(BindableProperty, BindingBase)
+  nameWithType: BindableObject.SetBinding(BindableProperty, BindingBase)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty, Microsoft.Maui.Controls.BindingBase)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+    name: SetBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.BindingBase
+    name: BindingBase
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindingbase
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+    name: SetBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.BindingBase
+    name: BindingBase
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindingbase
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  name: ApplyBindings()
+  nameWithType: BindableObject.ApplyBindings()
+  fullName: Microsoft.Maui.Controls.BindableObject.ApplyBindings()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+    name: ApplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+    name: ApplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  name: OnPropertyChanging(string)
+  nameWithType: BindableObject.OnPropertyChanging(string)
+  fullName: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(string)
+  nameWithType.vb: BindableObject.OnPropertyChanging(String)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(String)
+  name.vb: OnPropertyChanging(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  commentId: M:Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  name: UnapplyBindings()
+  nameWithType: BindableObject.UnapplyBindings()
+  fullName: Microsoft.Maui.Controls.BindableObject.UnapplyBindings()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  name: SetValue(BindableProperty, object)
+  nameWithType: BindableObject.SetValue(BindableProperty, object)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty, object)
+  nameWithType.vb: BindableObject.SetValue(BindableProperty, Object)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty, Object)
+  name.vb: SetValue(BindableProperty, Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  name: SetValue(BindablePropertyKey, object)
+  nameWithType: BindableObject.SetValue(BindablePropertyKey, object)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey, object)
+  nameWithType.vb: BindableObject.SetValue(BindablePropertyKey, Object)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey, Object)
+  name.vb: SetValue(BindablePropertyKey, Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  name: CoerceValue(BindableProperty)
+  nameWithType: BindableObject.CoerceValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  name: CoerceValue(BindablePropertyKey)
+  nameWithType: BindableObject.CoerceValue(BindablePropertyKey)
+  fullName: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.Dispatcher
+  commentId: P:Microsoft.Maui.Controls.BindableObject.Dispatcher
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.dispatcher
+  name: Dispatcher
+  nameWithType: BindableObject.Dispatcher
+  fullName: Microsoft.Maui.Controls.BindableObject.Dispatcher
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContext
+  commentId: P:Microsoft.Maui.Controls.BindableObject.BindingContext
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontext
+  name: BindingContext
+  nameWithType: BindableObject.BindingContext
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContext
+- uid: Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  commentId: E:Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.propertychanged
+  name: PropertyChanged
+  nameWithType: BindableObject.PropertyChanged
+  fullName: Microsoft.Maui.Controls.BindableObject.PropertyChanged
+- uid: Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  commentId: E:Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.propertychanging
+  name: PropertyChanging
+  nameWithType: BindableObject.PropertyChanging
+  fullName: Microsoft.Maui.Controls.BindableObject.PropertyChanging
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  commentId: E:Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontextchanged
+  name: BindingContextChanged
+  nameWithType: BindableObject.BindingContextChanged
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Microsoft.Maui
+  commentId: N:Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui
+  nameWithType: Microsoft.Maui
+  fullName: Microsoft.Maui
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+- uid: Microsoft.Maui.Controls.IElementConfiguration`1
+  commentId: T:Microsoft.Maui.Controls.IElementConfiguration`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ielementconfiguration-1
+  name: IElementConfiguration<TElement>
+  nameWithType: IElementConfiguration<TElement>
+  fullName: Microsoft.Maui.Controls.IElementConfiguration<TElement>
+  nameWithType.vb: IElementConfiguration(Of TElement)
+  fullName.vb: Microsoft.Maui.Controls.IElementConfiguration(Of TElement)
+  name.vb: IElementConfiguration(Of TElement)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.IElementConfiguration`1
+    name: IElementConfiguration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ielementconfiguration-1
+  - name: <
+  - name: TElement
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.IElementConfiguration`1
+    name: IElementConfiguration
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.ielementconfiguration-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: TElement
+  - name: )
+- uid: AlohaKit.Animations.Sample.App.#ctor*
+  commentId: Overload:AlohaKit.Animations.Sample.App.#ctor
+  href: AlohaKit.Animations.Sample.App.html#AlohaKit_Animations_Sample_App__ctor
+  name: App
+  nameWithType: App.App
+  fullName: AlohaKit.Animations.Sample.App.App
+  nameWithType.vb: App.New
+  fullName.vb: AlohaKit.Animations.Sample.App.New
+  name.vb: New

@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Class AnimationHelper | AlohaKit.Animations </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Class AnimationHelper | AlohaKit.Animations ">
+      
+      <meta name="description" content="The AnimationHelper class contains helper methods for calculating intermediate values for various types of properties during an animation.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/jsuarezruiz/AlohaKit.Animations/new/docs/apiSpec/new?filename=AlohaKit_Animations_Helpers_AnimationHelper.md&amp;value=---%0Auid%3A%20AlohaKit.Animations.Helpers.AnimationHelper%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="AlohaKit.Animations">
+            AlohaKit.Animations
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="AlohaKit.Animations.Helpers.AnimationHelper">
+
+
+
+  <h1 id="AlohaKit_Animations_Helpers_AnimationHelper" data-uid="AlohaKit.Animations.Helpers.AnimationHelper" class="text-break">
+Class AnimationHelper  <a class="header-action link-secondary" title="View source" href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations/Helpers/AnimationHelper.cs/#L7"><i class="bi bi-code-slash"></i></a>
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="AlohaKit.html">AlohaKit</a>.<a class="xref" href="AlohaKit.Animations.html">Animations</a>.<a class="xref" href="AlohaKit.Animations.Helpers.html">Helpers</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>AlohaKit.Animations.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>The AnimationHelper class contains helper methods for calculating intermediate values
+for various types of properties during an animation.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class AnimationHelper</code></pre>
+  </div>
+
+
+
+
+  <dl class="typelist inheritance">
+    <dt>Inheritance</dt>
+    <dd>
+      <div><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+      <div><span class="xref">AnimationHelper</span></div>
+    </dd>
+  </dl>
+
+
+
+  <dl class="typelist inheritedMembers">
+    <dt>Inherited Members</dt>
+    <dd>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </dd></dl>
+
+
+
+
+
+
+  <h2 class="section" id="methods">Methods
+</h2>
+
+
+  <a id="AlohaKit_Animations_Helpers_AnimationHelper_GetColorValue_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue*"></a>
+
+  <h3 id="AlohaKit_Animations_Helpers_AnimationHelper_GetColorValue_Microsoft_Maui_Graphics_Color_Microsoft_Maui_Graphics_Color_System_Double_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color,System.Double)">
+  GetColorValue(Color, Color, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations/Helpers/AnimationHelper.cs/#L40"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates an interpolated color value based on the animation progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Color GetColorValue(Color from, Color to, double animationProgress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.color">Color</a></dt>
+    <dd><p>The starting color.</p>
+</dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.color">Color</a></dt>
+    <dd><p>The ending color.</p>
+</dd>
+    <dt><code>animationProgress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The progress of the animation, from 0.0 to 1.0.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.color">Color</a></dt>
+    <dd><p>The interpolated color value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AlohaKit_Animations_Helpers_AnimationHelper_GetCornerRadiusValue_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue*"></a>
+
+  <h3 id="AlohaKit_Animations_Helpers_AnimationHelper_GetCornerRadiusValue_Microsoft_Maui_CornerRadius_Microsoft_Maui_CornerRadius_System_Double_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue(Microsoft.Maui.CornerRadius,Microsoft.Maui.CornerRadius,System.Double)">
+  GetCornerRadiusValue(CornerRadius, CornerRadius, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations/Helpers/AnimationHelper.cs/#L55"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates an interpolated corner radius value based on the animation progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static CornerRadius GetCornerRadiusValue(CornerRadius from, CornerRadius to, double animationProgress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.cornerradius">CornerRadius</a></dt>
+    <dd><p>The starting corner radius.</p>
+</dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.cornerradius">CornerRadius</a></dt>
+    <dd><p>The ending corner radius.</p>
+</dd>
+    <dt><code>animationProgress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The progress of the animation, from 0.0 to 1.0.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.cornerradius">CornerRadius</a></dt>
+    <dd><p>The interpolated corner radius value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AlohaKit_Animations_Helpers_AnimationHelper_GetDoubleValue_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue*"></a>
+
+  <h3 id="AlohaKit_Animations_Helpers_AnimationHelper_GetDoubleValue_System_Double_System_Double_System_Double_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue(System.Double,System.Double,System.Double)">
+  GetDoubleValue(double, double, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations/Helpers/AnimationHelper.cs/#L28"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates an interpolated double value based on the animation progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GetDoubleValue(double from, double to, double animationProgress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The starting double value.</p>
+</dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The ending double value.</p>
+</dd>
+    <dt><code>animationProgress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The progress of the animation, from 0.0 to 1.0.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The interpolated double value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AlohaKit_Animations_Helpers_AnimationHelper_GetIntValue_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue*"></a>
+
+  <h3 id="AlohaKit_Animations_Helpers_AnimationHelper_GetIntValue_System_Int32_System_Int32_System_Double_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue(System.Int32,System.Int32,System.Double)">
+  GetIntValue(int, int, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations/Helpers/AnimationHelper.cs/#L16"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates an interpolated integer value based on the animation progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int GetIntValue(int from, int to, double animationProgress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The starting integer value.</p>
+</dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The ending integer value.</p>
+</dd>
+    <dt><code>animationProgress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The progress of the animation, from 0.0 to 1.0.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></dt>
+    <dd><p>The interpolated integer value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+  <a id="AlohaKit_Animations_Helpers_AnimationHelper_GetThicknessValue_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue*"></a>
+
+  <h3 id="AlohaKit_Animations_Helpers_AnimationHelper_GetThicknessValue_Microsoft_Maui_Thickness_Microsoft_Maui_Thickness_System_Double_" data-uid="AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness,System.Double)">
+  GetThicknessValue(Thickness, Thickness, double)
+  <a class="header-action link-secondary" title="View source" href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations/Helpers/AnimationHelper.cs/#L71"><i class="bi bi-code-slash"></i></a>
+  </h3>
+
+  <div class="markdown level1 summary"><p>Calculates an interpolated thickness value based on the animation progress.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Thickness GetThicknessValue(Thickness from, Thickness to, double animationProgress)</code></pre>
+  </div>
+
+  <h4 class="section">Parameters</h4>
+  <dl class="parameters">
+    <dt><code>from</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.thickness">Thickness</a></dt>
+    <dd><p>The starting thickness.</p>
+</dd>
+    <dt><code>to</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.thickness">Thickness</a></dt>
+    <dd><p>The ending thickness.</p>
+</dd>
+    <dt><code>animationProgress</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.double">double</a></dt>
+    <dd><p>The progress of the animation, from 0.0 to 1.0.</p>
+</dd>
+  </dl>
+
+  <h4 class="section">Returns</h4>
+  <dl class="parameters">
+    <dt><a class="xref" href="https://learn.microsoft.com/dotnet/api/microsoft.maui.thickness">Thickness</a></dt>
+    <dd><p>The interpolated thickness value.</p>
+</dd>
+  </dl>
+
+
+
+
+
+
+
+
+
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/jsuarezruiz/AlohaKit.Animations/blob/docs/src/AlohaKit.Animations/Helpers/AnimationHelper.cs/#L7" class="edit-link">Edit this page</a>
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

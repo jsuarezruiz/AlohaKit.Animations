@@ -1,0 +1,914 @@
+{
+  "source_base_path": "C:/Users/jsuarez/Documents/GitHub/AlohaKit.Animations/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateColor",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateColor.yml\" sourcestartlinenumber=\"1\">The AnimateColor class defines a mechanism to smoothly animate the color property of\na target visual element using progress-based interpolation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateCornerRadius.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateCornerRadius.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateCornerRadius",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateCornerRadius.yml\" sourcestartlinenumber=\"1\">The AnimateCornerRadius class animates the corner radius property of a visual element,\nproviding a smooth transition from an initial value to a target value.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateDouble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateDouble.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateDouble",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateDouble.yml\" sourcestartlinenumber=\"1\">The AnimateDouble class provides a mechanism to animate the transition of a double value\non a specified visual element, using interpolation based on animation progress.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateInt",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateInt.yml\" sourcestartlinenumber=\"1\">The AnimateInt class provides functionality to animate the transition of an integer property\non a visual element using interpolation based on animation progress.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateProgressColor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateProgressColor.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateProgressColor",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateProgressColor.yml\" sourcestartlinenumber=\"1\">Represents a behavior that animates the transition of a color property from one value to another\nbased on the progress of an animation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateProgressCornerRadius.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateProgressCornerRadius.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateProgressCornerRadius",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateProgressCornerRadius.yml\" sourcestartlinenumber=\"1\">The AnimateProgressCornerRadius class interpolates the corner radius property of a visual element,\ntransitioning from an initial value to a target value as the animation progresses.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateProgressDouble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateProgressDouble.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateProgressDouble",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateProgressDouble.yml\" sourcestartlinenumber=\"1\">The AnimateProgressDouble class interpolates a double property of a visual element, transitioning\nfrom an initial value to a target value as the animation progresses. It allows scaling of the value\nusing a multiplier.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateProgressThickness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateProgressThickness.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateProgressThickness",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateProgressThickness.yml\" sourcestartlinenumber=\"1\">The AnimateProgressThickness class interpolates the thickness property of a visual element,\ntransitioning from an initial value to a target value as the animation progresses.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimateThickness.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimateThickness.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimateThickness",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimateThickness.yml\" sourcestartlinenumber=\"1\">The AnimateThickness class provides functionality to animate the transition of a thickness property\non a visual element, using interpolation based on animation progress.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimationBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimationBase.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimationBase",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimationBase.yml\" sourcestartlinenumber=\"1\">The AnimationBase class serves as an abstract base for animations, offering configurable properties\nsuch as duration, delay, easing, and repeat behavior.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimationBaseTrigger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimationBaseTrigger-1.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimationBaseTrigger<T>",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimationBaseTrigger-1.yml\" sourcestartlinenumber=\"1\">The AnimationBaseTrigger class provides the foundation for creating custom animation triggers\nby defining common properties, methods, and behavior for animations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimationExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimationExtensions",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimationExtensions.yml\" sourcestartlinenumber=\"1\">Contains extension methods to simplify applying animations to visual elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.AnimationProgressBaseBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.AnimationProgressBaseBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.AnimationProgressBaseBehavior",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.AnimationProgressBaseBehavior.yml\" sourcestartlinenumber=\"1\">The AnimationProgressBaseBehavior class provides the foundation for creating behaviors\nthat animate properties of a visual element based on the progress of an animation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.BeginAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.BeginAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.BeginAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.BeginAnimation.yml\" sourcestartlinenumber=\"1\">The BeginAnimation class defines a trigger action for starting an animation\non a target visual element when the trigger is activated.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.BeginAnimationBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.BeginAnimationBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.BeginAnimationBehavior",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.BeginAnimationBehavior.yml\" sourcestartlinenumber=\"1\">The BeginAnimationBehavior class provides functionality to automatically trigger an animation\nwhen the behavior is attached to a visual element. It ensures the animation is associated with\nthe element and starts after a short delay.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Behaviors.AnimateProgressInt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Behaviors.AnimateProgressInt.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Behaviors.AnimateProgressInt",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Behaviors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Behaviors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Behaviors",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.BounceInAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.BounceInAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.BounceInAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.BounceInAnimation.yml\" sourcestartlinenumber=\"1\">The BounceInAnimation is a custom animation designed to create a &quot;bounce-in&quot; effect, typically used in UI transitions\nwhere an element enters the screen with an animated bounce.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.BounceOutAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.BounceOutAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.BounceOutAnimation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.ColorAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.ColorAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.ColorAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.ColorAnimation.yml\" sourcestartlinenumber=\"1\">The ColorAnimation is designed to animate a transition between colors within a user interface.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.ColorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.ColorExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.ColorExtensions",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.ColorExtensions.yml\" sourcestartlinenumber=\"1\">The ColorExtensions class contains methods to animate color changes and manage color animations\nfor visual elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.EasingType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.EasingType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.EasingType",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.EasingType.yml\" sourcestartlinenumber=\"1\">The EasingType enum provides a set of predefined easing functions used in animations.\nEach easing type determines the progression and behavior of an animation over time, allowing you to create smooth and visually appealing transitions.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.EndAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.EndAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.EndAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.EndAnimation.yml\" sourcestartlinenumber=\"1\">The EndAnimation class defines a trigger action for stopping an animation\napplied to a visual element when the trigger is activated.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.EndAnimationBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.EndAnimationBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.EndAnimationBehavior",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.EndAnimationBehavior.yml\" sourcestartlinenumber=\"1\">The EndAnimationBehavior class provides functionality to automatically stop an animation\nwhen the behavior is attached to a visual element. It ensures the animation is associated with\nthe element and invokes the End method on the animation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.EntranceTransition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.EntranceTransition.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.EntranceTransition",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.EntranceTransition.yml\" sourcestartlinenumber=\"1\">The EntranceTransition class animates visual elements with an entrance effect that includes\ntranslation and opacity adjustments. It handles animations for the target element and its child elements.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.FadeInAnimation.FadeDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.FadeInAnimation.FadeDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.FadeInAnimation.FadeDirection",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.FadeInAnimation.FadeDirection.yml\" sourcestartlinenumber=\"1\">Defines the direction of the fade-in animation (Up or Down).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.FadeInAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.FadeInAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.FadeInAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.FadeInAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that fades in a visual element while translating it along the Y-axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.FadeOutAnimation.FadeDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.FadeOutAnimation.FadeDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.FadeOutAnimation.FadeDirection",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.FadeOutAnimation.FadeDirection.yml\" sourcestartlinenumber=\"1\">Defines the direction of the fade-out animation (Up or Down).</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.FadeOutAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.FadeOutAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.FadeOutAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.FadeOutAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that fades out a visual element while translating it along the Y-axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.FadeToAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.FadeToAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.FadeToAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.FadeToAnimation.yml\" sourcestartlinenumber=\"1\">The FadeToAnimation class adjusts the opacity of a target element over a specified duration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.FlipAnimation.FlipDirection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.FlipAnimation.FlipDirection.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.FlipAnimation.FlipDirection",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.FlipAnimation.FlipDirection.yml\" sourcestartlinenumber=\"1\">Specifies the direction for a flip animation or effect.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.FlipAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.FlipAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.FlipAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.FlipAnimation.yml\" sourcestartlinenumber=\"1\">An animation that allow an element to rotate around the Y-axis\nwhile transitioning its opacity.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.HeartAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.HeartAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.HeartAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.HeartAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that performs a &quot;heartbeat&quot; effect by scaling the target element\nin a pulsating manner.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Helpers.AnimationHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Helpers.AnimationHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Helpers.AnimationHelper",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.Helpers.AnimationHelper.yml\" sourcestartlinenumber=\"1\">The AnimationHelper class contains helper methods for calculating intermediate values\nfor various types of properties during an animation.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Helpers.EasingHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Helpers.EasingHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Helpers.EasingHelper",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.Helpers.EasingHelper.yml\" sourcestartlinenumber=\"1\">The EasingHelper class provides a method to map <xref href=\"AlohaKit.Animations.EasingType\" data-throw-if-not-resolved=\"false\"></xref> values\nto corresponding <xref href=\"Microsoft.Maui.Easing\" data-throw-if-not-resolved=\"false\"></xref> objects.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Helpers.VisualTreeHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Helpers.VisualTreeHelper.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Helpers.VisualTreeHelper",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Helpers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Helpers.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Helpers",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.JumpAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.JumpAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.JumpAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.JumpAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that creates a &quot;jump&quot; effect by translating the target element\nalong the Y-axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.RelRotateToAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.RelRotateToAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.RelRotateToAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.RelRotateToAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that rotates the target element by a relative angle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.RelScaleToAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.RelScaleToAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.RelScaleToAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.RelScaleToAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that scales the target element relative to its current size.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.RotateToAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.RotateToAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.RotateToAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.RotateToAnimation.yml\" sourcestartlinenumber=\"1\">The RotateToAnimation class animates the rotation of a target element to a specified angle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.RotateXToAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.RotateXToAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.RotateXToAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.RotateXToAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that rotates the target element around the X-axis to a specified angle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.RotateYToAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.RotateYToAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.RotateYToAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.RotateYToAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that rotates the target element around the Y-axis to a specified angle.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Sample.App.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Sample.App.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Sample.App",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Sample.AppShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Sample.AppShell.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Sample.AppShell",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Sample.MainActivity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Sample.MainActivity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Sample.MainActivity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Sample.MainApplication.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Sample.MainApplication.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Sample.MainApplication",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Sample.MauiProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Sample.MauiProgram.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Sample.MauiProgram",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Sample.Resource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Sample.Resource.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Sample.Resource",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.Sample.Resource.yml\" sourcestartlinenumber=\"1\">Android Resource Designer class.\nExposes the Android Resource designer assembly into the project Namespace.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.Sample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.Sample.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.Sample",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.ScaleToAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.ScaleToAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.ScaleToAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.ScaleToAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that scales the target element to a specified size.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.ScrollViewScrollBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.ScrollViewScrollBehavior.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.ScrollViewScrollBehavior",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.ScrollViewScrollBehavior.yml\" sourcestartlinenumber=\"1\">The ScrollViewScrollBehavior class provides bindable properties to observe the horizontal and vertical scroll\npositions of a <xref href=\"Microsoft.Maui.Controls.ScrollView\" data-throw-if-not-resolved=\"false\"></xref> and calculates relative and percentage-based scroll values.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.ShakeAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.ShakeAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.ShakeAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.ShakeAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that simulates a &quot;shake&quot; effect by moving the target element\nback and forth along the X-axis.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.StoryBoard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.StoryBoard.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.StoryBoard",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.StoryBoard.yml\" sourcestartlinenumber=\"1\">Represents a storyboard that orchestrates a sequence of animations on a target element.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.TaskExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.TaskExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.TaskExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.TranslateToAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.TranslateToAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.TranslateToAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.TranslateToAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that translates (moves) the target element to a specified position.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.TurnstileInAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.TurnstileInAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.TurnstileInAnimation",
+      "Summary": "<p sourcefile=\"api/AlohaKit.Animations.TurnstileInAnimation.yml\" sourcestartlinenumber=\"1\">Represents an animation that performs a &quot;turnstile-in&quot; effect by rotating and translating\nthe target element as it enters.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.TurnstileOutAnimation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.TurnstileOutAnimation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations.TurnstileOutAnimation",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AlohaKit.Animations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AlohaKit.Animations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "AlohaKit.Animations",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

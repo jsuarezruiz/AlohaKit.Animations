@@ -3,6 +3,10 @@
     using System;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Represents an animation that performs a "heartbeat" effect by scaling the target element 
+    /// in a pulsating manner.
+    /// </summary>
     public class HeartAnimation : AnimationBase
     {
         protected override Task BeginAnimation()

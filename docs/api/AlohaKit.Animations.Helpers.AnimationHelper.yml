@@ -1,0 +1,676 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.Helpers.AnimationHelper
+  commentId: T:AlohaKit.Animations.Helpers.AnimationHelper
+  id: AnimationHelper
+  parent: AlohaKit.Animations.Helpers
+  children:
+  - AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color,System.Double)
+  - AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue(Microsoft.Maui.CornerRadius,Microsoft.Maui.CornerRadius,System.Double)
+  - AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue(System.Double,System.Double,System.Double)
+  - AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue(System.Int32,System.Int32,System.Double)
+  - AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: AnimationHelper
+  nameWithType: AnimationHelper
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper
+  type: Class
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: AnimationHelper
+    path: ../src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+    startLine: 6
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  summary: >-
+    The AnimationHelper class contains helper methods for calculating intermediate values 
+
+    for various types of properties during an animation.
+  example: []
+  syntax:
+    content: public static class AnimationHelper
+    content.vb: Public Module AnimationHelper
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue(System.Int32,System.Int32,System.Double)
+  commentId: M:AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue(System.Int32,System.Int32,System.Double)
+  id: GetIntValue(System.Int32,System.Int32,System.Double)
+  parent: AlohaKit.Animations.Helpers.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetIntValue(int, int, double)
+  nameWithType: AnimationHelper.GetIntValue(int, int, double)
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue(int, int, double)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: GetIntValue
+    path: ../src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+    startLine: 15
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  summary: Calculates an interpolated integer value based on the animation progress.
+  example: []
+  syntax:
+    content: public static int GetIntValue(int from, int to, double animationProgress)
+    parameters:
+    - id: from
+      type: System.Int32
+      description: The starting integer value.
+    - id: to
+      type: System.Int32
+      description: The ending integer value.
+    - id: animationProgress
+      type: System.Double
+      description: The progress of the animation, from 0.0 to 1.0.
+    return:
+      type: System.Int32
+      description: The interpolated integer value.
+    content.vb: Public Shared Function GetIntValue(from As Integer, [to] As Integer, animationProgress As Double) As Integer
+  overload: AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue*
+  nameWithType.vb: AnimationHelper.GetIntValue(Integer, Integer, Double)
+  fullName.vb: AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue(Integer, Integer, Double)
+  name.vb: GetIntValue(Integer, Integer, Double)
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue(System.Double,System.Double,System.Double)
+  commentId: M:AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue(System.Double,System.Double,System.Double)
+  id: GetDoubleValue(System.Double,System.Double,System.Double)
+  parent: AlohaKit.Animations.Helpers.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetDoubleValue(double, double, double)
+  nameWithType: AnimationHelper.GetDoubleValue(double, double, double)
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue(double, double, double)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: GetDoubleValue
+    path: ../src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+    startLine: 27
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  summary: Calculates an interpolated double value based on the animation progress.
+  example: []
+  syntax:
+    content: public static double GetDoubleValue(double from, double to, double animationProgress)
+    parameters:
+    - id: from
+      type: System.Double
+      description: The starting double value.
+    - id: to
+      type: System.Double
+      description: The ending double value.
+    - id: animationProgress
+      type: System.Double
+      description: The progress of the animation, from 0.0 to 1.0.
+    return:
+      type: System.Double
+      description: The interpolated double value.
+    content.vb: Public Shared Function GetDoubleValue(from As Double, [to] As Double, animationProgress As Double) As Double
+  overload: AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue*
+  nameWithType.vb: AnimationHelper.GetDoubleValue(Double, Double, Double)
+  fullName.vb: AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue(Double, Double, Double)
+  name.vb: GetDoubleValue(Double, Double, Double)
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color,System.Double)
+  commentId: M:AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color,System.Double)
+  id: GetColorValue(Microsoft.Maui.Graphics.Color,Microsoft.Maui.Graphics.Color,System.Double)
+  parent: AlohaKit.Animations.Helpers.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetColorValue(Color, Color, double)
+  nameWithType: AnimationHelper.GetColorValue(Color, Color, double)
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue(Microsoft.Maui.Graphics.Color, Microsoft.Maui.Graphics.Color, double)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: GetColorValue
+    path: ../src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+    startLine: 39
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  summary: Calculates an interpolated color value based on the animation progress.
+  example: []
+  syntax:
+    content: public static Color GetColorValue(Color from, Color to, double animationProgress)
+    parameters:
+    - id: from
+      type: Microsoft.Maui.Graphics.Color
+      description: The starting color.
+    - id: to
+      type: Microsoft.Maui.Graphics.Color
+      description: The ending color.
+    - id: animationProgress
+      type: System.Double
+      description: The progress of the animation, from 0.0 to 1.0.
+    return:
+      type: Microsoft.Maui.Graphics.Color
+      description: The interpolated color value.
+    content.vb: Public Shared Function GetColorValue(from As Color, [to] As Color, animationProgress As Double) As Color
+  overload: AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue*
+  nameWithType.vb: AnimationHelper.GetColorValue(Color, Color, Double)
+  fullName.vb: AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue(Microsoft.Maui.Graphics.Color, Microsoft.Maui.Graphics.Color, Double)
+  name.vb: GetColorValue(Color, Color, Double)
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue(Microsoft.Maui.CornerRadius,Microsoft.Maui.CornerRadius,System.Double)
+  commentId: M:AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue(Microsoft.Maui.CornerRadius,Microsoft.Maui.CornerRadius,System.Double)
+  id: GetCornerRadiusValue(Microsoft.Maui.CornerRadius,Microsoft.Maui.CornerRadius,System.Double)
+  parent: AlohaKit.Animations.Helpers.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetCornerRadiusValue(CornerRadius, CornerRadius, double)
+  nameWithType: AnimationHelper.GetCornerRadiusValue(CornerRadius, CornerRadius, double)
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue(Microsoft.Maui.CornerRadius, Microsoft.Maui.CornerRadius, double)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: GetCornerRadiusValue
+    path: ../src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+    startLine: 54
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  summary: Calculates an interpolated corner radius value based on the animation progress.
+  example: []
+  syntax:
+    content: public static CornerRadius GetCornerRadiusValue(CornerRadius from, CornerRadius to, double animationProgress)
+    parameters:
+    - id: from
+      type: Microsoft.Maui.CornerRadius
+      description: The starting corner radius.
+    - id: to
+      type: Microsoft.Maui.CornerRadius
+      description: The ending corner radius.
+    - id: animationProgress
+      type: System.Double
+      description: The progress of the animation, from 0.0 to 1.0.
+    return:
+      type: Microsoft.Maui.CornerRadius
+      description: The interpolated corner radius value.
+    content.vb: Public Shared Function GetCornerRadiusValue(from As CornerRadius, [to] As CornerRadius, animationProgress As Double) As CornerRadius
+  overload: AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue*
+  nameWithType.vb: AnimationHelper.GetCornerRadiusValue(CornerRadius, CornerRadius, Double)
+  fullName.vb: AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue(Microsoft.Maui.CornerRadius, Microsoft.Maui.CornerRadius, Double)
+  name.vb: GetCornerRadiusValue(CornerRadius, CornerRadius, Double)
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness,System.Double)
+  commentId: M:AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness,System.Double)
+  id: GetThicknessValue(Microsoft.Maui.Thickness,Microsoft.Maui.Thickness,System.Double)
+  parent: AlohaKit.Animations.Helpers.AnimationHelper
+  langs:
+  - csharp
+  - vb
+  name: GetThicknessValue(Thickness, Thickness, double)
+  nameWithType: AnimationHelper.GetThicknessValue(Thickness, Thickness, double)
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue(Microsoft.Maui.Thickness, Microsoft.Maui.Thickness, double)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: GetThicknessValue
+    path: ../src/AlohaKit.Animations/Helpers/AnimationHelper.cs
+    startLine: 70
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations.Helpers
+  summary: Calculates an interpolated thickness value based on the animation progress.
+  example: []
+  syntax:
+    content: public static Thickness GetThicknessValue(Thickness from, Thickness to, double animationProgress)
+    parameters:
+    - id: from
+      type: Microsoft.Maui.Thickness
+      description: The starting thickness.
+    - id: to
+      type: Microsoft.Maui.Thickness
+      description: The ending thickness.
+    - id: animationProgress
+      type: System.Double
+      description: The progress of the animation, from 0.0 to 1.0.
+    return:
+      type: Microsoft.Maui.Thickness
+      description: The interpolated thickness value.
+    content.vb: Public Shared Function GetThicknessValue(from As Thickness, [to] As Thickness, animationProgress As Double) As Thickness
+  overload: AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue*
+  nameWithType.vb: AnimationHelper.GetThicknessValue(Thickness, Thickness, Double)
+  fullName.vb: AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue(Microsoft.Maui.Thickness, Microsoft.Maui.Thickness, Double)
+  name.vb: GetThicknessValue(Thickness, Thickness, Double)
+references:
+- uid: AlohaKit.Animations.Helpers
+  commentId: N:AlohaKit.Animations.Helpers
+  href: AlohaKit.html
+  name: AlohaKit.Animations.Helpers
+  nameWithType: AlohaKit.Animations.Helpers
+  fullName: AlohaKit.Animations.Helpers
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  - name: .
+  - uid: AlohaKit.Animations.Helpers
+    name: Helpers
+    href: AlohaKit.Animations.Helpers.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  - name: .
+  - uid: AlohaKit.Animations.Helpers
+    name: Helpers
+    href: AlohaKit.Animations.Helpers.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue*
+  commentId: Overload:AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue
+  href: AlohaKit.Animations.Helpers.AnimationHelper.html#AlohaKit_Animations_Helpers_AnimationHelper_GetIntValue_System_Int32_System_Int32_System_Double_
+  name: GetIntValue
+  nameWithType: AnimationHelper.GetIntValue
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetIntValue
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue*
+  commentId: Overload:AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue
+  href: AlohaKit.Animations.Helpers.AnimationHelper.html#AlohaKit_Animations_Helpers_AnimationHelper_GetDoubleValue_System_Double_System_Double_System_Double_
+  name: GetDoubleValue
+  nameWithType: AnimationHelper.GetDoubleValue
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetDoubleValue
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue*
+  commentId: Overload:AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue
+  href: AlohaKit.Animations.Helpers.AnimationHelper.html#AlohaKit_Animations_Helpers_AnimationHelper_GetColorValue_Microsoft_Maui_Graphics_Color_Microsoft_Maui_Graphics_Color_System_Double_
+  name: GetColorValue
+  nameWithType: AnimationHelper.GetColorValue
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetColorValue
+- uid: Microsoft.Maui.Graphics.Color
+  commentId: T:Microsoft.Maui.Graphics.Color
+  parent: Microsoft.Maui.Graphics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics.color
+  name: Color
+  nameWithType: Color
+  fullName: Microsoft.Maui.Graphics.Color
+- uid: Microsoft.Maui.Graphics
+  commentId: N:Microsoft.Maui.Graphics
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Graphics
+  nameWithType: Microsoft.Maui.Graphics
+  fullName: Microsoft.Maui.Graphics
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Graphics
+    name: Graphics
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.graphics
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue*
+  commentId: Overload:AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue
+  href: AlohaKit.Animations.Helpers.AnimationHelper.html#AlohaKit_Animations_Helpers_AnimationHelper_GetCornerRadiusValue_Microsoft_Maui_CornerRadius_Microsoft_Maui_CornerRadius_System_Double_
+  name: GetCornerRadiusValue
+  nameWithType: AnimationHelper.GetCornerRadiusValue
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetCornerRadiusValue
+- uid: Microsoft.Maui.CornerRadius
+  commentId: T:Microsoft.Maui.CornerRadius
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.cornerradius
+  name: CornerRadius
+  nameWithType: CornerRadius
+  fullName: Microsoft.Maui.CornerRadius
+- uid: Microsoft.Maui
+  commentId: N:Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui
+  nameWithType: Microsoft.Maui
+  fullName: Microsoft.Maui
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+- uid: AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue*
+  commentId: Overload:AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue
+  href: AlohaKit.Animations.Helpers.AnimationHelper.html#AlohaKit_Animations_Helpers_AnimationHelper_GetThicknessValue_Microsoft_Maui_Thickness_Microsoft_Maui_Thickness_System_Double_
+  name: GetThicknessValue
+  nameWithType: AnimationHelper.GetThicknessValue
+  fullName: AlohaKit.Animations.Helpers.AnimationHelper.GetThicknessValue
+- uid: Microsoft.Maui.Thickness
+  commentId: T:Microsoft.Maui.Thickness
+  parent: Microsoft.Maui
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.thickness
+  name: Thickness
+  nameWithType: Thickness
+  fullName: Microsoft.Maui.Thickness

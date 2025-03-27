@@ -1,0 +1,1774 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior
+  commentId: T:AlohaKit.Animations.ScrollViewScrollBehavior
+  id: ScrollViewScrollBehavior
+  parent: AlohaKit.Animations
+  children:
+  - AlohaKit.Animations.ScrollViewScrollBehavior.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  - AlohaKit.Animations.ScrollViewScrollBehavior.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  - AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollX
+  - AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollXProperty
+  - AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollY
+  - AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollYProperty
+  - AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollX
+  - AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollXProperty
+  - AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollY
+  - AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollYProperty
+  - AlohaKit.Animations.ScrollViewScrollBehavior.ScrollX
+  - AlohaKit.Animations.ScrollViewScrollBehavior.ScrollXProperty
+  - AlohaKit.Animations.ScrollViewScrollBehavior.ScrollY
+  - AlohaKit.Animations.ScrollViewScrollBehavior.ScrollYProperty
+  langs:
+  - csharp
+  - vb
+  name: ScrollViewScrollBehavior
+  nameWithType: ScrollViewScrollBehavior
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior
+  type: Class
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: ScrollViewScrollBehavior
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 10
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: >-
+    The ScrollViewScrollBehavior class provides bindable properties to observe the horizontal and vertical scroll
+
+    positions of a <xref href="Microsoft.Maui.Controls.ScrollView" data-throw-if-not-resolved="false"></xref> and calculates relative and percentage-based scroll values.
+  example: []
+  syntax:
+    content: 'public class ScrollViewScrollBehavior : Behavior<ScrollView>, INotifyPropertyChanged'
+    content.vb: Public Class ScrollViewScrollBehavior Inherits Behavior(Of ScrollView) Implements INotifyPropertyChanged
+  inheritance:
+  - System.Object
+  - Microsoft.Maui.Controls.BindableObject
+  - Microsoft.Maui.Controls.Behavior
+  - Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}
+  implements:
+  - System.ComponentModel.INotifyPropertyChanged
+  inheritedMembers:
+  - Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  - Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  - Microsoft.Maui.Controls.Behavior.AssociatedType
+  - Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  - Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  - Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  - Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  - Microsoft.Maui.Controls.BindableObject.OnBindingContextChanged
+  - Microsoft.Maui.Controls.BindableObject.OnPropertyChanged(System.String)
+  - Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  - Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  - Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  - Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  - Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  - Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  - Microsoft.Maui.Controls.BindableObject.Dispatcher
+  - Microsoft.Maui.Controls.BindableObject.BindingContext
+  - Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  - Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  - Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollXProperty
+  commentId: F:AlohaKit.Animations.ScrollViewScrollBehavior.ScrollXProperty
+  id: ScrollXProperty
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: ScrollXProperty
+  nameWithType: ScrollViewScrollBehavior.ScrollXProperty
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollXProperty
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: ScrollXProperty
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 15
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Bindable property for the horizontal scroll value in pixels.
+  example: []
+  syntax:
+    content: public static readonly BindableProperty ScrollXProperty
+    return:
+      type: Microsoft.Maui.Controls.BindableProperty
+    content.vb: Public Shared ReadOnly ScrollXProperty As BindableProperty
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollX
+  commentId: P:AlohaKit.Animations.ScrollViewScrollBehavior.ScrollX
+  id: ScrollX
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: ScrollX
+  nameWithType: ScrollViewScrollBehavior.ScrollX
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollX
+  type: Property
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: ScrollX
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 27
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Gets or sets the horizontal scroll value in pixels.
+  example: []
+  syntax:
+    content: public double ScrollX { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ScrollX As Double
+  overload: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollX*
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollYProperty
+  commentId: F:AlohaKit.Animations.ScrollViewScrollBehavior.ScrollYProperty
+  id: ScrollYProperty
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: ScrollYProperty
+  nameWithType: ScrollViewScrollBehavior.ScrollYProperty
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollYProperty
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: ScrollYProperty
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 36
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Bindable property for the vertical scroll value in pixels.
+  example: []
+  syntax:
+    content: public static readonly BindableProperty ScrollYProperty
+    return:
+      type: Microsoft.Maui.Controls.BindableProperty
+    content.vb: Public Shared ReadOnly ScrollYProperty As BindableProperty
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollY
+  commentId: P:AlohaKit.Animations.ScrollViewScrollBehavior.ScrollY
+  id: ScrollY
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: ScrollY
+  nameWithType: ScrollViewScrollBehavior.ScrollY
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollY
+  type: Property
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: ScrollY
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 48
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Gets or sets the vertical scroll value in pixels.
+  example: []
+  syntax:
+    content: public double ScrollY { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property ScrollY As Double
+  overload: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollY*
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollXProperty
+  commentId: F:AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollXProperty
+  id: RelativeScrollXProperty
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: RelativeScrollXProperty
+  nameWithType: ScrollViewScrollBehavior.RelativeScrollXProperty
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollXProperty
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: RelativeScrollXProperty
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 57
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Bindable property for the horizontal scroll value between 0 and 1.
+  example: []
+  syntax:
+    content: public static readonly BindableProperty RelativeScrollXProperty
+    return:
+      type: Microsoft.Maui.Controls.BindableProperty
+    content.vb: Public Shared ReadOnly RelativeScrollXProperty As BindableProperty
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollX
+  commentId: P:AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollX
+  id: RelativeScrollX
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: RelativeScrollX
+  nameWithType: ScrollViewScrollBehavior.RelativeScrollX
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollX
+  type: Property
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: RelativeScrollX
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 69
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Gets or sets the horizontal scroll value as a relative value between 0 and 1.
+  example: []
+  syntax:
+    content: public double RelativeScrollX { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property RelativeScrollX As Double
+  overload: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollX*
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollYProperty
+  commentId: F:AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollYProperty
+  id: RelativeScrollYProperty
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: RelativeScrollYProperty
+  nameWithType: ScrollViewScrollBehavior.RelativeScrollYProperty
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollYProperty
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: RelativeScrollYProperty
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 78
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Bindable property for the vertical scroll value between 0 and 1.
+  example: []
+  syntax:
+    content: public static readonly BindableProperty RelativeScrollYProperty
+    return:
+      type: Microsoft.Maui.Controls.BindableProperty
+    content.vb: Public Shared ReadOnly RelativeScrollYProperty As BindableProperty
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollY
+  commentId: P:AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollY
+  id: RelativeScrollY
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: RelativeScrollY
+  nameWithType: ScrollViewScrollBehavior.RelativeScrollY
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollY
+  type: Property
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: RelativeScrollY
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 90
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Gets or sets the vertical scroll value as a relative value between 0 and 1.
+  example: []
+  syntax:
+    content: public double RelativeScrollY { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property RelativeScrollY As Double
+  overload: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollY*
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollXProperty
+  commentId: F:AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollXProperty
+  id: PercentageScrollXProperty
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: PercentageScrollXProperty
+  nameWithType: ScrollViewScrollBehavior.PercentageScrollXProperty
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollXProperty
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: PercentageScrollXProperty
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 99
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Bindable property for the horizontal scroll value as a percentage (0% to 100%).
+  example: []
+  syntax:
+    content: public static readonly BindableProperty PercentageScrollXProperty
+    return:
+      type: Microsoft.Maui.Controls.BindableProperty
+    content.vb: Public Shared ReadOnly PercentageScrollXProperty As BindableProperty
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollX
+  commentId: P:AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollX
+  id: PercentageScrollX
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: PercentageScrollX
+  nameWithType: ScrollViewScrollBehavior.PercentageScrollX
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollX
+  type: Property
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: PercentageScrollX
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 111
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Gets or sets the horizontal scroll value as a percentage (0% to 100%).
+  example: []
+  syntax:
+    content: public double PercentageScrollX { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property PercentageScrollX As Double
+  overload: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollX*
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollYProperty
+  commentId: F:AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollYProperty
+  id: PercentageScrollYProperty
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: PercentageScrollYProperty
+  nameWithType: ScrollViewScrollBehavior.PercentageScrollYProperty
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollYProperty
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: PercentageScrollYProperty
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 120
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Bindable property for the vertical scroll value as a percentage (0% to 100%).
+  example: []
+  syntax:
+    content: public static readonly BindableProperty PercentageScrollYProperty
+    return:
+      type: Microsoft.Maui.Controls.BindableProperty
+    content.vb: Public Shared ReadOnly PercentageScrollYProperty As BindableProperty
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollY
+  commentId: P:AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollY
+  id: PercentageScrollY
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: PercentageScrollY
+  nameWithType: ScrollViewScrollBehavior.PercentageScrollY
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollY
+  type: Property
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: PercentageScrollY
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 132
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Gets or sets the vertical scroll value as a percentage (0% to 100%).
+  example: []
+  syntax:
+    content: public double PercentageScrollY { get; set; }
+    parameters: []
+    return:
+      type: System.Double
+    content.vb: Public Property PercentageScrollY As Double
+  overload: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollY*
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  commentId: M:AlohaKit.Animations.ScrollViewScrollBehavior.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  id: OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: OnAttachedTo(ScrollView)
+  nameWithType: ScrollViewScrollBehavior.OnAttachedTo(ScrollView)
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: OnAttachedTo
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 143
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: >-
+    Called when the behavior is attached to a <xref href="Microsoft.Maui.Controls.ScrollView" data-throw-if-not-resolved="false"></xref>.
+
+    Subscribes to the scroll event of the associated ScrollView.
+  example: []
+  syntax:
+    content: protected override void OnAttachedTo(ScrollView bindable)
+    parameters:
+    - id: bindable
+      type: Microsoft.Maui.Controls.ScrollView
+      description: The ScrollView to which the behavior is attached.
+    content.vb: Protected Overrides Sub OnAttachedTo(bindable As ScrollView)
+  overridden: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  overload: AlohaKit.Animations.ScrollViewScrollBehavior.OnAttachedTo*
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  commentId: M:AlohaKit.Animations.ScrollViewScrollBehavior.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  id: OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  parent: AlohaKit.Animations.ScrollViewScrollBehavior
+  langs:
+  - csharp
+  - vb
+  name: OnDetachingFrom(ScrollView)
+  nameWithType: ScrollViewScrollBehavior.OnDetachingFrom(ScrollView)
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  type: Method
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: OnDetachingFrom
+    path: ../src/AlohaKit.Animations/Behaviors/ScrollViewScrollBehavior.cs
+    startLine: 154
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: >-
+    Called when the behavior is detached from a <xref href="Microsoft.Maui.Controls.ScrollView" data-throw-if-not-resolved="false"></xref>.
+
+    Unsubscribes from the scroll event of the associated ScrollView.
+  example: []
+  syntax:
+    content: protected override void OnDetachingFrom(ScrollView bindable)
+    parameters:
+    - id: bindable
+      type: Microsoft.Maui.Controls.ScrollView
+      description: The ScrollView from which the behavior is detached.
+    content.vb: Protected Overrides Sub OnDetachingFrom(bindable As ScrollView)
+  overridden: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  overload: AlohaKit.Animations.ScrollViewScrollBehavior.OnDetachingFrom*
+references:
+- uid: Microsoft.Maui.Controls.ScrollView
+  commentId: T:Microsoft.Maui.Controls.ScrollView
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.scrollview
+  name: ScrollView
+  nameWithType: ScrollView
+  fullName: Microsoft.Maui.Controls.ScrollView
+- uid: AlohaKit.Animations
+  commentId: N:AlohaKit.Animations
+  href: AlohaKit.html
+  name: AlohaKit.Animations
+  nameWithType: AlohaKit.Animations
+  fullName: AlohaKit.Animations
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Microsoft.Maui.Controls.BindableObject
+  commentId: T:Microsoft.Maui.Controls.BindableObject
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  name: BindableObject
+  nameWithType: BindableObject
+  fullName: Microsoft.Maui.Controls.BindableObject
+- uid: Microsoft.Maui.Controls.Behavior
+  commentId: T:Microsoft.Maui.Controls.Behavior
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior
+  name: Behavior
+  nameWithType: Behavior
+  fullName: Microsoft.Maui.Controls.Behavior
+- uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}
+  commentId: T:Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}
+  parent: Microsoft.Maui.Controls
+  definition: Microsoft.Maui.Controls.Behavior`1
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1
+  name: Behavior<ScrollView>
+  nameWithType: Behavior<ScrollView>
+  fullName: Microsoft.Maui.Controls.Behavior<Microsoft.Maui.Controls.ScrollView>
+  nameWithType.vb: Behavior(Of ScrollView)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of Microsoft.Maui.Controls.ScrollView)
+  name.vb: Behavior(Of ScrollView)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior`1
+    name: Behavior
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1
+  - name: <
+  - uid: Microsoft.Maui.Controls.ScrollView
+    name: ScrollView
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.scrollview
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior`1
+    name: Behavior
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1
+  - name: (
+  - name: Of
+  - name: " "
+  - uid: Microsoft.Maui.Controls.ScrollView
+    name: ScrollView
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.scrollview
+  - name: )
+- uid: System.ComponentModel.INotifyPropertyChanged
+  commentId: T:System.ComponentModel.INotifyPropertyChanged
+  parent: System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.componentmodel.inotifypropertychanged
+  name: INotifyPropertyChanged
+  nameWithType: INotifyPropertyChanged
+  fullName: System.ComponentModel.INotifyPropertyChanged
+- uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  commentId: M:Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  parent: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}
+  definition: Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(microsoft-maui-controls-bindableobject)
+  name: OnAttachedTo(BindableObject)
+  nameWithType: Behavior<ScrollView>.OnAttachedTo(BindableObject)
+  fullName: Microsoft.Maui.Controls.Behavior<Microsoft.Maui.Controls.ScrollView>.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  nameWithType.vb: Behavior(Of ScrollView).OnAttachedTo(BindableObject)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of Microsoft.Maui.Controls.ScrollView).OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+    name: OnAttachedTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(microsoft-maui-controls-bindableobject)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableObject
+    name: BindableObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+    name: OnAttachedTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(microsoft-maui-controls-bindableobject)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableObject
+    name: BindableObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  - name: )
+- uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  commentId: M:Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  parent: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}
+  definition: Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(microsoft-maui-controls-bindableobject)
+  name: OnDetachingFrom(BindableObject)
+  nameWithType: Behavior<ScrollView>.OnDetachingFrom(BindableObject)
+  fullName: Microsoft.Maui.Controls.Behavior<Microsoft.Maui.Controls.ScrollView>.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  nameWithType.vb: Behavior(Of ScrollView).OnDetachingFrom(BindableObject)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of Microsoft.Maui.Controls.ScrollView).OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+    name: OnDetachingFrom
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(microsoft-maui-controls-bindableobject)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableObject
+    name: BindableObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+    name: OnDetachingFrom
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(microsoft-maui-controls-bindableobject)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableObject
+    name: BindableObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  - name: )
+- uid: Microsoft.Maui.Controls.Behavior.AssociatedType
+  commentId: P:Microsoft.Maui.Controls.Behavior.AssociatedType
+  parent: Microsoft.Maui.Controls.Behavior
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior.associatedtype
+  name: AssociatedType
+  nameWithType: Behavior.AssociatedType
+  fullName: Microsoft.Maui.Controls.Behavior.AssociatedType
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  commentId: F:Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontextproperty
+  name: BindingContextProperty
+  nameWithType: BindableObject.BindingContextProperty
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContextProperty
+- uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  name: ClearValue(BindableProperty)
+  nameWithType: BindableObject.ClearValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindableProperty)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  name: ClearValue(BindablePropertyKey)
+  nameWithType: BindableObject.ClearValue(BindablePropertyKey)
+  fullName: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ClearValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: ClearValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.clearvalue#microsoft-maui-controls-bindableobject-clearvalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  name: GetValue(BindableProperty)
+  nameWithType: BindableObject.GetValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.GetValue(Microsoft.Maui.Controls.BindableProperty)
+    name: GetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.getvalue
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  name: IsSet(BindableProperty)
+  nameWithType: BindableObject.IsSet(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+    name: IsSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.IsSet(Microsoft.Maui.Controls.BindableProperty)
+    name: IsSet
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.isset
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  name: RemoveBinding(BindableProperty)
+  nameWithType: BindableObject.RemoveBinding(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.RemoveBinding(Microsoft.Maui.Controls.BindableProperty)
+    name: RemoveBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.removebinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  name: SetBinding(BindableProperty, BindingBase)
+  nameWithType: BindableObject.SetBinding(BindableProperty, BindingBase)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty, Microsoft.Maui.Controls.BindingBase)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+    name: SetBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.BindingBase
+    name: BindingBase
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindingbase
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetBinding(Microsoft.Maui.Controls.BindableProperty,Microsoft.Maui.Controls.BindingBase)
+    name: SetBinding
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setbinding
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: Microsoft.Maui.Controls.BindingBase
+    name: BindingBase
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindingbase
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  commentId: M:Microsoft.Maui.Controls.BindableObject.ApplyBindings
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  name: ApplyBindings()
+  nameWithType: BindableObject.ApplyBindings()
+  fullName: Microsoft.Maui.Controls.BindableObject.ApplyBindings()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+    name: ApplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.ApplyBindings
+    name: ApplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.applybindings
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.OnBindingContextChanged
+  commentId: M:Microsoft.Maui.Controls.BindableObject.OnBindingContextChanged
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onbindingcontextchanged
+  name: OnBindingContextChanged()
+  nameWithType: BindableObject.OnBindingContextChanged()
+  fullName: Microsoft.Maui.Controls.BindableObject.OnBindingContextChanged()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnBindingContextChanged
+    name: OnBindingContextChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onbindingcontextchanged
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnBindingContextChanged
+    name: OnBindingContextChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onbindingcontextchanged
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanged(System.String)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.OnPropertyChanged(System.String)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanged
+  name: OnPropertyChanged(string)
+  nameWithType: BindableObject.OnPropertyChanged(string)
+  fullName: Microsoft.Maui.Controls.BindableObject.OnPropertyChanged(string)
+  nameWithType.vb: BindableObject.OnPropertyChanged(String)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.OnPropertyChanged(String)
+  name.vb: OnPropertyChanged(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanged
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanged(System.String)
+    name: OnPropertyChanged
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanged
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  name: OnPropertyChanging(string)
+  nameWithType: BindableObject.OnPropertyChanging(string)
+  fullName: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(string)
+  nameWithType.vb: BindableObject.OnPropertyChanging(String)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(String)
+  name.vb: OnPropertyChanging(String)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  - name: (
+  - uid: System.String
+    name: string
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.OnPropertyChanging(System.String)
+    name: OnPropertyChanging
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.onpropertychanging
+  - name: (
+  - uid: System.String
+    name: String
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.string
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  commentId: M:Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  name: UnapplyBindings()
+  nameWithType: BindableObject.UnapplyBindings()
+  fullName: Microsoft.Maui.Controls.BindableObject.UnapplyBindings()
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.UnapplyBindings
+    name: UnapplyBindings
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.unapplybindings
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  name: SetValue(BindableProperty, object)
+  nameWithType: BindableObject.SetValue(BindableProperty, object)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty, object)
+  nameWithType.vb: BindableObject.SetValue(BindableProperty, Object)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty, Object)
+  name.vb: SetValue(BindableProperty, Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindableProperty,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindableproperty-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  name: SetValue(BindablePropertyKey, object)
+  nameWithType: BindableObject.SetValue(BindablePropertyKey, object)
+  fullName: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey, object)
+  nameWithType.vb: BindableObject.SetValue(BindablePropertyKey, Object)
+  fullName.vb: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey, Object)
+  name.vb: SetValue(BindablePropertyKey, Object)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.SetValue(Microsoft.Maui.Controls.BindablePropertyKey,System.Object)
+    name: SetValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.setvalue#microsoft-maui-controls-bindableobject-setvalue(microsoft-maui-controls-bindablepropertykey-system-object)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  name: CoerceValue(BindableProperty)
+  nameWithType: BindableObject.CoerceValue(BindableProperty)
+  fullName: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindableProperty)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindableproperty)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableProperty
+    name: BindableProperty
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  commentId: M:Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  name: CoerceValue(BindablePropertyKey)
+  nameWithType: BindableObject.CoerceValue(BindablePropertyKey)
+  fullName: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.BindableObject.CoerceValue(Microsoft.Maui.Controls.BindablePropertyKey)
+    name: CoerceValue
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.coercevalue#microsoft-maui-controls-bindableobject-coercevalue(microsoft-maui-controls-bindablepropertykey)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindablePropertyKey
+    name: BindablePropertyKey
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindablepropertykey
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableObject.Dispatcher
+  commentId: P:Microsoft.Maui.Controls.BindableObject.Dispatcher
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.dispatcher
+  name: Dispatcher
+  nameWithType: BindableObject.Dispatcher
+  fullName: Microsoft.Maui.Controls.BindableObject.Dispatcher
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContext
+  commentId: P:Microsoft.Maui.Controls.BindableObject.BindingContext
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontext
+  name: BindingContext
+  nameWithType: BindableObject.BindingContext
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContext
+- uid: Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  commentId: E:Microsoft.Maui.Controls.BindableObject.PropertyChanged
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.propertychanged
+  name: PropertyChanged
+  nameWithType: BindableObject.PropertyChanged
+  fullName: Microsoft.Maui.Controls.BindableObject.PropertyChanged
+- uid: Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  commentId: E:Microsoft.Maui.Controls.BindableObject.PropertyChanging
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.propertychanging
+  name: PropertyChanging
+  nameWithType: BindableObject.PropertyChanging
+  fullName: Microsoft.Maui.Controls.BindableObject.PropertyChanging
+- uid: Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  commentId: E:Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+  parent: Microsoft.Maui.Controls.BindableObject
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject.bindingcontextchanged
+  name: BindingContextChanged
+  nameWithType: BindableObject.BindingContextChanged
+  fullName: Microsoft.Maui.Controls.BindableObject.BindingContextChanged
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: Microsoft.Maui.Controls
+  commentId: N:Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft
+  name: Microsoft.Maui.Controls
+  nameWithType: Microsoft.Maui.Controls
+  fullName: Microsoft.Maui.Controls
+  spec.csharp:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+  spec.vb:
+  - uid: Microsoft
+    name: Microsoft
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft
+  - name: .
+  - uid: Microsoft.Maui
+    name: Maui
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui
+  - name: .
+  - uid: Microsoft.Maui.Controls
+    name: Controls
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Maui.Controls.Behavior`1
+  commentId: T:Microsoft.Maui.Controls.Behavior`1
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1
+  name: Behavior<T>
+  nameWithType: Behavior<T>
+  fullName: Microsoft.Maui.Controls.Behavior<T>
+  nameWithType.vb: Behavior(Of T)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of T)
+  name.vb: Behavior(Of T)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior`1
+    name: Behavior
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1
+  - name: <
+  - name: T
+  - name: '>'
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior`1
+    name: Behavior
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1
+  - name: (
+  - name: Of
+  - name: " "
+  - name: T
+  - name: )
+- uid: System.ComponentModel
+  commentId: N:System.ComponentModel
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System.ComponentModel
+  nameWithType: System.ComponentModel
+  fullName: System.ComponentModel
+  spec.csharp:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+  spec.vb:
+  - uid: System
+    name: System
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system
+  - name: .
+  - uid: System.ComponentModel
+    name: ComponentModel
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.componentmodel
+- uid: Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  commentId: M:Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(microsoft-maui-controls-bindableobject)
+  name: OnAttachedTo(BindableObject)
+  nameWithType: Behavior<T>.OnAttachedTo(BindableObject)
+  fullName: Microsoft.Maui.Controls.Behavior<T>.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  nameWithType.vb: Behavior(Of T).OnAttachedTo(BindableObject)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of T).OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+    name: OnAttachedTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(microsoft-maui-controls-bindableobject)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableObject
+    name: BindableObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(Microsoft.Maui.Controls.BindableObject)
+    name: OnAttachedTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(microsoft-maui-controls-bindableobject)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableObject
+    name: BindableObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  - name: )
+- uid: Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  commentId: M:Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(microsoft-maui-controls-bindableobject)
+  name: OnDetachingFrom(BindableObject)
+  nameWithType: Behavior<T>.OnDetachingFrom(BindableObject)
+  fullName: Microsoft.Maui.Controls.Behavior<T>.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  nameWithType.vb: Behavior(Of T).OnDetachingFrom(BindableObject)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of T).OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+    name: OnDetachingFrom
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(microsoft-maui-controls-bindableobject)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableObject
+    name: BindableObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(Microsoft.Maui.Controls.BindableObject)
+    name: OnDetachingFrom
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(microsoft-maui-controls-bindableobject)
+  - name: (
+  - uid: Microsoft.Maui.Controls.BindableObject
+    name: BindableObject
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableobject
+  - name: )
+- uid: Microsoft.Maui.Controls.BindableProperty
+  commentId: T:Microsoft.Maui.Controls.BindableProperty
+  parent: Microsoft.Maui.Controls
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.bindableproperty
+  name: BindableProperty
+  nameWithType: BindableProperty
+  fullName: Microsoft.Maui.Controls.BindableProperty
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollX*
+  commentId: Overload:AlohaKit.Animations.ScrollViewScrollBehavior.ScrollX
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html#AlohaKit_Animations_ScrollViewScrollBehavior_ScrollX
+  name: ScrollX
+  nameWithType: ScrollViewScrollBehavior.ScrollX
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollX
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollY*
+  commentId: Overload:AlohaKit.Animations.ScrollViewScrollBehavior.ScrollY
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html#AlohaKit_Animations_ScrollViewScrollBehavior_ScrollY
+  name: ScrollY
+  nameWithType: ScrollViewScrollBehavior.ScrollY
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.ScrollY
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollX*
+  commentId: Overload:AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollX
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html#AlohaKit_Animations_ScrollViewScrollBehavior_RelativeScrollX
+  name: RelativeScrollX
+  nameWithType: ScrollViewScrollBehavior.RelativeScrollX
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollX
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollY*
+  commentId: Overload:AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollY
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html#AlohaKit_Animations_ScrollViewScrollBehavior_RelativeScrollY
+  name: RelativeScrollY
+  nameWithType: ScrollViewScrollBehavior.RelativeScrollY
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.RelativeScrollY
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollX*
+  commentId: Overload:AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollX
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html#AlohaKit_Animations_ScrollViewScrollBehavior_PercentageScrollX
+  name: PercentageScrollX
+  nameWithType: ScrollViewScrollBehavior.PercentageScrollX
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollX
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollY*
+  commentId: Overload:AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollY
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html#AlohaKit_Animations_ScrollViewScrollBehavior_PercentageScrollY
+  name: PercentageScrollY
+  nameWithType: ScrollViewScrollBehavior.PercentageScrollY
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.PercentageScrollY
+- uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  commentId: M:Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  parent: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}
+  definition: Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(`0)
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(-0)
+  name: OnAttachedTo(ScrollView)
+  nameWithType: Behavior<ScrollView>.OnAttachedTo(ScrollView)
+  fullName: Microsoft.Maui.Controls.Behavior<Microsoft.Maui.Controls.ScrollView>.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  nameWithType.vb: Behavior(Of ScrollView).OnAttachedTo(ScrollView)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of Microsoft.Maui.Controls.ScrollView).OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+    name: OnAttachedTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(-0)
+  - name: (
+  - uid: Microsoft.Maui.Controls.ScrollView
+    name: ScrollView
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.scrollview
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnAttachedTo(Microsoft.Maui.Controls.ScrollView)
+    name: OnAttachedTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(-0)
+  - name: (
+  - uid: Microsoft.Maui.Controls.ScrollView
+    name: ScrollView
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.scrollview
+  - name: )
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.OnAttachedTo*
+  commentId: Overload:AlohaKit.Animations.ScrollViewScrollBehavior.OnAttachedTo
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html#AlohaKit_Animations_ScrollViewScrollBehavior_OnAttachedTo_Microsoft_Maui_Controls_ScrollView_
+  name: OnAttachedTo
+  nameWithType: ScrollViewScrollBehavior.OnAttachedTo
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.OnAttachedTo
+- uid: Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(`0)
+  commentId: M:Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(-0)
+  name: OnAttachedTo(T)
+  nameWithType: Behavior<T>.OnAttachedTo(T)
+  fullName: Microsoft.Maui.Controls.Behavior<T>.OnAttachedTo(T)
+  nameWithType.vb: Behavior(Of T).OnAttachedTo(T)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of T).OnAttachedTo(T)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(`0)
+    name: OnAttachedTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(-0)
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior`1.OnAttachedTo(`0)
+    name: OnAttachedTo
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.onattachedto#microsoft-maui-controls-behavior-1-onattachedto(-0)
+  - name: (
+  - name: T
+  - name: )
+- uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  commentId: M:Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  parent: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}
+  definition: Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(`0)
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(-0)
+  name: OnDetachingFrom(ScrollView)
+  nameWithType: Behavior<ScrollView>.OnDetachingFrom(ScrollView)
+  fullName: Microsoft.Maui.Controls.Behavior<Microsoft.Maui.Controls.ScrollView>.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  nameWithType.vb: Behavior(Of ScrollView).OnDetachingFrom(ScrollView)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of Microsoft.Maui.Controls.ScrollView).OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+    name: OnDetachingFrom
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(-0)
+  - name: (
+  - uid: Microsoft.Maui.Controls.ScrollView
+    name: ScrollView
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.scrollview
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior{Microsoft.Maui.Controls.ScrollView}.OnDetachingFrom(Microsoft.Maui.Controls.ScrollView)
+    name: OnDetachingFrom
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(-0)
+  - name: (
+  - uid: Microsoft.Maui.Controls.ScrollView
+    name: ScrollView
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.scrollview
+  - name: )
+- uid: AlohaKit.Animations.ScrollViewScrollBehavior.OnDetachingFrom*
+  commentId: Overload:AlohaKit.Animations.ScrollViewScrollBehavior.OnDetachingFrom
+  href: AlohaKit.Animations.ScrollViewScrollBehavior.html#AlohaKit_Animations_ScrollViewScrollBehavior_OnDetachingFrom_Microsoft_Maui_Controls_ScrollView_
+  name: OnDetachingFrom
+  nameWithType: ScrollViewScrollBehavior.OnDetachingFrom
+  fullName: AlohaKit.Animations.ScrollViewScrollBehavior.OnDetachingFrom
+- uid: Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(`0)
+  commentId: M:Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(`0)
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(-0)
+  name: OnDetachingFrom(T)
+  nameWithType: Behavior<T>.OnDetachingFrom(T)
+  fullName: Microsoft.Maui.Controls.Behavior<T>.OnDetachingFrom(T)
+  nameWithType.vb: Behavior(Of T).OnDetachingFrom(T)
+  fullName.vb: Microsoft.Maui.Controls.Behavior(Of T).OnDetachingFrom(T)
+  spec.csharp:
+  - uid: Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(`0)
+    name: OnDetachingFrom
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(-0)
+  - name: (
+  - name: T
+  - name: )
+  spec.vb:
+  - uid: Microsoft.Maui.Controls.Behavior`1.OnDetachingFrom(`0)
+    name: OnDetachingFrom
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/microsoft.maui.controls.behavior-1.ondetachingfrom#microsoft-maui-controls-behavior-1-ondetachingfrom(-0)
+  - name: (
+  - name: T
+  - name: )

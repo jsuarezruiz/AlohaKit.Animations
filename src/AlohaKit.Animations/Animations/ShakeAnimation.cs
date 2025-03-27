@@ -3,6 +3,10 @@
     using System;
     using System.Threading.Tasks;
 
+    /// <summary>
+    /// Represents an animation that simulates a "shake" effect by moving the target element 
+    /// back and forth along the X-axis.
+    /// </summary>
     public class ShakeAnimation : AnimationBase
     {
         private const int Movement = 5;

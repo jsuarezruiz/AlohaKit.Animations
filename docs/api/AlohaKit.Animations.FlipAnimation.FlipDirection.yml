@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.FlipAnimation.FlipDirection
+  commentId: T:AlohaKit.Animations.FlipAnimation.FlipDirection
+  id: FlipAnimation.FlipDirection
+  parent: AlohaKit.Animations
+  children:
+  - AlohaKit.Animations.FlipAnimation.FlipDirection.Left
+  - AlohaKit.Animations.FlipAnimation.FlipDirection.Right
+  langs:
+  - csharp
+  - vb
+  name: FlipAnimation.FlipDirection
+  nameWithType: FlipAnimation.FlipDirection
+  fullName: AlohaKit.Animations.FlipAnimation.FlipDirection
+  type: Enum
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/FlipAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: FlipDirection
+    path: ../src/AlohaKit.Animations/Animations/FlipAnimation.cs
+    startLine: 14
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Specifies the direction for a flip animation or effect.
+  example: []
+  syntax:
+    content: public enum FlipAnimation.FlipDirection
+    content.vb: Public Enum FlipAnimation.FlipDirection
+- uid: AlohaKit.Animations.FlipAnimation.FlipDirection.Left
+  commentId: F:AlohaKit.Animations.FlipAnimation.FlipDirection.Left
+  id: Left
+  parent: AlohaKit.Animations.FlipAnimation.FlipDirection
+  langs:
+  - csharp
+  - vb
+  name: Left
+  nameWithType: FlipAnimation.FlipDirection.Left
+  fullName: AlohaKit.Animations.FlipAnimation.FlipDirection.Left
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/FlipAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: Left
+    path: ../src/AlohaKit.Animations/Animations/FlipAnimation.cs
+    startLine: 19
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Indicates a flip animation or effect directed to the left.
+  example: []
+  syntax:
+    content: Left = 0
+    return:
+      type: AlohaKit.Animations.FlipAnimation.FlipDirection
+- uid: AlohaKit.Animations.FlipAnimation.FlipDirection.Right
+  commentId: F:AlohaKit.Animations.FlipAnimation.FlipDirection.Right
+  id: Right
+  parent: AlohaKit.Animations.FlipAnimation.FlipDirection
+  langs:
+  - csharp
+  - vb
+  name: Right
+  nameWithType: FlipAnimation.FlipDirection.Right
+  fullName: AlohaKit.Animations.FlipAnimation.FlipDirection.Right
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/FlipAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: Right
+    path: ../src/AlohaKit.Animations/Animations/FlipAnimation.cs
+    startLine: 24
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Indicates a flip animation or effect directed to the right.
+  example: []
+  syntax:
+    content: Right = 1
+    return:
+      type: AlohaKit.Animations.FlipAnimation.FlipDirection
+references:
+- uid: AlohaKit.Animations
+  commentId: N:AlohaKit.Animations
+  href: AlohaKit.html
+  name: AlohaKit.Animations
+  nameWithType: AlohaKit.Animations
+  fullName: AlohaKit.Animations
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+- uid: AlohaKit.Animations.FlipAnimation.FlipDirection
+  commentId: T:AlohaKit.Animations.FlipAnimation.FlipDirection
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.FlipAnimation.html
+  name: FlipAnimation.FlipDirection
+  nameWithType: FlipAnimation.FlipDirection
+  fullName: AlohaKit.Animations.FlipAnimation.FlipDirection
+  spec.csharp:
+  - uid: AlohaKit.Animations.FlipAnimation
+    name: FlipAnimation
+    href: AlohaKit.Animations.FlipAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FlipAnimation.FlipDirection
+    name: FlipDirection
+    href: AlohaKit.Animations.FlipAnimation.FlipDirection.html
+  spec.vb:
+  - uid: AlohaKit.Animations.FlipAnimation
+    name: FlipAnimation
+    href: AlohaKit.Animations.FlipAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FlipAnimation.FlipDirection
+    name: FlipDirection
+    href: AlohaKit.Animations.FlipAnimation.FlipDirection.html

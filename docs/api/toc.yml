@@ -1,0 +1,184 @@
+### YamlMime:TableOfContent
+items:
+- uid: AlohaKit.Animations
+  name: AlohaKit.Animations
+  type: Namespace
+  items:
+  - uid: AlohaKit.Animations.AnimateColor
+    name: AnimateColor
+    type: Class
+  - uid: AlohaKit.Animations.AnimateCornerRadius
+    name: AnimateCornerRadius
+    type: Class
+  - uid: AlohaKit.Animations.AnimateDouble
+    name: AnimateDouble
+    type: Class
+  - uid: AlohaKit.Animations.AnimateInt
+    name: AnimateInt
+    type: Class
+  - uid: AlohaKit.Animations.AnimateProgressColor
+    name: AnimateProgressColor
+    type: Class
+  - uid: AlohaKit.Animations.AnimateProgressCornerRadius
+    name: AnimateProgressCornerRadius
+    type: Class
+  - uid: AlohaKit.Animations.AnimateProgressDouble
+    name: AnimateProgressDouble
+    type: Class
+  - uid: AlohaKit.Animations.AnimateProgressThickness
+    name: AnimateProgressThickness
+    type: Class
+  - uid: AlohaKit.Animations.AnimateThickness
+    name: AnimateThickness
+    type: Class
+  - uid: AlohaKit.Animations.AnimationBase
+    name: AnimationBase
+    type: Class
+  - uid: AlohaKit.Animations.AnimationBaseTrigger`1
+    name: AnimationBaseTrigger<T>
+    type: Class
+  - uid: AlohaKit.Animations.AnimationExtensions
+    name: AnimationExtensions
+    type: Class
+  - uid: AlohaKit.Animations.AnimationProgressBaseBehavior
+    name: AnimationProgressBaseBehavior
+    type: Class
+  - uid: AlohaKit.Animations.BeginAnimation
+    name: BeginAnimation
+    type: Class
+  - uid: AlohaKit.Animations.BeginAnimationBehavior
+    name: BeginAnimationBehavior
+    type: Class
+  - uid: AlohaKit.Animations.BounceInAnimation
+    name: BounceInAnimation
+    type: Class
+  - uid: AlohaKit.Animations.BounceOutAnimation
+    name: BounceOutAnimation
+    type: Class
+  - uid: AlohaKit.Animations.ColorAnimation
+    name: ColorAnimation
+    type: Class
+  - uid: AlohaKit.Animations.ColorExtensions
+    name: ColorExtensions
+    type: Class
+  - uid: AlohaKit.Animations.EasingType
+    name: EasingType
+    type: Enum
+  - uid: AlohaKit.Animations.EndAnimation
+    name: EndAnimation
+    type: Class
+  - uid: AlohaKit.Animations.EndAnimationBehavior
+    name: EndAnimationBehavior
+    type: Class
+  - uid: AlohaKit.Animations.EntranceTransition
+    name: EntranceTransition
+    type: Class
+  - uid: AlohaKit.Animations.FadeInAnimation
+    name: FadeInAnimation
+    type: Class
+  - uid: AlohaKit.Animations.FadeInAnimation.FadeDirection
+    name: FadeInAnimation.FadeDirection
+    type: Enum
+  - uid: AlohaKit.Animations.FadeOutAnimation
+    name: FadeOutAnimation
+    type: Class
+  - uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+    name: FadeOutAnimation.FadeDirection
+    type: Enum
+  - uid: AlohaKit.Animations.FadeToAnimation
+    name: FadeToAnimation
+    type: Class
+  - uid: AlohaKit.Animations.FlipAnimation
+    name: FlipAnimation
+    type: Class
+  - uid: AlohaKit.Animations.FlipAnimation.FlipDirection
+    name: FlipAnimation.FlipDirection
+    type: Enum
+  - uid: AlohaKit.Animations.HeartAnimation
+    name: HeartAnimation
+    type: Class
+  - uid: AlohaKit.Animations.JumpAnimation
+    name: JumpAnimation
+    type: Class
+  - uid: AlohaKit.Animations.RelRotateToAnimation
+    name: RelRotateToAnimation
+    type: Class
+  - uid: AlohaKit.Animations.RelScaleToAnimation
+    name: RelScaleToAnimation
+    type: Class
+  - uid: AlohaKit.Animations.RotateToAnimation
+    name: RotateToAnimation
+    type: Class
+  - uid: AlohaKit.Animations.RotateXToAnimation
+    name: RotateXToAnimation
+    type: Class
+  - uid: AlohaKit.Animations.RotateYToAnimation
+    name: RotateYToAnimation
+    type: Class
+  - uid: AlohaKit.Animations.ScaleToAnimation
+    name: ScaleToAnimation
+    type: Class
+  - uid: AlohaKit.Animations.ScrollViewScrollBehavior
+    name: ScrollViewScrollBehavior
+    type: Class
+  - uid: AlohaKit.Animations.ShakeAnimation
+    name: ShakeAnimation
+    type: Class
+  - uid: AlohaKit.Animations.StoryBoard
+    name: StoryBoard
+    type: Class
+  - uid: AlohaKit.Animations.TaskExtensions
+    name: TaskExtensions
+    type: Class
+  - uid: AlohaKit.Animations.TranslateToAnimation
+    name: TranslateToAnimation
+    type: Class
+  - uid: AlohaKit.Animations.TurnstileInAnimation
+    name: TurnstileInAnimation
+    type: Class
+  - uid: AlohaKit.Animations.TurnstileOutAnimation
+    name: TurnstileOutAnimation
+    type: Class
+- uid: AlohaKit.Animations.Behaviors
+  name: AlohaKit.Animations.Behaviors
+  type: Namespace
+  items:
+  - uid: AlohaKit.Animations.Behaviors.AnimateProgressInt
+    name: AnimateProgressInt
+    type: Class
+- uid: AlohaKit.Animations.Helpers
+  name: AlohaKit.Animations.Helpers
+  type: Namespace
+  items:
+  - uid: AlohaKit.Animations.Helpers.AnimationHelper
+    name: AnimationHelper
+    type: Class
+  - uid: AlohaKit.Animations.Helpers.EasingHelper
+    name: EasingHelper
+    type: Class
+  - uid: AlohaKit.Animations.Helpers.VisualTreeHelper
+    name: VisualTreeHelper
+    type: Class
+- uid: AlohaKit.Animations.Sample
+  name: AlohaKit.Animations.Sample
+  type: Namespace
+  items:
+  - uid: AlohaKit.Animations.Sample.App
+    name: App
+    type: Class
+  - uid: AlohaKit.Animations.Sample.AppShell
+    name: AppShell
+    type: Class
+  - uid: AlohaKit.Animations.Sample.MainActivity
+    name: MainActivity
+    type: Class
+  - uid: AlohaKit.Animations.Sample.MainApplication
+    name: MainApplication
+    type: Class
+  - uid: AlohaKit.Animations.Sample.MauiProgram
+    name: MauiProgram
+    type: Class
+  - uid: AlohaKit.Animations.Sample.Resource
+    name: Resource
+    type: Class
+memberLayout: SamePage

@@ -1,7 +1,19 @@
 ﻿namespace AlohaKit.Animations.Helpers
 {
+    /// <summary>
+    /// The EasingHelper class provides a method to map <see cref="EasingType"/> values 
+    /// to corresponding <see cref="Easing"/> objects.
+    /// </summary>
     public static class EasingHelper
     {
+        /// <summary>
+        /// Retrieves the easing function corresponding to the specified <see cref="EasingType"/>.
+        /// </summary>
+        /// <param name="type">The easing type to retrieve the corresponding easing function for.</param>
+        /// <returns>
+        /// The <see cref="Easing"/> function corresponding to the specified easing type.
+        /// Returns <c>null</c> if the easing type is not recognized.
+        /// </returns>
         public static Easing GetEasing(EasingType type)
         {
             switch(type)

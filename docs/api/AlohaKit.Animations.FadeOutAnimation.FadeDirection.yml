@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  commentId: T:AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  id: FadeOutAnimation.FadeDirection
+  parent: AlohaKit.Animations
+  children:
+  - AlohaKit.Animations.FadeOutAnimation.FadeDirection.Down
+  - AlohaKit.Animations.FadeOutAnimation.FadeDirection.Up
+  langs:
+  - csharp
+  - vb
+  name: FadeOutAnimation.FadeDirection
+  nameWithType: FadeOutAnimation.FadeDirection
+  fullName: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  type: Enum
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/FadeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: FadeDirection
+    path: ../src/AlohaKit.Animations/Animations/FadeAnimation.cs
+    startLine: 137
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  summary: Defines the direction of the fade-out animation (Up or Down).
+  example: []
+  syntax:
+    content: public enum FadeOutAnimation.FadeDirection
+    content.vb: Public Enum FadeOutAnimation.FadeDirection
+- uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection.Up
+  commentId: F:AlohaKit.Animations.FadeOutAnimation.FadeDirection.Up
+  id: Up
+  parent: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  langs:
+  - csharp
+  - vb
+  name: Up
+  nameWithType: FadeOutAnimation.FadeDirection.Up
+  fullName: AlohaKit.Animations.FadeOutAnimation.FadeDirection.Up
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/FadeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: Up
+    path: ../src/AlohaKit.Animations/Animations/FadeAnimation.cs
+    startLine: 139
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: Up = 0
+    return:
+      type: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+- uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection.Down
+  commentId: F:AlohaKit.Animations.FadeOutAnimation.FadeDirection.Down
+  id: Down
+  parent: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  langs:
+  - csharp
+  - vb
+  name: Down
+  nameWithType: FadeOutAnimation.FadeDirection.Down
+  fullName: AlohaKit.Animations.FadeOutAnimation.FadeDirection.Down
+  type: Field
+  source:
+    remote:
+      path: src/AlohaKit.Animations/Animations/FadeAnimation.cs
+      branch: docs
+      repo: https://github.com/jsuarezruiz/AlohaKit.Animations.git
+    id: Down
+    path: ../src/AlohaKit.Animations/Animations/FadeAnimation.cs
+    startLine: 140
+  assemblies:
+  - AlohaKit.Animations
+  namespace: AlohaKit.Animations
+  syntax:
+    content: Down = 1
+    return:
+      type: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+references:
+- uid: AlohaKit.Animations
+  commentId: N:AlohaKit.Animations
+  href: AlohaKit.html
+  name: AlohaKit.Animations
+  nameWithType: AlohaKit.Animations
+  fullName: AlohaKit.Animations
+  spec.csharp:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+  spec.vb:
+  - uid: AlohaKit
+    name: AlohaKit
+    href: AlohaKit.html
+  - name: .
+  - uid: AlohaKit.Animations
+    name: Animations
+    href: AlohaKit.Animations.html
+- uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  commentId: T:AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  parent: AlohaKit.Animations
+  href: AlohaKit.Animations.FadeOutAnimation.html
+  name: FadeOutAnimation.FadeDirection
+  nameWithType: FadeOutAnimation.FadeDirection
+  fullName: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+  spec.csharp:
+  - uid: AlohaKit.Animations.FadeOutAnimation
+    name: FadeOutAnimation
+    href: AlohaKit.Animations.FadeOutAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+    name: FadeDirection
+    href: AlohaKit.Animations.FadeOutAnimation.FadeDirection.html
+  spec.vb:
+  - uid: AlohaKit.Animations.FadeOutAnimation
+    name: FadeOutAnimation
+    href: AlohaKit.Animations.FadeOutAnimation.html
+  - name: .
+  - uid: AlohaKit.Animations.FadeOutAnimation.FadeDirection
+    name: FadeDirection
+    href: AlohaKit.Animations.FadeOutAnimation.FadeDirection.html
