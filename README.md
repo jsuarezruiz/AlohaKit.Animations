@@ -29,6 +29,8 @@ Available animations:
 
 ![AlohaKit.Animations](https://raw.githubusercontent.com/jsuarezruiz/AlohaKit.Animations/main/images/alohakit-animations.gif)
 
+Visit [Documentation](https://jsuarezruiz.github.io/AlohaKit.Animations).
+
 ## Usage
 
 **Step 1**: Include the AlohaKit.Animations package reference in your project. 
