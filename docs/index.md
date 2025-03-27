@@ -2,10 +2,6 @@
 _layout: landing
 ---
 
-# This is the **HOMEPAGE**.
+# AlohaKit Animations - Animation Library for .NET MAUI
 
-Refer to [Markdown](http://daringfireball.net/projects/markdown/) for how to write markdown files.
-
-## Quick Start Notes:
-
-1. Add images to the *images* folder if the file is referencing an image.
+AlohaKit.Animations is a library designed for **.NET MAUI** that aims to facilitate the use of animations to developers. Very simple use from **C# and XAML** code.
